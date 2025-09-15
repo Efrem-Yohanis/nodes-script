@@ -1,0 +1,152 @@
+RECORD
+#input_id 1756361674x001_0011141
+#output_id
+#input_type OCSChargingRecord
+#output_type OCSChargingRecord
+#addkey
+#source_id LOCAL_CLTR
+#filename example.CDR.gz
+#filename SPS_140282-140282-_0000056106.20250908_-_1745+0000.CDR
+F prevMeName ig-charging-68775f8668-n5gf2
+F recordId 20250908204501_7d3fcd8a-e79e-42f7-9240-3d9517a01870
+F generationTimestamp 08/09/2025 20:45:01+03:00
+F sessionId klt-nk-cmg-cp01;23d09b6d;68becb12;636020101005419-19d415a5
+F serviceContextId 32251@3gpp.org
+F requestType UPDATE_REQUEST
+F sessionSequenceNumber 28
+F deviceTimeZone 2100
+F sessionStartTime 08/09/2025 15:24:50+03:00
+F dayOfWeek Monday
+F originHost mscp01.klt-nk-cmg-cp01
+F accessPointName safaricom
+F psChargingID 15ADBE07
+F nodeID KLT-NK-CMG-CP01
+F servingNodeType 5
+F gGSNAddress [IPV4: 10.32.38.51]
+F sGSNAddress [IPV4: 10.43.33.89]
+F pduAddress [IPV4: 100.117.40.36]
+F deviceId D_10434574
+F deviceName D_10434574
+F deviceOwner U_10434574
+F deviceOwnerName U_10434574
+F ocsHost kltlabnccs01-oam.safaricomlab.net
+F deviceState ACTIVE
+F devicePartitionId 1
+F deviceSiteId 1
+F userName 636020101005419@nai.epc.mnc002.mcc636.3gppnetwork.org
+F userEquipmentType 0
+F userEquipmentValue 33353038383036333330303235323031
+F CDRTagCategory RecordCategory4
+F MCCMNC 63602
+F IP_Address 10.43.33.89
+F DATAOOBFLAG true
+F RoamingStatus Home
+F PeakTime FALSE
+F DestinationType GPRS_Charge
+F DestinationCountry Default
+F Rating_Origination_Location Ethiopia
+F roamingIndicator HOME
+F causeForRecClosing 0
+F origUserLocationInfo 8236F62036B536F6200232D815
+F userLocationInformation 8236F62036B436F620022E9D0C
+F servingNodePLMNIdentifier 36F620
+F rATType 6
+F resultCode 2001
+F recordOpeningTime 08/09/2025 20:24:25+03:00
+F recordClosureTime 08/09/2025 20:45:01+03:00
+F duration 1236
+F recordSequenceNumber 29
+F meHostName KLT1;ig-charging-68775f8668-n5gf2
+F nccVersion SPS_23_5_R1
+F RecordTimestamp 08/09/2025 17:45:02
+F localRecordSequenceNumber 140282
+B listOfSubscriptionID
+B subscriptionId
+F subscriptionIdType 103
+F subscriptionIdData msisdn-251700900384
+.
+B subscriptionId
+F subscriptionIdType 101
+F subscriptionIdData D_10434574
+.
+B subscriptionId
+F subscriptionIdType 1
+F subscriptionIdData 636020101005419
+.
+B subscriptionId
+F subscriptionIdType 0
+F subscriptionIdData 251700900384
+.
+B subscriptionId
+F subscriptionIdType 102
+F subscriptionIdData imsi-636020101005419
+.
+B subscriptionId
+F subscriptionIdType 3
+F subscriptionIdData 36020101005419@nai.epc.mnc002.mcc636.3gppnetwork.org
+.
+.
+B listOfMscc
+B mscc
+F ratingGroup 200
+F chargingType ONLINE_CHARGING
+F recordEventType PS
+F reportReason THRESHOLD
+F firstDataStart 08/09/2025 15:25:01+03:00
+F grantedUnits 104857600
+F usageType TVOL
+F usedUnitType TVOL
+F validityTime 1500
+F resultCode 2001
+F recordEventResult 00
+F localSequenceNumber 16
+F totalVolumeConsumed 78923394
+B deviceInfo
+B subscriptionInfo
+F subscriptionId 09f2fd5c-4f43-4177-b871-de82006c155b
+F subscriptionState ACTIVE
+F bundleName CBU_WEEKLY_DATA_3GB_OF
+F bundleVersion 7
+F bundleActivationType SUBSCRIPTION_MERGE
+F accountID A_10434574
+F accountName A_10434574
+F subscriptionStartDateTime 08/09/2025 11:33:09+03:00
+F subscriptionEndDateTime 16/09/2025 00:00:00+03:00
+F alternateId CRM:37e4d266-b1d7-4e44-9736-d544ae0fd570:251700900384-CRM97bjccx_1757320228869-null-0-Self
+B chargingServiceInfo
+F chargingServiceName CL_CBU_WEEKLY_DATA_3GB_OF
+F chargingServiceType VOLUME
+F chargingServicePriority 250
+F chargingServiceCategory DefaultCategory
+F chargingServiceVersion 3
+B bucketInfo
+F bucketName CBU_WEEKLY_DATA_BUCKET
+F bucketUnitType Byte
+F bucketKindOfUnit VOLUME
+F bucketBalanceBefore 2629616640
+F bucketBalanceAfter 2550693246
+F carryOverBucket false
+F bucketCommitedUnits 78923394
+F bucketReservedUnits 104857600
+F tariffID CL_CBU_WEEKLY_DATA_3GB_OF_ChargingRules
+F totalVolumeCharged 78923394
+F roundedVolumeCharged 78923394
+F deltaVolume 0
+.
+B accountInfo
+F accountID A_10434574
+F accountName A_10434574
+F accountType POST_PAID
+F accountState ACTIVE
+F accountBalanceBefore 38333.33334
+F accountBalanceAfter 38333.33334
+F accountOveragelimit -5000000.00000
+F accountBalanceCommitted 0.00000
+F accountBalanceReserved 0.00000
+F secondaryCostCommitted 0.00000
+.
+.
+.
+.
+.
+.

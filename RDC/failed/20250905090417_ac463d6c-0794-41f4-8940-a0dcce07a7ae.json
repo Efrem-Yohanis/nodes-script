@@ -1,0 +1,105 @@
+{
+  "header": {
+    "recordLength": 2104
+  },
+  "payload": {
+    "genericRecord": {
+      "recordType": "LIFECYCLE_RECORD",
+      "recordElements": {
+        "invokedBy": "AUDIT",
+        "triggeredEntityType": "Subscription",
+        "triggeredEntityId": "4c6fab25-e961-495f-b3f8-d4b13c9b48d0",
+        "transitionName": "SubscriptionDeleted",
+        "entityLifeCycleName": "ELC_CONTENT",
+        "periodicLifeCycleName": "PLC_CONTENT_D_OPM_50MB_24H_OF",
+        "subscriptionId": "4c6fab25-e961-495f-b3f8-d4b13c9b48d0",
+        "entityLifeCycleState": "DELETED",
+        "bundleName": "DAILY_OPERAMINI_D_50MB",
+        "bundleActivationType": "AUTO_INSTALL",
+        "bundleVersion": "2",
+        "accountType": "PRE_PAID",
+        "timeZoneId": "Africa/Addis_Ababa",
+        "accountID": "A_10434252",
+        "accountName": "A_10434252",
+        "accountELCState": "ACTIVE",
+        "accountPLCState": "ACTIVE1",
+        "deviceId": "D_10434252",
+        "deviceName": "D_10434252",
+        "SubscriptionInputDate": "05/09/2025 12:03:16+03:00",
+        "renewalPriority": "0",
+        "accountBalanceBefore": "1205887.93047",
+        "accountBalanceAfter": "1205887.93047",
+        "result": "Success",
+        "correlationID": "X-CorrelationId:65c0a5f8-90da-4ace-8007-d71cceb5e356",
+        "timeStamp": "05/09/2025 12:04:17+03:00",
+        "meHostName": "KLT2;ig-provisioning-7fb44bd578-sllrh",
+        "nccVersion": "SPS_23_5_R1",
+        "recordId": "20250905090417_ac463d6c-0794-41f4-8940-a0dcce07a7ae",
+        "RecordTimestamp": "05/09/2025 09:04:17"
+      },
+      "recordExtensions": [
+        {
+          "recordProperty": "deviceIdentityInfo",
+          "recordElements": {
+            "deviceIdentityType": "0",
+            "deviceIdentityValue": "251700990111"
+          }
+        },
+        {
+          "recordProperty": "deviceIdentityInfo",
+          "recordElements": {
+            "deviceIdentityType": "103",
+            "deviceIdentityValue": "msisdn-251700990111"
+          }
+        },
+        {
+          "recordProperty": "deviceIdentityInfo",
+          "recordElements": {
+            "deviceIdentityType": "1",
+            "deviceIdentityValue": "636020101005361"
+          }
+        },
+        {
+          "recordProperty": "deviceIdentityInfo",
+          "recordElements": {
+            "deviceIdentityType": "102",
+            "deviceIdentityValue": "imsi-636020101005361"
+          }
+        },
+        {
+          "recordProperty": "deviceIdentityInfo",
+          "recordElements": {
+            "deviceIdentityType": "101",
+            "deviceIdentityValue": "D_10434252"
+          }
+        },
+        {
+          "recordProperty": "bucketInfo",
+          "recordElements": {
+            "bucketName": "DAILY_OPM_BUCKET",
+            "bucketUnitType": "Byte",
+            "bucketKindOfUnit": "VOLUME",
+            "bucketBalanceBefore": "52428800",
+            "bucketBalanceAfter": "52428800",
+            "carryOverBucket": "false"
+          }
+        },
+        {
+          "recordProperty": "counterInfo",
+          "recordElements": {
+            "counterName": "OPERAMINI_QUOTA",
+            "counterKey": "f5b4f17f-243f-4834-81cd-50a9f5ec165e",
+            "counterType": "USAGE",
+            "counterUnitType": "Byte",
+            "counterKindOfUnit": "VOLUME",
+            "counterPLCState": "ACTIVE",
+            "alignGranularity": "FALSE",
+            "counterValueBefore": "0",
+            "counterValueAfter": "0",
+            "counterPolicySignalState": "0"
+          }
+        }
+      ]
+    }
+  }
+}

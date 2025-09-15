@@ -1,0 +1,31 @@
+{
+  "header": {
+    "recordLength": 942
+  },
+  "payload": {
+    "genericRecord": {
+      "recordType": "NotificationEvent",
+      "recordElements": {
+        "messageId": "14529668720893074",
+        "recipientId": "251700990137",
+        "messageContent": "Dear customer, you have received 50.00 Birr credit. The fee is 5.00 Birr. Your total credit of 55.00 Birr should be paid by 12-09-2025.",
+        "recipientServer": "TRUTEQ_SMS",
+        "sentTime": "1757063037046",
+        "deliveryTime": "1757063037049",
+        "e164": "251700990137",
+        "channel": "SMS",
+        "notificationType": "ACCOUNT_UPDATE",
+        "entityId": "D_10434081",
+        "entityType": "Device",
+        "notificationTemplateId": "SuccesfulLoanwithBundleOptIn",
+        "notificationVariable": "LoanAmount:50.00,LoanID:LOAN_50,ServiceFee:5.0,MSISDN:251700990137,LoanTIME:1757063036605,TIMEPLUS:1757667836999,BundleName:LOAN_BUNDLE_50,RemainingDebt:55.0",
+        "notificationDeliveryResult": "SUCCESS",
+        "globalEntity": "false",
+        "meHostName": "KLT2;ig-notification-8585cd9477-xjq8d",
+        "nccVersion": "SPS_23_5_R1",
+        "recordId": "20250905090357_aa29a66e-276d-447f-b3ee-b53eda635315",
+        "RecordTimestamp": "05/09/2025 09:03:57"
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "header": {
+    "recordLength": 958
+  },
+  "payload": {
+    "genericRecord": {
+      "recordType": "LIFECYCLE_RECORD",
+      "recordElements": {
+        "invokedBy": "CancelAndResetPeriodAction",
+        "triggeredEntityType": "Account",
+        "triggeredEntityId": "A_10434081",
+        "transitionName": "AccountRechargedEvent",
+        "correlationId": "X-CorrelationId:2607a3a0-9ad3-4c9b-bf51-a28ddb459d77",
+        "transitionStartState": "ACTIVE1",
+        "entityLifeCycleName": "PRE_ACCOUNT_ELC_V3",
+        "triggeredBy": "EVENT",
+        "triggeredAtTime": "05/09/2025 12:03:56+03:00",
+        "invokedMethod": "CancelAndResetPeriodAction",
+        "periodicLifeCycleName": "PRE_ACCOUNT_PLC_V3",
+        "accountType": "PRE_PAID",
+        "timeZoneId": "Africa/Addis_Ababa",
+        "entityLifeCycleState": "ACTIVE",
+        "billingCycleSource": "Account",
+        "hourOfDay": "0",
+        "dayOfMonth": "32",
+        "dayOfWeek": "SUNDAY",
+        "startTime": "05/09/2025 12:03:56+03:00",
+        "endTime": "02/06/2026 00:00:00+03:00",
+        "timeStamp": "05/09/2025 12:03:56+03:00",
+        "meHostName": "KLT2;ig-provisioning-7fb44bd578-sllrh",
+        "nccVersion": "SPS_23_5_R1",
+        "recordId": "20250905090356_a6c7b972-565a-4ba3-87f1-0a4a142eff2d",
+        "RecordTimestamp": "05/09/2025 09:03:56"
+      }
+    }
+  }
+}

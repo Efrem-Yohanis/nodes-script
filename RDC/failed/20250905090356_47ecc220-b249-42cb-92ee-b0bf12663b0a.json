@@ -1,0 +1,102 @@
+{
+  "header": {
+    "recordLength": 1743
+  },
+  "payload": {
+    "genericRecord": {
+      "recordType": "LIFECYCLE_RECORD",
+      "recordElements": {
+        "invokedBy": "WebServices",
+        "transactionId": "251700990137-703392173354-request-loan",
+        "invokedMethod": "create_subscription",
+        "queueId": "LOANBUNDLE",
+        "entityLifeCycleState": "ACTIVE",
+        "bundleName": "LOAN_BUNDLE_50",
+        "bundleActivationType": "SUBSCRIPTION_MERGE",
+        "bundleVersion": "2",
+        "accountType": "PRE_PAID",
+        "accountID": "A_10434081",
+        "accountName": "A_10434081",
+        "accountELCState": "ACTIVE",
+        "accountPLCState": "ACTIVE1",
+        "deviceId": "D_10434081",
+        "deviceName": "D_10434081",
+        "SubscriptionInputDate": "05/09/2025 12:03:56+03:00",
+        "renewalPriority": "0",
+        "loanID": "LOAN_50",
+        "subscriptionId": "422ebbfc-c34a-4736-9769-ae2878090bec",
+        "fee": "5000",
+        "activationTime": "05/09/2025 12:03:56+03:00",
+        "result": "Success",
+        "timeStamp": "05/09/2025 12:03:56+03:00",
+        "meHostName": "KLT2;ig-provisioning-7fb44bd578-sllrh",
+        "nccVersion": "SPS_23_5_R1",
+        "recordId": "20250905090356_47ecc220-b249-42cb-92ee-b0bf12663b0a",
+        "RecordTimestamp": "05/09/2025 09:03:56"
+      },
+      "recordExtensions": [
+        {
+          "recordProperty": "bucketInfo",
+          "recordElements": {
+            "bucketName": "BalanceAllowanceLimit-LOAN_SECBAL_50",
+            "bucketUnitType": "Money",
+            "bucketKindOfUnit": "MONEY",
+            "bucketBalanceBefore": "10000.00001",
+            "bucketBalanceAfter": "10000.00001",
+            "carryOverBucket": "false"
+          }
+        },
+        {
+          "recordProperty": "listOfCustomData",
+          "recordElements": {
+            "sourceType": "Subscription"
+          },
+          "recordSubExtensions": [
+            {
+              "recordProperty": "customDataInfo",
+              "recordElements": {
+                "customDataName": "C_AAT_LOAN_BUNDLE",
+                "customDataValue": "81518151"
+              }
+            }
+          ]
+        },
+        {
+          "recordProperty": "deviceIdentityInfo",
+          "recordElements": {
+            "deviceIdentityType": "0",
+            "deviceIdentityValue": "251700990137"
+          }
+        },
+        {
+          "recordProperty": "deviceIdentityInfo",
+          "recordElements": {
+            "deviceIdentityType": "103",
+            "deviceIdentityValue": "msisdn-251700990137"
+          }
+        },
+        {
+          "recordProperty": "deviceIdentityInfo",
+          "recordElements": {
+            "deviceIdentityType": "1",
+            "deviceIdentityValue": "636020119226224"
+          }
+        },
+        {
+          "recordProperty": "deviceIdentityInfo",
+          "recordElements": {
+            "deviceIdentityType": "102",
+            "deviceIdentityValue": "imsi-636020119226224"
+          }
+        },
+        {
+          "recordProperty": "deviceIdentityInfo",
+          "recordElements": {
+            "deviceIdentityType": "101",
+            "deviceIdentityValue": "D_10434081"
+          }
+        }
+      ]
+    }
+  }
+}

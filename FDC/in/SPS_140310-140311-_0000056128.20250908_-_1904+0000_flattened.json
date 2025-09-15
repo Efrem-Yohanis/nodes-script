@@ -1,0 +1,424 @@
+{
+  "header": {
+    "fileLength": 8682,
+    "headerLength": 54
+  },
+  "records": {
+    "record1": {
+      "header": {
+        "recordLength": 4260
+      },
+      "payload": {
+        "genericRecord": {
+          "recordType": "OCSChargingRecord",
+          "recordElements": {
+            "prevMeName": "ig-charging-68775f8668-n5gf2",
+            "recordId": "20250908220425_a1960510-3e3a-41bc-bd6b-dd6b81a31d15",
+            "generationTimestamp": "08/09/2025 22:04:25+03:00",
+            "sessionId": "edc-nk-cmg-cp01;1e2199de;68bf068b;636023100000125-31941a25",
+            "serviceContextId": "32251@3gpp.org",
+            "requestType": "UPDATE_REQUEST",
+            "sessionSequenceNumber": "18",
+            "deviceTimeZone": "2100",
+            "sessionStartTime": "08/09/2025 19:38:35+03:00",
+            "dayOfWeek": "Monday",
+            "originHost": "mscp02.edc-nk-cmg-cp01",
+            "accessPointName": "safaricom",
+            "psChargingID": "1A26358F",
+            "nodeID": "EDC-NK-CMG-CP01",
+            "servingNodeType": "5",
+            "gGSNAddress": "[IPV4: 10.33.42.51]",
+            "sGSNAddress": "[IPV4: 10.43.33.89]",
+            "pduAddress": "[IPV4: 100.74.116.103]",
+            "deviceId": "D_10435003",
+            "deviceName": "D_10435003",
+            "deviceOwner": "U_10435003",
+            "deviceOwnerName": "U_10435003",
+            "ocsHost": "mdc1labnccs01-oam.safaricomlab.net",
+            "deviceState": "ACTIVE",
+            "devicePartitionId": "1",
+            "deviceSiteId": "1",
+            "userName": "636023100000125@nai.epc.mnc002.mcc636.3gppnetwork.org",
+            "userEquipmentType": "0",
+            "userEquipmentValue": "33353435373633383031313736323433",
+            "CDRTagCategory": "RecordCategory5",
+            "MCCMNC": "63602",
+            "IP_Address": "10.43.33.89",
+            "DATAOOBFLAG": "FALSE",
+            "RoamingStatus": "Home",
+            "PeakTime": "FALSE",
+            "DestinationType": "GPRS_Charge",
+            "DestinationCountry": "Default",
+            "Rating_Origination_Location": "Ethiopia",
+            "roamingIndicator": "HOME",
+            "causeForRecClosing": "0",
+            "origUserLocationInfo": "8236F62036B836F6200232830C",
+            "userLocationInformation": "8236F62036B836F620022ACE15",
+            "servingNodePLMNIdentifier": "36F620",
+            "rATType": "6",
+            "resultCode": "2001",
+            "recordOpeningTime": "08/09/2025 21:45:26+03:00",
+            "recordClosureTime": "08/09/2025 22:04:25+03:00",
+            "duration": "1139",
+            "recordSequenceNumber": "19",
+            "meHostName": "KLT1;ig-charging-68775f8668-n5gf2",
+            "nccVersion": "SPS_23_5_R1",
+            "RecordTimestamp": "08/09/2025 19:04:25",
+            "localRecordSequenceNumber": "140310"
+          },
+          "recordExtensions": [
+            {
+              "recordProperty": "listOfSubscriptionID",
+              "recordSubExtensions": [
+                {
+                  "recordProperty": "subscriptionId",
+                  "recordElements": {
+                    "subscriptionIdType": "101",
+                    "subscriptionIdData": "D_10435003"
+                  }
+                },
+                {
+                  "recordProperty": "subscriptionId",
+                  "recordElements": {
+                    "subscriptionIdType": "3",
+                    "subscriptionIdData": "36023100000125@nai.epc.mnc002.mcc636.3gppnetwork.org"
+                  }
+                },
+                {
+                  "recordProperty": "subscriptionId",
+                  "recordElements": {
+                    "subscriptionIdType": "0",
+                    "subscriptionIdData": "251700900455"
+                  }
+                },
+                {
+                  "recordProperty": "subscriptionId",
+                  "recordElements": {
+                    "subscriptionIdType": "103",
+                    "subscriptionIdData": "msisdn-251700900455"
+                  }
+                },
+                {
+                  "recordProperty": "subscriptionId",
+                  "recordElements": {
+                    "subscriptionIdType": "102",
+                    "subscriptionIdData": "imsi-636023100000125"
+                  }
+                },
+                {
+                  "recordProperty": "subscriptionId",
+                  "recordElements": {
+                    "subscriptionIdType": "1",
+                    "subscriptionIdData": "636023100000125"
+                  }
+                }
+              ]
+            },
+            {
+              "recordProperty": "listOfMscc",
+              "recordSubExtensions": [
+                {
+                  "recordProperty": "mscc",
+                  "recordElements": {
+                    "ratingGroup": "200",
+                    "chargingType": "ONLINE_CHARGING",
+                    "recordEventType": "PS",
+                    "reportReason": "THRESHOLD",
+                    "firstDataStart": "08/09/2025 19:38:38+03:00",
+                    "grantedUnits": "104857600",
+                    "usageType": "TVOL",
+                    "usedUnitType": "TVOL",
+                    "validityTime": "1500",
+                    "resultCode": "2001",
+                    "recordEventResult": "00",
+                    "localSequenceNumber": "8",
+                    "totalVolumeConsumed": "79592615"
+                  },
+                  "recordSubExtensions": [
+                    {
+                      "recordProperty": "deviceInfo",
+                      "recordSubExtensions": [
+                        {
+                          "recordProperty": "subscriptionInfo",
+                          "recordElements": {
+                            "subscriptionId": "aec216dd-1c5a-48cf-acd2-d1cbb238157c",
+                            "subscriptionState": "ACTIVE",
+                            "bundleName": "CBU_6M_DATA_500GB_MEGA",
+                            "bundleVersion": "11",
+                            "bundleActivationType": "SUBSCRIPTION_MERGE",
+                            "accountID": "A_10435003",
+                            "accountName": "A_10435003",
+                            "subscriptionStartDateTime": "12/08/2025 14:50:58+03:00",
+                            "subscriptionEndDateTime": "08/02/2026 00:00:00+03:00",
+                            "alternateId": "CRM:5b44713a-6401-4884-9f56-c6ecbf61d5eb:251700900455-CRM44voriu_1754999453494-null-0-Self"
+                          },
+                          "recordSubExtensions": [
+                            {
+                              "recordProperty": "chargingServiceInfo",
+                              "recordElements": {
+                                "chargingServiceName": "CL_CBU_6M_DATA_500GB",
+                                "chargingServiceType": "VOLUME",
+                                "chargingServicePriority": "500",
+                                "chargingServiceCategory": "DefaultCategory",
+                                "chargingServiceVersion": "2"
+                              },
+                              "recordSubExtensions": [
+                                {
+                                  "recordProperty": "accountInfo",
+                                  "recordElements": {
+                                    "accountID": "A_10435003",
+                                    "accountName": "A_10435003",
+                                    "accountType": "PRE_PAID",
+                                    "accountState": "ACTIVE",
+                                    "accountBalanceBefore": "983200.16649",
+                                    "accountBalanceAfter": "983200.16649",
+                                    "accountOveragelimit": "0.00000",
+                                    "accountBalanceCommitted": "0.00000",
+                                    "accountBalanceReserved": "0.00000",
+                                    "secondaryCostCommitted": "0.00000"
+                                  }
+                                },
+                                {
+                                  "recordProperty": "bucketInfo",
+                                  "recordElements": {
+                                    "bucketName": "CBU_6M_DATA_BUCKET",
+                                    "bucketUnitType": "Byte",
+                                    "bucketKindOfUnit": "VOLUME",
+                                    "bucketBalanceBefore": "504050431196",
+                                    "bucketBalanceAfter": "503970838581",
+                                    "carryOverBucket": "false",
+                                    "bucketCommitedUnits": "79592615",
+                                    "bucketReservedUnits": "104857600",
+                                    "tariffID": "CL_CBU_6M_DATA_500GB_ChargingRules",
+                                    "totalVolumeCharged": "79592615",
+                                    "roundedVolumeCharged": "79592615",
+                                    "deltaVolume": "0"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "record2": {
+      "header": {
+        "recordLength": 4358
+      },
+      "payload": {
+        "genericRecord": {
+          "recordType": "OCSChargingRecord",
+          "recordElements": {
+            "switchOver": "1",
+            "prevMeName": "ig-charging-68775f8668-75pgw",
+            "recordId": "20250908220450_204baea9-78f9-4e87-bb4c-344e2d96d58d",
+            "generationTimestamp": "08/09/2025 22:04:50+03:00",
+            "sessionId": "klt-nk-cmg-cp01;23d09b6d;68becb12;636020101005419-19d415a5",
+            "serviceContextId": "32251@3gpp.org",
+            "requestType": "UPDATE_REQUEST",
+            "sessionSequenceNumber": "35",
+            "deviceTimeZone": "2100",
+            "sessionStartTime": "08/09/2025 15:24:50+03:00",
+            "dayOfWeek": "Monday",
+            "originHost": "mscp01.klt-nk-cmg-cp01",
+            "accessPointName": "safaricom",
+            "psChargingID": "15ADBE07",
+            "nodeID": "KLT-NK-CMG-CP01",
+            "servingNodeType": "5",
+            "gGSNAddress": "[IPV4: 10.32.38.51]",
+            "sGSNAddress": "[IPV4: 10.43.33.89]",
+            "pduAddress": "[IPV4: 100.117.40.36]",
+            "deviceId": "D_10434574",
+            "deviceName": "D_10434574",
+            "deviceOwner": "U_10434574",
+            "deviceOwnerName": "U_10434574",
+            "ocsHost": "kltlabnccs01-oam.safaricomlab.net",
+            "deviceState": "ACTIVE",
+            "devicePartitionId": "1",
+            "deviceSiteId": "1",
+            "userName": "636020101005419@nai.epc.mnc002.mcc636.3gppnetwork.org",
+            "userEquipmentType": "0",
+            "userEquipmentValue": "33353038383036333330303235323031",
+            "CDRTagCategory": "RecordCategory4",
+            "MCCMNC": "63602",
+            "IP_Address": "10.43.33.89",
+            "DATAOOBFLAG": "true",
+            "RoamingStatus": "Home",
+            "PeakTime": "FALSE",
+            "DestinationType": "GPRS_Charge",
+            "DestinationCountry": "Default",
+            "Rating_Origination_Location": "Ethiopia",
+            "roamingIndicator": "HOME",
+            "causeForRecClosing": "0",
+            "origUserLocationInfo": "8236F62036B536F6200232D815",
+            "userLocationInformation": "8236F62036B436F620022E9D0C",
+            "servingNodePLMNIdentifier": "36F620",
+            "rATType": "6",
+            "resultCode": "2001",
+            "recordOpeningTime": "08/09/2025 21:39:50+03:00",
+            "recordClosureTime": "08/09/2025 22:04:50+03:00",
+            "duration": "1500",
+            "recordSequenceNumber": "36",
+            "meHostName": "KLT1;ig-charging-68775f8668-n5gf2",
+            "nccVersion": "SPS_23_5_R1",
+            "RecordTimestamp": "08/09/2025 19:04:50",
+            "localRecordSequenceNumber": "140311"
+          },
+          "recordExtensions": [
+            {
+              "recordProperty": "listOfSubscriptionID",
+              "recordSubExtensions": [
+                {
+                  "recordProperty": "subscriptionId",
+                  "recordElements": {
+                    "subscriptionIdType": "103",
+                    "subscriptionIdData": "msisdn-251700900384"
+                  }
+                },
+                {
+                  "recordProperty": "subscriptionId",
+                  "recordElements": {
+                    "subscriptionIdType": "101",
+                    "subscriptionIdData": "D_10434574"
+                  }
+                },
+                {
+                  "recordProperty": "subscriptionId",
+                  "recordElements": {
+                    "subscriptionIdType": "1",
+                    "subscriptionIdData": "636020101005419"
+                  }
+                },
+                {
+                  "recordProperty": "subscriptionId",
+                  "recordElements": {
+                    "subscriptionIdType": "0",
+                    "subscriptionIdData": "251700900384"
+                  }
+                },
+                {
+                  "recordProperty": "subscriptionId",
+                  "recordElements": {
+                    "subscriptionIdType": "102",
+                    "subscriptionIdData": "imsi-636020101005419"
+                  }
+                },
+                {
+                  "recordProperty": "subscriptionId",
+                  "recordElements": {
+                    "subscriptionIdType": "3",
+                    "subscriptionIdData": "36020101005419@nai.epc.mnc002.mcc636.3gppnetwork.org"
+                  }
+                }
+              ]
+            },
+            {
+              "recordProperty": "listOfMscc",
+              "recordSubExtensions": [
+                {
+                  "recordProperty": "mscc",
+                  "recordElements": {
+                    "ratingGroup": "100",
+                    "chargingType": "ONLINE_CHARGING",
+                    "recordEventType": "PS",
+                    "reportReason": "VALIDITY_TIME",
+                    "firstDataStart": "08/09/2025 15:24:50+03:00",
+                    "grantedUnits": "1048576",
+                    "usageType": "TVOL",
+                    "usedUnitType": "TVOL",
+                    "validityTime": "1500",
+                    "resultCode": "2001",
+                    "recordEventResult": "00",
+                    "localSequenceNumber": "17",
+                    "totalVolumeConsumed": "107664"
+                  },
+                  "recordSubExtensions": [
+                    {
+                      "recordProperty": "deviceInfo",
+                      "recordSubExtensions": [
+                        {
+                          "recordProperty": "subscriptionInfo",
+                          "recordElements": {
+                            "subscriptionId": "88672105-6fe7-4ebd-8a42-e17561511ef6",
+                            "subscriptionState": "ACTIVE",
+                            "bundleName": "POSTPAY_DATA_BASE_PLAN",
+                            "bundleActivationType": "NORMAL",
+                            "accountID": "A_10434574",
+                            "accountName": "A_10434574",
+                            "subscriptionStartDateTime": "01/09/2025 00:00:00+03:00",
+                            "subscriptionEndDateTime": "01/10/2025 00:00:00+03:00",
+                            "alternateId": "CRM:37e4d266-b1d7-4e44-9736-d544ae0fd570:251700900384-CRM30la83k_1756474086623-null-0-Self"
+                          },
+                          "recordSubExtensions": [
+                            {
+                              "recordProperty": "chargingServiceInfo",
+                              "recordElements": {
+                                "chargingServiceName": "TP_POSTPAY_DATA_BASE_PLAN",
+                                "chargingServiceType": "VOLUME",
+                                "chargingServicePriority": "10000",
+                                "chargingServiceCategory": "DefaultCategory",
+                                "chargingServiceVersion": "5"
+                              },
+                              "recordSubExtensions": [
+                                {
+                                  "recordProperty": "accountInfo",
+                                  "recordElements": {
+                                    "accountID": "A_10434574",
+                                    "accountName": "A_10434574",
+                                    "accountType": "POST_PAID",
+                                    "accountState": "ACTIVE",
+                                    "accountBalanceBefore": "38333.33334",
+                                    "accountBalanceAfter": "38333.33334",
+                                    "accountOveragelimit": "-5000000.00000",
+                                    "accountBalanceCommitted": "0.00000",
+                                    "accountBalanceReserved": "0.00000",
+                                    "secondaryCostCommitted": "0.00000"
+                                  }
+                                },
+                                {
+                                  "recordProperty": "noCharge",
+                                  "recordElements": {
+                                    "noChargeReservedUnits": "1048576",
+                                    "noChargeCommittedUnits": "107664",
+                                    "tariffID": "TP_POSTPAY_DATA_BASE_PLAN_TP_BASE_DATA_V1_fallbackRules0"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "recordProperty": "counterInfo",
+                              "recordElements": {
+                                "counterName": "DEFAULTPOLICY_COUNTER",
+                                "counterKey": "2b9af22a-da4b-4fba-b967-87c246df6f97",
+                                "counterType": "SUBSCRIPTION",
+                                "counterUnitType": "Byte",
+                                "counterKindOfUnit": "VOLUME",
+                                "alignGranularity": "FALSE",
+                                "counterValueBefore": "7320898",
+                                "counterValueAfter": "7428562",
+                                "counterPolicySignalState": "Default",
+                                "chargingServicePriority": "10000"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

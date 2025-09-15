@@ -1,0 +1,1691 @@
+{
+  "header": {
+    "fileLength": 12816,
+    "headerLength": 54
+  },
+  "records": [
+    {
+      "record1": {
+        "header": {
+          "recordLength": 4277
+        },
+        "payload": {
+          "genericRecord": [
+            "genericRecord",
+            {
+              "recordType": "OCSChargingRecord",
+              "recordElements": [
+                {
+                  "varName": "prevMeName",
+                  "varValue": "ig-charging-68775f8668-n5gf2"
+                },
+                {
+                  "varName": "recordId",
+                  "varValue": "20250908222502_06471003-7ecf-4424-8a02-32f253af8bf9"
+                },
+                {
+                  "varName": "generationTimestamp",
+                  "varValue": "08/09/2025 22:25:02+03:00"
+                },
+                {
+                  "varName": "sessionId",
+                  "varValue": "klt-nk-cmg-cp01;23d09b6d;68becb12;636020101005419-19d415a5"
+                },
+                {
+                  "varName": "serviceContextId",
+                  "varValue": "32251@3gpp.org"
+                },
+                {
+                  "varName": "requestType",
+                  "varValue": "UPDATE_REQUEST"
+                },
+                {
+                  "varName": "sessionSequenceNumber",
+                  "varValue": "36"
+                },
+                {
+                  "varName": "deviceTimeZone",
+                  "varValue": "2100"
+                },
+                {
+                  "varName": "sessionStartTime",
+                  "varValue": "08/09/2025 15:24:50+03:00"
+                },
+                {
+                  "varName": "dayOfWeek",
+                  "varValue": "Monday"
+                },
+                {
+                  "varName": "originHost",
+                  "varValue": "mscp01.klt-nk-cmg-cp01"
+                },
+                {
+                  "varName": "accessPointName",
+                  "varValue": "safaricom"
+                },
+                {
+                  "varName": "psChargingID",
+                  "varValue": "15ADBE07"
+                },
+                {
+                  "varName": "nodeID",
+                  "varValue": "KLT-NK-CMG-CP01"
+                },
+                {
+                  "varName": "servingNodeType",
+                  "varValue": "5"
+                },
+                {
+                  "varName": "gGSNAddress",
+                  "varValue": "[IPV4: 10.32.38.51]"
+                },
+                {
+                  "varName": "sGSNAddress",
+                  "varValue": "[IPV4: 10.43.33.89]"
+                },
+                {
+                  "varName": "pduAddress",
+                  "varValue": "[IPV4: 100.117.40.36]"
+                },
+                {
+                  "varName": "deviceId",
+                  "varValue": "D_10434574"
+                },
+                {
+                  "varName": "deviceName",
+                  "varValue": "D_10434574"
+                },
+                {
+                  "varName": "deviceOwner",
+                  "varValue": "U_10434574"
+                },
+                {
+                  "varName": "deviceOwnerName",
+                  "varValue": "U_10434574"
+                },
+                {
+                  "varName": "ocsHost",
+                  "varValue": "kltlabnccs01-oam.safaricomlab.net"
+                },
+                {
+                  "varName": "deviceState",
+                  "varValue": "ACTIVE"
+                },
+                {
+                  "varName": "devicePartitionId",
+                  "varValue": "1"
+                },
+                {
+                  "varName": "deviceSiteId",
+                  "varValue": "1"
+                },
+                {
+                  "varName": "userName",
+                  "varValue": "636020101005419@nai.epc.mnc002.mcc636.3gppnetwork.org"
+                },
+                {
+                  "varName": "userEquipmentType",
+                  "varValue": "0"
+                },
+                {
+                  "varName": "userEquipmentValue",
+                  "varValue": "33353038383036333330303235323031"
+                },
+                {
+                  "varName": "CDRTagCategory",
+                  "varValue": "RecordCategory4"
+                },
+                {
+                  "varName": "MCCMNC",
+                  "varValue": "63602"
+                },
+                {
+                  "varName": "IP_Address",
+                  "varValue": "10.43.33.89"
+                },
+                {
+                  "varName": "DATAOOBFLAG",
+                  "varValue": "true"
+                },
+                {
+                  "varName": "RoamingStatus",
+                  "varValue": "Home"
+                },
+                {
+                  "varName": "PeakTime",
+                  "varValue": "FALSE"
+                },
+                {
+                  "varName": "DestinationType",
+                  "varValue": "GPRS_Charge"
+                },
+                {
+                  "varName": "DestinationCountry",
+                  "varValue": "Default"
+                },
+                {
+                  "varName": "Rating_Origination_Location",
+                  "varValue": "Ethiopia"
+                },
+                {
+                  "varName": "roamingIndicator",
+                  "varValue": "HOME"
+                },
+                {
+                  "varName": "causeForRecClosing",
+                  "varValue": "0"
+                },
+                {
+                  "varName": "origUserLocationInfo",
+                  "varValue": "8236F62036B536F6200232D815"
+                },
+                {
+                  "varName": "userLocationInformation",
+                  "varValue": "8236F62036B436F620022E9D0C"
+                },
+                {
+                  "varName": "servingNodePLMNIdentifier",
+                  "varValue": "36F620"
+                },
+                {
+                  "varName": "rATType",
+                  "varValue": "6"
+                },
+                {
+                  "varName": "resultCode",
+                  "varValue": "2001"
+                },
+                {
+                  "varName": "recordOpeningTime",
+                  "varValue": "08/09/2025 22:00:02+03:00"
+                },
+                {
+                  "varName": "recordClosureTime",
+                  "varValue": "08/09/2025 22:25:02+03:00"
+                },
+                {
+                  "varName": "duration",
+                  "varValue": "1500"
+                },
+                {
+                  "varName": "recordSequenceNumber",
+                  "varValue": "37"
+                },
+                {
+                  "varName": "meHostName",
+                  "varValue": "KLT1;ig-charging-68775f8668-n5gf2"
+                },
+                {
+                  "varName": "nccVersion",
+                  "varValue": "SPS_23_5_R1"
+                },
+                {
+                  "varName": "RecordTimestamp",
+                  "varValue": "08/09/2025 19:25:02"
+                },
+                {
+                  "varName": "localRecordSequenceNumber",
+                  "varValue": "140321"
+                }
+              ],
+              "recordExtensions": [
+                {
+                  "recordProperty": "listOfSubscriptionID",
+                  "recordSubExtensions": [
+                    {
+                      "recordProperty": "subscriptionId",
+                      "recordElements": [
+                        {
+                          "varName": "subscriptionIdType",
+                          "varValue": "103"
+                        },
+                        {
+                          "varName": "subscriptionIdData",
+                          "varValue": "msisdn-251700900384"
+                        }
+                      ]
+                    },
+                    {
+                      "recordProperty": "subscriptionId",
+                      "recordElements": [
+                        {
+                          "varName": "subscriptionIdType",
+                          "varValue": "101"
+                        },
+                        {
+                          "varName": "subscriptionIdData",
+                          "varValue": "D_10434574"
+                        }
+                      ]
+                    },
+                    {
+                      "recordProperty": "subscriptionId",
+                      "recordElements": [
+                        {
+                          "varName": "subscriptionIdType",
+                          "varValue": "1"
+                        },
+                        {
+                          "varName": "subscriptionIdData",
+                          "varValue": "636020101005419"
+                        }
+                      ]
+                    },
+                    {
+                      "recordProperty": "subscriptionId",
+                      "recordElements": [
+                        {
+                          "varName": "subscriptionIdType",
+                          "varValue": "0"
+                        },
+                        {
+                          "varName": "subscriptionIdData",
+                          "varValue": "251700900384"
+                        }
+                      ]
+                    },
+                    {
+                      "recordProperty": "subscriptionId",
+                      "recordElements": [
+                        {
+                          "varName": "subscriptionIdType",
+                          "varValue": "102"
+                        },
+                        {
+                          "varName": "subscriptionIdData",
+                          "varValue": "imsi-636020101005419"
+                        }
+                      ]
+                    },
+                    {
+                      "recordProperty": "subscriptionId",
+                      "recordElements": [
+                        {
+                          "varName": "subscriptionIdType",
+                          "varValue": "3"
+                        },
+                        {
+                          "varName": "subscriptionIdData",
+                          "varValue": "36020101005419@nai.epc.mnc002.mcc636.3gppnetwork.org"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "recordProperty": "listOfMscc",
+                  "recordSubExtensions": [
+                    {
+                      "recordProperty": "mscc",
+                      "recordElements": [
+                        {
+                          "varName": "ratingGroup",
+                          "varValue": "200"
+                        },
+                        {
+                          "varName": "chargingType",
+                          "varValue": "ONLINE_CHARGING"
+                        },
+                        {
+                          "varName": "recordEventType",
+                          "varValue": "PS"
+                        },
+                        {
+                          "varName": "reportReason",
+                          "varValue": "VALIDITY_TIME"
+                        },
+                        {
+                          "varName": "firstDataStart",
+                          "varValue": "08/09/2025 15:25:01+03:00"
+                        },
+                        {
+                          "varName": "grantedUnits",
+                          "varValue": "104857600"
+                        },
+                        {
+                          "varName": "usageType",
+                          "varValue": "TVOL"
+                        },
+                        {
+                          "varName": "usedUnitType",
+                          "varValue": "TVOL"
+                        },
+                        {
+                          "varName": "validityTime",
+                          "varValue": "1500"
+                        },
+                        {
+                          "varName": "resultCode",
+                          "varValue": "2001"
+                        },
+                        {
+                          "varName": "recordEventResult",
+                          "varValue": "00"
+                        },
+                        {
+                          "varName": "localSequenceNumber",
+                          "varValue": "20"
+                        },
+                        {
+                          "varName": "totalVolumeConsumed",
+                          "varValue": "19343415"
+                        }
+                      ],
+                      "recordSubExtensions": [
+                        {
+                          "recordProperty": "deviceInfo",
+                          "recordSubExtensions": [
+                            {
+                              "recordProperty": "subscriptionInfo",
+                              "recordElements": [
+                                {
+                                  "varName": "subscriptionId",
+                                  "varValue": "09f2fd5c-4f43-4177-b871-de82006c155b"
+                                },
+                                {
+                                  "varName": "subscriptionState",
+                                  "varValue": "ACTIVE"
+                                },
+                                {
+                                  "varName": "bundleName",
+                                  "varValue": "CBU_WEEKLY_DATA_3GB_OF"
+                                },
+                                {
+                                  "varName": "bundleVersion",
+                                  "varValue": "7"
+                                },
+                                {
+                                  "varName": "bundleActivationType",
+                                  "varValue": "SUBSCRIPTION_MERGE"
+                                },
+                                {
+                                  "varName": "accountID",
+                                  "varValue": "A_10434574"
+                                },
+                                {
+                                  "varName": "accountName",
+                                  "varValue": "A_10434574"
+                                },
+                                {
+                                  "varName": "subscriptionStartDateTime",
+                                  "varValue": "08/09/2025 11:33:09+03:00"
+                                },
+                                {
+                                  "varName": "subscriptionEndDateTime",
+                                  "varValue": "16/09/2025 00:00:00+03:00"
+                                },
+                                {
+                                  "varName": "alternateId",
+                                  "varValue": "CRM:37e4d266-b1d7-4e44-9736-d544ae0fd570:251700900384-CRM97bjccx_1757320228869-null-0-Self"
+                                }
+                              ],
+                              "recordSubExtensions": [
+                                {
+                                  "recordProperty": "chargingServiceInfo",
+                                  "recordElements": [
+                                    {
+                                      "varName": "chargingServiceName",
+                                      "varValue": "CL_CBU_WEEKLY_DATA_3GB_OF"
+                                    },
+                                    {
+                                      "varName": "chargingServiceType",
+                                      "varValue": "VOLUME"
+                                    },
+                                    {
+                                      "varName": "chargingServicePriority",
+                                      "varValue": "250"
+                                    },
+                                    {
+                                      "varName": "chargingServiceCategory",
+                                      "varValue": "DefaultCategory"
+                                    },
+                                    {
+                                      "varName": "chargingServiceVersion",
+                                      "varValue": "3"
+                                    }
+                                  ],
+                                  "recordSubExtensions": [
+                                    {
+                                      "recordProperty": "accountInfo",
+                                      "recordElements": [
+                                        {
+                                          "varName": "accountID",
+                                          "varValue": "A_10434574"
+                                        },
+                                        {
+                                          "varName": "accountName",
+                                          "varValue": "A_10434574"
+                                        },
+                                        {
+                                          "varName": "accountType",
+                                          "varValue": "POST_PAID"
+                                        },
+                                        {
+                                          "varName": "accountState",
+                                          "varValue": "ACTIVE"
+                                        },
+                                        {
+                                          "varName": "accountBalanceBefore",
+                                          "varValue": "38333.33334"
+                                        },
+                                        {
+                                          "varName": "accountBalanceAfter",
+                                          "varValue": "38333.33334"
+                                        },
+                                        {
+                                          "varName": "accountOveragelimit",
+                                          "varValue": "-5000000.00000"
+                                        },
+                                        {
+                                          "varName": "accountBalanceCommitted",
+                                          "varValue": "0.00000"
+                                        },
+                                        {
+                                          "varName": "accountBalanceReserved",
+                                          "varValue": "0.00000"
+                                        },
+                                        {
+                                          "varName": "secondaryCostCommitted",
+                                          "varValue": "0.00000"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "recordProperty": "bucketInfo",
+                                      "recordElements": [
+                                        {
+                                          "varName": "bucketName",
+                                          "varValue": "CBU_WEEKLY_DATA_BUCKET"
+                                        },
+                                        {
+                                          "varName": "bucketUnitType",
+                                          "varValue": "Byte"
+                                        },
+                                        {
+                                          "varName": "bucketKindOfUnit",
+                                          "varValue": "VOLUME"
+                                        },
+                                        {
+                                          "varName": "bucketBalanceBefore",
+                                          "varValue": "2373826586"
+                                        },
+                                        {
+                                          "varName": "bucketBalanceAfter",
+                                          "varValue": "2354483171"
+                                        },
+                                        {
+                                          "varName": "carryOverBucket",
+                                          "varValue": "false"
+                                        },
+                                        {
+                                          "varName": "bucketCommitedUnits",
+                                          "varValue": "19343415"
+                                        },
+                                        {
+                                          "varName": "bucketReservedUnits",
+                                          "varValue": "104857600"
+                                        },
+                                        {
+                                          "varName": "tariffID",
+                                          "varValue": "CL_CBU_WEEKLY_DATA_3GB_OF_ChargingRules"
+                                        },
+                                        {
+                                          "varName": "totalVolumeCharged",
+                                          "varValue": "19343415"
+                                        },
+                                        {
+                                          "varName": "roundedVolumeCharged",
+                                          "varValue": "19343415"
+                                        },
+                                        {
+                                          "varName": "deltaVolume",
+                                          "varValue": "0"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "record2": {
+        "header": {
+          "recordLength": 4244
+        },
+        "payload": {
+          "genericRecord": [
+            "genericRecord",
+            {
+              "recordType": "OCSChargingRecord",
+              "recordElements": [
+                {
+                  "varName": "switchOver",
+                  "varValue": "1"
+                },
+                {
+                  "varName": "prevMeName",
+                  "varValue": "ig-charging-68775f8668-75pgw"
+                },
+                {
+                  "varName": "recordId",
+                  "varValue": "20250908222529_3a29f120-4459-4461-8207-6957d6811792"
+                },
+                {
+                  "varName": "generationTimestamp",
+                  "varValue": "08/09/2025 22:25:29+03:00"
+                },
+                {
+                  "varName": "sessionId",
+                  "varValue": "mdc1-nk-cmg-cp01;1077f73a;68befec9;636020119226242-35b4e2d5"
+                },
+                {
+                  "varName": "serviceContextId",
+                  "varValue": "32251@3gpp.org"
+                },
+                {
+                  "varName": "requestType",
+                  "varValue": "UPDATE_REQUEST"
+                },
+                {
+                  "varName": "sessionSequenceNumber",
+                  "varValue": "10"
+                },
+                {
+                  "varName": "deviceTimeZone",
+                  "varValue": "2100"
+                },
+                {
+                  "varName": "sessionStartTime",
+                  "varValue": "08/09/2025 19:05:29+03:00"
+                },
+                {
+                  "varName": "dayOfWeek",
+                  "varValue": "Monday"
+                },
+                {
+                  "varName": "originHost",
+                  "varValue": "mscp03.mdc1-nk-cmg-cp01"
+                },
+                {
+                  "varName": "accessPointName",
+                  "varValue": "safaricom.mnc002.mcc636.gprs"
+                },
+                {
+                  "varName": "psChargingID",
+                  "varValue": "E2D9B678"
+                },
+                {
+                  "varName": "nodeID",
+                  "varValue": "MDC1-NK-CMG-CP01"
+                },
+                {
+                  "varName": "servingNodeType",
+                  "varValue": "5"
+                },
+                {
+                  "varName": "gGSNAddress",
+                  "varValue": "[IPV4: 10.43.34.32]"
+                },
+                {
+                  "varName": "sGSNAddress",
+                  "varValue": "[IPV4: 10.43.33.41]"
+                },
+                {
+                  "varName": "pduAddress",
+                  "varValue": "[IPV4: 100.96.121.54]"
+                },
+                {
+                  "varName": "deviceId",
+                  "varValue": "D_10434080"
+                },
+                {
+                  "varName": "deviceName",
+                  "varValue": "D_10434080"
+                },
+                {
+                  "varName": "deviceOwner",
+                  "varValue": "U_10434080"
+                },
+                {
+                  "varName": "deviceOwnerName",
+                  "varValue": "U_10434080"
+                },
+                {
+                  "varName": "ocsHost",
+                  "varValue": "mdc1labnccs01-oam.safaricomlab.net"
+                },
+                {
+                  "varName": "deviceState",
+                  "varValue": "ACTIVE"
+                },
+                {
+                  "varName": "devicePartitionId",
+                  "varValue": "1"
+                },
+                {
+                  "varName": "deviceSiteId",
+                  "varValue": "1"
+                },
+                {
+                  "varName": "userName",
+                  "varValue": "636020119226242@nai.epc.mnc002.mcc636.3gppnetwork.org"
+                },
+                {
+                  "varName": "userEquipmentType",
+                  "varValue": "0"
+                },
+                {
+                  "varName": "userEquipmentValue",
+                  "varValue": "33353533343737373132303831363031"
+                },
+                {
+                  "varName": "CDRTagCategory",
+                  "varValue": "RecordCategory2"
+                },
+                {
+                  "varName": "MCCMNC",
+                  "varValue": "63602"
+                },
+                {
+                  "varName": "IP_Address",
+                  "varValue": "10.43.33.41"
+                },
+                {
+                  "varName": "DATAOOBFLAG",
+                  "varValue": "FALSE"
+                },
+                {
+                  "varName": "RoamingStatus",
+                  "varValue": "Home"
+                },
+                {
+                  "varName": "PeakTime",
+                  "varValue": "FALSE"
+                },
+                {
+                  "varName": "DestinationType",
+                  "varValue": "GPRS_Charge"
+                },
+                {
+                  "varName": "DestinationCountry",
+                  "varValue": "Default"
+                },
+                {
+                  "varName": "Rating_Origination_Location",
+                  "varValue": "Ethiopia"
+                },
+                {
+                  "varName": "roamingIndicator",
+                  "varValue": "HOME"
+                },
+                {
+                  "varName": "causeForRecClosing",
+                  "varValue": "0"
+                },
+                {
+                  "varName": "origUserLocationInfo",
+                  "varValue": "8236F62036B536F6200232D814"
+                },
+                {
+                  "varName": "userLocationInformation",
+                  "varValue": "8236F62036B836F6200232AF0B"
+                },
+                {
+                  "varName": "servingNodePLMNIdentifier",
+                  "varValue": "36F620"
+                },
+                {
+                  "varName": "rATType",
+                  "varValue": "6"
+                },
+                {
+                  "varName": "resultCode",
+                  "varValue": "2001"
+                },
+                {
+                  "varName": "recordOpeningTime",
+                  "varValue": "08/09/2025 22:00:29+03:00"
+                },
+                {
+                  "varName": "recordClosureTime",
+                  "varValue": "08/09/2025 22:25:29+03:00"
+                },
+                {
+                  "varName": "duration",
+                  "varValue": "1500"
+                },
+                {
+                  "varName": "recordSequenceNumber",
+                  "varValue": "11"
+                },
+                {
+                  "varName": "meHostName",
+                  "varValue": "KLT1;ig-charging-68775f8668-n5gf2"
+                },
+                {
+                  "varName": "nccVersion",
+                  "varValue": "SPS_23_5_R1"
+                },
+                {
+                  "varName": "RecordTimestamp",
+                  "varValue": "08/09/2025 19:25:29"
+                },
+                {
+                  "varName": "localRecordSequenceNumber",
+                  "varValue": "140322"
+                }
+              ],
+              "recordExtensions": [
+                {
+                  "recordProperty": "listOfSubscriptionID",
+                  "recordSubExtensions": [
+                    {
+                      "recordProperty": "subscriptionId",
+                      "recordElements": [
+                        {
+                          "varName": "subscriptionIdType",
+                          "varValue": "3"
+                        },
+                        {
+                          "varName": "subscriptionIdData",
+                          "varValue": "36020119226242@nai.epc.mnc002.mcc636.3gppnetwork.org"
+                        }
+                      ]
+                    },
+                    {
+                      "recordProperty": "subscriptionId",
+                      "recordElements": [
+                        {
+                          "varName": "subscriptionIdType",
+                          "varValue": "1"
+                        },
+                        {
+                          "varName": "subscriptionIdData",
+                          "varValue": "636020119226242"
+                        }
+                      ]
+                    },
+                    {
+                      "recordProperty": "subscriptionId",
+                      "recordElements": [
+                        {
+                          "varName": "subscriptionIdType",
+                          "varValue": "0"
+                        },
+                        {
+                          "varName": "subscriptionIdData",
+                          "varValue": "251700990072"
+                        }
+                      ]
+                    },
+                    {
+                      "recordProperty": "subscriptionId",
+                      "recordElements": [
+                        {
+                          "varName": "subscriptionIdType",
+                          "varValue": "103"
+                        },
+                        {
+                          "varName": "subscriptionIdData",
+                          "varValue": "msisdn-251700990072"
+                        }
+                      ]
+                    },
+                    {
+                      "recordProperty": "subscriptionId",
+                      "recordElements": [
+                        {
+                          "varName": "subscriptionIdType",
+                          "varValue": "102"
+                        },
+                        {
+                          "varName": "subscriptionIdData",
+                          "varValue": "imsi-636020119226242"
+                        }
+                      ]
+                    },
+                    {
+                      "recordProperty": "subscriptionId",
+                      "recordElements": [
+                        {
+                          "varName": "subscriptionIdType",
+                          "varValue": "101"
+                        },
+                        {
+                          "varName": "subscriptionIdData",
+                          "varValue": "D_10434080"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "recordProperty": "listOfMscc",
+                  "recordSubExtensions": [
+                    {
+                      "recordProperty": "mscc",
+                      "recordElements": [
+                        {
+                          "varName": "ratingGroup",
+                          "varValue": "100"
+                        },
+                        {
+                          "varName": "chargingType",
+                          "varValue": "ONLINE_CHARGING"
+                        },
+                        {
+                          "varName": "recordEventType",
+                          "varValue": "PS"
+                        },
+                        {
+                          "varName": "reportReason",
+                          "varValue": "VALIDITY_TIME"
+                        },
+                        {
+                          "varName": "firstDataStart",
+                          "varValue": "08/09/2025 19:05:29+03:00"
+                        },
+                        {
+                          "varName": "grantedUnits",
+                          "varValue": "1048576"
+                        },
+                        {
+                          "varName": "usageType",
+                          "varValue": "TVOL"
+                        },
+                        {
+                          "varName": "usedUnitType",
+                          "varValue": "TVOL"
+                        },
+                        {
+                          "varName": "validityTime",
+                          "varValue": "1500"
+                        },
+                        {
+                          "varName": "resultCode",
+                          "varValue": "2001"
+                        },
+                        {
+                          "varName": "recordEventResult",
+                          "varValue": "00"
+                        },
+                        {
+                          "varName": "localSequenceNumber",
+                          "varValue": "10"
+                        },
+                        {
+                          "varName": "totalVolumeConsumed",
+                          "varValue": "0"
+                        }
+                      ],
+                      "recordSubExtensions": [
+                        {
+                          "recordProperty": "deviceInfo",
+                          "recordSubExtensions": [
+                            {
+                              "recordProperty": "subscriptionInfo",
+                              "recordElements": [
+                                {
+                                  "varName": "subscriptionId",
+                                  "varValue": "e86c20b2-41ee-44f0-9c7f-0251e41bf418"
+                                },
+                                {
+                                  "varName": "subscriptionState",
+                                  "varValue": "ACTIVE"
+                                },
+                                {
+                                  "varName": "bundleName",
+                                  "varValue": "CONSUMER_PREPAY_BASE_PLAN"
+                                },
+                                {
+                                  "varName": "bundleVersion",
+                                  "varValue": "5"
+                                },
+                                {
+                                  "varName": "bundleActivationType",
+                                  "varValue": "NORMAL"
+                                },
+                                {
+                                  "varName": "accountID",
+                                  "varValue": "A_10434080"
+                                },
+                                {
+                                  "varName": "accountName",
+                                  "varValue": "A_10434080"
+                                },
+                                {
+                                  "varName": "subscriptionStartDateTime",
+                                  "varValue": "08/09/2025 22:00:29+03:00"
+                                },
+                                {
+                                  "varName": "subscriptionEndDateTime",
+                                  "varValue": "08/09/2026 00:00:00+03:00"
+                                }
+                              ],
+                              "recordSubExtensions": [
+                                {
+                                  "recordProperty": "chargingServiceInfo",
+                                  "recordElements": [
+                                    {
+                                      "varName": "chargingServiceName",
+                                      "varValue": "TP_BASE_DATA_V6"
+                                    },
+                                    {
+                                      "varName": "chargingServiceType",
+                                      "varValue": "VOLUME"
+                                    },
+                                    {
+                                      "varName": "chargingServicePriority",
+                                      "varValue": "10000"
+                                    },
+                                    {
+                                      "varName": "chargingServiceCategory",
+                                      "varValue": "DefaultCategory"
+                                    },
+                                    {
+                                      "varName": "chargingServiceVersion",
+                                      "varValue": "7"
+                                    }
+                                  ],
+                                  "recordSubExtensions": [
+                                    {
+                                      "recordProperty": "noCharge",
+                                      "recordElements": [
+                                        {
+                                          "varName": "noChargeReservedUnits",
+                                          "varValue": "1048576"
+                                        },
+                                        {
+                                          "varName": "noChargeCommittedUnits",
+                                          "varValue": "0"
+                                        },
+                                        {
+                                          "varName": "tariffID",
+                                          "varValue": "TP_BASE_DATA_V6_fallbackRules0"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "recordProperty": "accountInfo",
+                                      "recordElements": [
+                                        {
+                                          "varName": "accountID",
+                                          "varValue": "A_10434080"
+                                        },
+                                        {
+                                          "varName": "accountName",
+                                          "varValue": "A_10434080"
+                                        },
+                                        {
+                                          "varName": "accountType",
+                                          "varValue": "PRE_PAID"
+                                        },
+                                        {
+                                          "varName": "accountState",
+                                          "varValue": "ACTIVE"
+                                        },
+                                        {
+                                          "varName": "accountBalanceBefore",
+                                          "varValue": "156627.20025"
+                                        },
+                                        {
+                                          "varName": "accountBalanceAfter",
+                                          "varValue": "156627.20025"
+                                        },
+                                        {
+                                          "varName": "accountOveragelimit",
+                                          "varValue": "0.00000"
+                                        },
+                                        {
+                                          "varName": "accountBalanceCommitted",
+                                          "varValue": "0.00000"
+                                        },
+                                        {
+                                          "varName": "accountBalanceReserved",
+                                          "varValue": "0.00000"
+                                        },
+                                        {
+                                          "varName": "secondaryCostCommitted",
+                                          "varValue": "0.00000"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "recordProperty": "counterInfo",
+                                  "recordElements": [
+                                    {
+                                      "varName": "counterName",
+                                      "varValue": "DEFAULTPOLICY_COUNTER"
+                                    },
+                                    {
+                                      "varName": "counterKey",
+                                      "varValue": "ff105229-8562-4d81-b2b8-f2fc2f74e2c7"
+                                    },
+                                    {
+                                      "varName": "counterType",
+                                      "varValue": "SUBSCRIPTION"
+                                    },
+                                    {
+                                      "varName": "counterUnitType",
+                                      "varValue": "Byte"
+                                    },
+                                    {
+                                      "varName": "counterKindOfUnit",
+                                      "varValue": "VOLUME"
+                                    },
+                                    {
+                                      "varName": "alignGranularity",
+                                      "varValue": "FALSE"
+                                    },
+                                    {
+                                      "varName": "counterValueBefore",
+                                      "varValue": "4956303"
+                                    },
+                                    {
+                                      "varName": "counterValueAfter",
+                                      "varValue": "4956303"
+                                    },
+                                    {
+                                      "varName": "counterPolicySignalState",
+                                      "varValue": "Default"
+                                    },
+                                    {
+                                      "varName": "chargingServicePriority",
+                                      "varValue": "10000"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "record3": {
+        "header": {
+          "recordLength": 4226
+        },
+        "payload": {
+          "genericRecord": [
+            "genericRecord",
+            {
+              "recordType": "OCSChargingRecord",
+              "recordElements": [
+                {
+                  "varName": "switchOver",
+                  "varValue": "1"
+                },
+                {
+                  "varName": "prevMeName",
+                  "varValue": "ig-charging-68775f8668-75pgw"
+                },
+                {
+                  "varName": "recordId",
+                  "varValue": "20250908222529_cad21fc0-3ca8-42c5-abc5-fe069d84b39a"
+                },
+                {
+                  "varName": "generationTimestamp",
+                  "varValue": "08/09/2025 22:25:29+03:00"
+                },
+                {
+                  "varName": "sessionId",
+                  "varValue": "edc-nk-cmg-cp01;28ed10d9;68befecb;636020101005563-16bc2d15"
+                },
+                {
+                  "varName": "serviceContextId",
+                  "varValue": "32251@3gpp.org"
+                },
+                {
+                  "varName": "requestType",
+                  "varValue": "UPDATE_REQUEST"
+                },
+                {
+                  "varName": "sessionSequenceNumber",
+                  "varValue": "25"
+                },
+                {
+                  "varName": "deviceTimeZone",
+                  "varValue": "2100"
+                },
+                {
+                  "varName": "sessionStartTime",
+                  "varValue": "08/09/2025 19:05:31+03:00"
+                },
+                {
+                  "varName": "dayOfWeek",
+                  "varValue": "Monday"
+                },
+                {
+                  "varName": "originHost",
+                  "varValue": "mscp03.edc-nk-cmg-cp01"
+                },
+                {
+                  "varName": "accessPointName",
+                  "varValue": "safaricom"
+                },
+                {
+                  "varName": "psChargingID",
+                  "varValue": "2D1B0FF1"
+                },
+                {
+                  "varName": "nodeID",
+                  "varValue": "EDC-NK-CMG-CP01"
+                },
+                {
+                  "varName": "servingNodeType",
+                  "varValue": "5"
+                },
+                {
+                  "varName": "gGSNAddress",
+                  "varValue": "[IPV4: 10.33.42.51]"
+                },
+                {
+                  "varName": "sGSNAddress",
+                  "varValue": "[IPV4: 10.32.40.201]"
+                },
+                {
+                  "varName": "pduAddress",
+                  "varValue": "[IPV4: 100.73.101.173]"
+                },
+                {
+                  "varName": "deviceId",
+                  "varValue": "D_10435087"
+                },
+                {
+                  "varName": "deviceName",
+                  "varValue": "D_10435087"
+                },
+                {
+                  "varName": "deviceOwner",
+                  "varValue": "U_10435087"
+                },
+                {
+                  "varName": "deviceOwnerName",
+                  "varValue": "U_10435087"
+                },
+                {
+                  "varName": "ocsHost",
+                  "varValue": "mdc1labnccs01-oam.safaricomlab.net"
+                },
+                {
+                  "varName": "deviceState",
+                  "varValue": "ACTIVE"
+                },
+                {
+                  "varName": "devicePartitionId",
+                  "varValue": "1"
+                },
+                {
+                  "varName": "deviceSiteId",
+                  "varValue": "1"
+                },
+                {
+                  "varName": "userName",
+                  "varValue": "636020101005563@nai.epc.mnc002.mcc636.3gppnetwork.org"
+                },
+                {
+                  "varName": "userEquipmentType",
+                  "varValue": "0"
+                },
+                {
+                  "varName": "userEquipmentValue",
+                  "varValue": "33353533343737373134323130313031"
+                },
+                {
+                  "varName": "CDRTagCategory",
+                  "varValue": "RecordCategory0"
+                },
+                {
+                  "varName": "MCCMNC",
+                  "varValue": "63602"
+                },
+                {
+                  "varName": "IP_Address",
+                  "varValue": "10.32.40.201"
+                },
+                {
+                  "varName": "DATAOOBFLAG",
+                  "varValue": "FALSE"
+                },
+                {
+                  "varName": "RoamingStatus",
+                  "varValue": "Home"
+                },
+                {
+                  "varName": "PeakTime",
+                  "varValue": "FALSE"
+                },
+                {
+                  "varName": "DestinationType",
+                  "varValue": "GPRS_Charge"
+                },
+                {
+                  "varName": "DestinationCountry",
+                  "varValue": "Default"
+                },
+                {
+                  "varName": "Rating_Origination_Location",
+                  "varValue": "Ethiopia"
+                },
+                {
+                  "varName": "roamingIndicator",
+                  "varValue": "HOME"
+                },
+                {
+                  "varName": "causeForRecClosing",
+                  "varValue": "0"
+                },
+                {
+                  "varName": "origUserLocationInfo",
+                  "varValue": "8236F62036B436F6200223580A"
+                },
+                {
+                  "varName": "userLocationInformation",
+                  "varValue": "8236F62036B436F6200223580A"
+                },
+                {
+                  "varName": "servingNodePLMNIdentifier",
+                  "varValue": "36F620"
+                },
+                {
+                  "varName": "rATType",
+                  "varValue": "6"
+                },
+                {
+                  "varName": "resultCode",
+                  "varValue": "2001"
+                },
+                {
+                  "varName": "recordOpeningTime",
+                  "varValue": "08/09/2025 22:00:29+03:00"
+                },
+                {
+                  "varName": "recordClosureTime",
+                  "varValue": "08/09/2025 22:25:29+03:00"
+                },
+                {
+                  "varName": "duration",
+                  "varValue": "1500"
+                },
+                {
+                  "varName": "recordSequenceNumber",
+                  "varValue": "26"
+                },
+                {
+                  "varName": "meHostName",
+                  "varValue": "KLT1;ig-charging-68775f8668-n5gf2"
+                },
+                {
+                  "varName": "nccVersion",
+                  "varValue": "SPS_23_5_R1"
+                },
+                {
+                  "varName": "RecordTimestamp",
+                  "varValue": "08/09/2025 19:25:29"
+                },
+                {
+                  "varName": "localRecordSequenceNumber",
+                  "varValue": "140323"
+                }
+              ],
+              "recordExtensions": [
+                {
+                  "recordProperty": "listOfSubscriptionID",
+                  "recordSubExtensions": [
+                    {
+                      "recordProperty": "subscriptionId",
+                      "recordElements": [
+                        {
+                          "varName": "subscriptionIdType",
+                          "varValue": "3"
+                        },
+                        {
+                          "varName": "subscriptionIdData",
+                          "varValue": "36020101005563@nai.epc.mnc002.mcc636.3gppnetwork.org"
+                        }
+                      ]
+                    },
+                    {
+                      "recordProperty": "subscriptionId",
+                      "recordElements": [
+                        {
+                          "varName": "subscriptionIdType",
+                          "varValue": "103"
+                        },
+                        {
+                          "varName": "subscriptionIdData",
+                          "varValue": "msisdn-251700900450"
+                        }
+                      ]
+                    },
+                    {
+                      "recordProperty": "subscriptionId",
+                      "recordElements": [
+                        {
+                          "varName": "subscriptionIdType",
+                          "varValue": "102"
+                        },
+                        {
+                          "varName": "subscriptionIdData",
+                          "varValue": "imsi-636020101005563"
+                        }
+                      ]
+                    },
+                    {
+                      "recordProperty": "subscriptionId",
+                      "recordElements": [
+                        {
+                          "varName": "subscriptionIdType",
+                          "varValue": "101"
+                        },
+                        {
+                          "varName": "subscriptionIdData",
+                          "varValue": "D_10435087"
+                        }
+                      ]
+                    },
+                    {
+                      "recordProperty": "subscriptionId",
+                      "recordElements": [
+                        {
+                          "varName": "subscriptionIdType",
+                          "varValue": "1"
+                        },
+                        {
+                          "varName": "subscriptionIdData",
+                          "varValue": "636020101005563"
+                        }
+                      ]
+                    },
+                    {
+                      "recordProperty": "subscriptionId",
+                      "recordElements": [
+                        {
+                          "varName": "subscriptionIdType",
+                          "varValue": "0"
+                        },
+                        {
+                          "varName": "subscriptionIdData",
+                          "varValue": "251700900450"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "recordProperty": "listOfMscc",
+                  "recordSubExtensions": [
+                    {
+                      "recordProperty": "mscc",
+                      "recordElements": [
+                        {
+                          "varName": "ratingGroup",
+                          "varValue": "100"
+                        },
+                        {
+                          "varName": "chargingType",
+                          "varValue": "ONLINE_CHARGING"
+                        },
+                        {
+                          "varName": "recordEventType",
+                          "varValue": "PS"
+                        },
+                        {
+                          "varName": "reportReason",
+                          "varValue": "VALIDITY_TIME"
+                        },
+                        {
+                          "varName": "firstDataStart",
+                          "varValue": "08/09/2025 19:05:31+03:00"
+                        },
+                        {
+                          "varName": "grantedUnits",
+                          "varValue": "1048576"
+                        },
+                        {
+                          "varName": "usageType",
+                          "varValue": "TVOL"
+                        },
+                        {
+                          "varName": "usedUnitType",
+                          "varValue": "TVOL"
+                        },
+                        {
+                          "varName": "validityTime",
+                          "varValue": "1500"
+                        },
+                        {
+                          "varName": "resultCode",
+                          "varValue": "2001"
+                        },
+                        {
+                          "varName": "recordEventResult",
+                          "varValue": "00"
+                        },
+                        {
+                          "varName": "localSequenceNumber",
+                          "varValue": "9"
+                        },
+                        {
+                          "varName": "totalVolumeConsumed",
+                          "varValue": "0"
+                        }
+                      ],
+                      "recordSubExtensions": [
+                        {
+                          "recordProperty": "deviceInfo",
+                          "recordSubExtensions": [
+                            {
+                              "recordProperty": "subscriptionInfo",
+                              "recordElements": [
+                                {
+                                  "varName": "subscriptionId",
+                                  "varValue": "fc1a1367-d76b-4b5b-8cc8-91f82ce51f33"
+                                },
+                                {
+                                  "varName": "subscriptionState",
+                                  "varValue": "ACTIVE"
+                                },
+                                {
+                                  "varName": "bundleName",
+                                  "varValue": "CONSUMER_PREPAY_BASE_PLAN"
+                                },
+                                {
+                                  "varName": "bundleVersion",
+                                  "varValue": "5"
+                                },
+                                {
+                                  "varName": "bundleActivationType",
+                                  "varValue": "NORMAL"
+                                },
+                                {
+                                  "varName": "accountID",
+                                  "varValue": "A_10435087"
+                                },
+                                {
+                                  "varName": "accountName",
+                                  "varValue": "A_10435087"
+                                },
+                                {
+                                  "varName": "subscriptionStartDateTime",
+                                  "varValue": "08/09/2025 22:00:29+03:00"
+                                },
+                                {
+                                  "varName": "subscriptionEndDateTime",
+                                  "varValue": "08/09/2026 00:00:00+03:00"
+                                }
+                              ],
+                              "recordSubExtensions": [
+                                {
+                                  "recordProperty": "chargingServiceInfo",
+                                  "recordElements": [
+                                    {
+                                      "varName": "chargingServiceName",
+                                      "varValue": "TP_BASE_DATA_V6"
+                                    },
+                                    {
+                                      "varName": "chargingServiceType",
+                                      "varValue": "VOLUME"
+                                    },
+                                    {
+                                      "varName": "chargingServicePriority",
+                                      "varValue": "10000"
+                                    },
+                                    {
+                                      "varName": "chargingServiceCategory",
+                                      "varValue": "DefaultCategory"
+                                    },
+                                    {
+                                      "varName": "chargingServiceVersion",
+                                      "varValue": "7"
+                                    }
+                                  ],
+                                  "recordSubExtensions": [
+                                    {
+                                      "recordProperty": "noCharge",
+                                      "recordElements": [
+                                        {
+                                          "varName": "noChargeReservedUnits",
+                                          "varValue": "1048576"
+                                        },
+                                        {
+                                          "varName": "noChargeCommittedUnits",
+                                          "varValue": "0"
+                                        },
+                                        {
+                                          "varName": "tariffID",
+                                          "varValue": "TP_BASE_DATA_V6_fallbackRules0"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "recordProperty": "accountInfo",
+                                      "recordElements": [
+                                        {
+                                          "varName": "accountID",
+                                          "varValue": "A_10435087"
+                                        },
+                                        {
+                                          "varName": "accountName",
+                                          "varValue": "A_10435087"
+                                        },
+                                        {
+                                          "varName": "accountType",
+                                          "varValue": "PRE_PAID"
+                                        },
+                                        {
+                                          "varName": "accountState",
+                                          "varValue": "ACTIVE"
+                                        },
+                                        {
+                                          "varName": "accountBalanceBefore",
+                                          "varValue": "799972.00000"
+                                        },
+                                        {
+                                          "varName": "accountBalanceAfter",
+                                          "varValue": "799972.00000"
+                                        },
+                                        {
+                                          "varName": "accountOveragelimit",
+                                          "varValue": "0.00000"
+                                        },
+                                        {
+                                          "varName": "accountBalanceCommitted",
+                                          "varValue": "0.00000"
+                                        },
+                                        {
+                                          "varName": "accountBalanceReserved",
+                                          "varValue": "0.00000"
+                                        },
+                                        {
+                                          "varName": "secondaryCostCommitted",
+                                          "varValue": "0.00000"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "recordProperty": "counterInfo",
+                                  "recordElements": [
+                                    {
+                                      "varName": "counterName",
+                                      "varValue": "DEFAULTPOLICY_COUNTER"
+                                    },
+                                    {
+                                      "varName": "counterKey",
+                                      "varValue": "05465070-aa1a-463e-82b3-cfae5409a8db"
+                                    },
+                                    {
+                                      "varName": "counterType",
+                                      "varValue": "SUBSCRIPTION"
+                                    },
+                                    {
+                                      "varName": "counterUnitType",
+                                      "varValue": "Byte"
+                                    },
+                                    {
+                                      "varName": "counterKindOfUnit",
+                                      "varValue": "VOLUME"
+                                    },
+                                    {
+                                      "varName": "alignGranularity",
+                                      "varValue": "FALSE"
+                                    },
+                                    {
+                                      "varName": "counterValueBefore",
+                                      "varValue": "30770086"
+                                    },
+                                    {
+                                      "varName": "counterValueAfter",
+                                      "varValue": "30770086"
+                                    },
+                                    {
+                                      "varName": "counterPolicySignalState",
+                                      "varValue": "Default"
+                                    },
+                                    {
+                                      "varName": "chargingServicePriority",
+                                      "varValue": "10000"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

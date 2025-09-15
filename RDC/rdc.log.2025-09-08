@@ -1,0 +1,444 @@
+2025-09-08 23:06:18,880 [INFO] Starting cleanup worker: interval=3600 seconds, retention=72 hours
+2025-09-08 23:06:18,885 [INFO] Processing existing file: in\SPS_0-0-_0000127395.20250905_-_0904+0000_flattened.json
+2025-09-08 23:06:18,887 [INFO] Processing file: in\SPS_0-0-_0000127395.20250905_-_0904+0000_flattened.json
+2025-09-08 23:06:18,896 [WARNING] Missing sessionId/sessionSequenceNumber for recordId=20250905090349_0a268430-5ba2-41d0-87b6-975564427e6c
+2025-09-08 23:06:18,897 [WARNING] Missing sessionId/sessionSequenceNumber for recordId=20250905090356_625b6c69-b1f8-4bae-bf8f-489d6c2e4846
+2025-09-08 23:06:18,899 [WARNING] Missing sessionId/sessionSequenceNumber for recordId=20250905090356_52985c97-68a8-41b7-be7f-7f769c7fd8db
+2025-09-08 23:06:18,900 [WARNING] Missing sessionId/sessionSequenceNumber for recordId=20250905090356_688893c2-2d2b-440c-8f5d-855b2c63551b
+2025-09-08 23:06:18,902 [WARNING] Missing sessionId/sessionSequenceNumber for recordId=20250905090356_57f1628b-c8a5-42f9-92c5-1647abb54b53
+2025-09-08 23:06:18,916 [ERROR] Record moved to failed: missing composite key fields recordId=20250905090356_52985c97-68a8-41b7-be7f-7f769c7fd8db (file=in\SPS_0-0-_0000127395.20250905_-_0904+0000_flattened.json)
+2025-09-08 23:06:18,919 [WARNING] Missing sessionId/sessionSequenceNumber for recordId=20250905090357_aa29a66e-276d-447f-b3ee-b53eda635315
+2025-09-08 23:06:18,921 [ERROR] Record moved to failed: missing composite key fields recordId=20250905090356_625b6c69-b1f8-4bae-bf8f-489d6c2e4846 (file=in\SPS_0-0-_0000127395.20250905_-_0904+0000_flattened.json)
+2025-09-08 23:06:18,921 [ERROR] Record moved to failed: missing composite key fields recordId=20250905090356_688893c2-2d2b-440c-8f5d-855b2c63551b (file=in\SPS_0-0-_0000127395.20250905_-_0904+0000_flattened.json)
+2025-09-08 23:06:18,923 [ERROR] Record moved to failed: missing composite key fields recordId=20250905090356_57f1628b-c8a5-42f9-92c5-1647abb54b53 (file=in\SPS_0-0-_0000127395.20250905_-_0904+0000_flattened.json)
+2025-09-08 23:06:18,927 [WARNING] Missing sessionId/sessionSequenceNumber for recordId=20250905090356_b1d57830-7d2f-4bb9-b59e-e0b8b1bd9121
+2025-09-08 23:06:18,929 [ERROR] Record moved to failed: missing composite key fields recordId=20250905090349_0a268430-5ba2-41d0-87b6-975564427e6c (file=in\SPS_0-0-_0000127395.20250905_-_0904+0000_flattened.json)
+2025-09-08 23:06:18,929 [WARNING] Missing sessionId/sessionSequenceNumber for recordId=20250905090357_c5195c1a-4ebd-44ea-8103-b0086b970d3f
+2025-09-08 23:06:18,930 [WARNING] Missing sessionId/sessionSequenceNumber for recordId=20250905090356_a6c7b972-565a-4ba3-87f1-0a4a142eff2d
+2025-09-08 23:06:18,933 [WARNING] Missing sessionId/sessionSequenceNumber for recordId=20250905090357_01e6078b-0783-4cfd-848c-88fce2e3332c
+2025-09-08 23:06:18,939 [ERROR] Record moved to failed: missing composite key fields recordId=20250905090357_aa29a66e-276d-447f-b3ee-b53eda635315 (file=in\SPS_0-0-_0000127395.20250905_-_0904+0000_flattened.json)
+2025-09-08 23:06:18,947 [ERROR] Record moved to failed: missing composite key fields recordId=20250905090357_c5195c1a-4ebd-44ea-8103-b0086b970d3f (file=in\SPS_0-0-_0000127395.20250905_-_0904+0000_flattened.json)
+2025-09-08 23:06:18,947 [ERROR] Record moved to failed: missing composite key fields recordId=20250905090356_b1d57830-7d2f-4bb9-b59e-e0b8b1bd9121 (file=in\SPS_0-0-_0000127395.20250905_-_0904+0000_flattened.json)
+2025-09-08 23:06:18,952 [WARNING] Missing sessionId/sessionSequenceNumber for recordId=20250905090401_a6f225b6-85e9-4b47-b820-1ad0d20fe802
+2025-09-08 23:06:18,953 [ERROR] Record moved to failed: missing composite key fields recordId=20250905090356_a6c7b972-565a-4ba3-87f1-0a4a142eff2d (file=in\SPS_0-0-_0000127395.20250905_-_0904+0000_flattened.json)
+2025-09-08 23:06:18,953 [ERROR] Record moved to failed: missing composite key fields recordId=20250905090357_01e6078b-0783-4cfd-848c-88fce2e3332c (file=in\SPS_0-0-_0000127395.20250905_-_0904+0000_flattened.json)
+2025-09-08 23:06:18,964 [WARNING] Missing sessionId/sessionSequenceNumber for recordId=20250905090356_58655cc1-444c-41c8-89af-5225e69936b6
+2025-09-08 23:06:18,956 [WARNING] Missing sessionId/sessionSequenceNumber for recordId=20250905090400_d8452c25-8b55-4128-a3a3-0ec6353a0d3d
+2025-09-08 23:06:18,964 [WARNING] Missing sessionId/sessionSequenceNumber for recordId=20250905090357_3738f4b9-fd3c-40fa-bafd-6cf599683ffa
+2025-09-08 23:06:18,954 [WARNING] Missing sessionId/sessionSequenceNumber for recordId=20250905090400_89968331-52e4-4a36-af79-417c0a28cd3d
+2025-09-08 23:06:18,975 [ERROR] Record moved to failed: missing composite key fields recordId=20250905090401_a6f225b6-85e9-4b47-b820-1ad0d20fe802 (file=in\SPS_0-0-_0000127395.20250905_-_0904+0000_flattened.json)
+2025-09-08 23:06:18,977 [ERROR] Record moved to failed: missing composite key fields recordId=20250905090400_d8452c25-8b55-4128-a3a3-0ec6353a0d3d (file=in\SPS_0-0-_0000127395.20250905_-_0904+0000_flattened.json)
+2025-09-08 23:06:18,981 [WARNING] Missing sessionId/sessionSequenceNumber for recordId=20250905090356_d9e3d42a-6ba1-4ae4-993f-f042dab626ac
+2025-09-08 23:06:18,983 [ERROR] Record moved to failed: missing composite key fields recordId=20250905090357_3738f4b9-fd3c-40fa-bafd-6cf599683ffa (file=in\SPS_0-0-_0000127395.20250905_-_0904+0000_flattened.json)
+2025-09-08 23:06:18,983 [WARNING] Missing sessionId/sessionSequenceNumber for recordId=20250905090356_47ecc220-b249-42cb-92ee-b0bf12663b0a
+2025-09-08 23:06:18,984 [WARNING] Missing sessionId/sessionSequenceNumber for recordId=20250905090400_4448d420-ff32-4b59-9f2d-68ae4d99165f
+2025-09-08 23:06:18,985 [ERROR] Record moved to failed: missing composite key fields recordId=20250905090356_58655cc1-444c-41c8-89af-5225e69936b6 (file=in\SPS_0-0-_0000127395.20250905_-_0904+0000_flattened.json)
+2025-09-08 23:06:18,995 [WARNING] Missing sessionId/sessionSequenceNumber for recordId=20250905090401_5fbc4573-4b27-400c-a6bf-f089b0023467
+2025-09-08 23:06:18,998 [ERROR] Record moved to failed: missing composite key fields recordId=20250905090400_89968331-52e4-4a36-af79-417c0a28cd3d (file=in\SPS_0-0-_0000127395.20250905_-_0904+0000_flattened.json)
+2025-09-08 23:06:18,999 [WARNING] Missing sessionId/sessionSequenceNumber for recordId=20250905090400_d08e7a2d-c25a-4a15-8dc5-890a20eca0a0
+2025-09-08 23:06:19,001 [ERROR] Record moved to failed: missing composite key fields recordId=20250905090356_47ecc220-b249-42cb-92ee-b0bf12663b0a (file=in\SPS_0-0-_0000127395.20250905_-_0904+0000_flattened.json)
+2025-09-08 23:06:19,004 [ERROR] Record moved to failed: missing composite key fields recordId=20250905090356_d9e3d42a-6ba1-4ae4-993f-f042dab626ac (file=in\SPS_0-0-_0000127395.20250905_-_0904+0000_flattened.json)
+2025-09-08 23:06:19,008 [WARNING] Missing sessionId/sessionSequenceNumber for recordId=20250905090401_6c5e4b9f-8e3d-4804-89f4-7d97bcaa3593
+2025-09-08 23:06:19,005 [WARNING] Missing sessionId/sessionSequenceNumber for recordId=20250905090401_55eed517-3075-4a1f-a2cc-cad47406354f
+2025-09-08 23:06:19,015 [ERROR] Record moved to failed: missing composite key fields recordId=20250905090401_5fbc4573-4b27-400c-a6bf-f089b0023467 (file=in\SPS_0-0-_0000127395.20250905_-_0904+0000_flattened.json)
+2025-09-08 23:06:19,015 [ERROR] Record moved to failed: missing composite key fields recordId=20250905090400_4448d420-ff32-4b59-9f2d-68ae4d99165f (file=in\SPS_0-0-_0000127395.20250905_-_0904+0000_flattened.json)
+2025-09-08 23:06:19,016 [WARNING] Missing sessionId/sessionSequenceNumber for recordId=20250905090401_00b2f438-4c54-47c2-b108-b99f4f0526c5
+2025-09-08 23:06:19,017 [WARNING] Missing sessionId/sessionSequenceNumber for recordId=20250905090401_20b16b16-f1e2-4dd9-87d9-00cf7c6e5695
+2025-09-08 23:06:19,023 [ERROR] Record moved to failed: missing composite key fields recordId=20250905090400_d08e7a2d-c25a-4a15-8dc5-890a20eca0a0 (file=in\SPS_0-0-_0000127395.20250905_-_0904+0000_flattened.json)
+2025-09-08 23:06:19,026 [WARNING] Missing sessionId/sessionSequenceNumber for recordId=20250905090401_7c808e64-3e02-4a61-979f-bb52a39940ec
+2025-09-08 23:06:19,035 [ERROR] Record moved to failed: missing composite key fields recordId=20250905090401_6c5e4b9f-8e3d-4804-89f4-7d97bcaa3593 (file=in\SPS_0-0-_0000127395.20250905_-_0904+0000_flattened.json)
+2025-09-08 23:06:19,037 [WARNING] Missing sessionId/sessionSequenceNumber for recordId=20250905090401_148d42a5-d137-436a-8dff-5b225a284d2e
+2025-09-08 23:06:19,047 [ERROR] Record moved to failed: missing composite key fields recordId=20250905090401_20b16b16-f1e2-4dd9-87d9-00cf7c6e5695 (file=in\SPS_0-0-_0000127395.20250905_-_0904+0000_flattened.json)
+2025-09-08 23:06:19,049 [WARNING] Missing sessionId/sessionSequenceNumber for recordId=20250905090410_cb5f56ff-2618-415b-853e-5e45673b88f8
+2025-09-08 23:06:19,049 [ERROR] Record moved to failed: missing composite key fields recordId=20250905090401_00b2f438-4c54-47c2-b108-b99f4f0526c5 (file=in\SPS_0-0-_0000127395.20250905_-_0904+0000_flattened.json)
+2025-09-08 23:06:19,051 [WARNING] Missing sessionId/sessionSequenceNumber for recordId=20250905090410_88b98178-a59e-4734-930b-24f4303a3bd3
+2025-09-08 23:06:19,050 [ERROR] Record moved to failed: missing composite key fields recordId=20250905090401_55eed517-3075-4a1f-a2cc-cad47406354f (file=in\SPS_0-0-_0000127395.20250905_-_0904+0000_flattened.json)
+2025-09-08 23:06:19,050 [ERROR] Record moved to failed: missing composite key fields recordId=20250905090401_7c808e64-3e02-4a61-979f-bb52a39940ec (file=in\SPS_0-0-_0000127395.20250905_-_0904+0000_flattened.json)
+2025-09-08 23:06:19,052 [WARNING] Missing sessionId/sessionSequenceNumber for recordId=20250905090410_7c21db8e-e35c-4387-ab30-76201a684694
+2025-09-08 23:06:19,053 [WARNING] Missing sessionId/sessionSequenceNumber for recordId=20250905090417_5bf4fe24-31d7-4f48-b5f6-aeaf3522ecb0
+2025-09-08 23:06:19,063 [ERROR] Record moved to failed: missing composite key fields recordId=20250905090410_cb5f56ff-2618-415b-853e-5e45673b88f8 (file=in\SPS_0-0-_0000127395.20250905_-_0904+0000_flattened.json)
+2025-09-08 23:06:19,064 [WARNING] Missing sessionId/sessionSequenceNumber for recordId=20250905090416_901ebb8b-d0cc-4a1d-8981-a4329ab1fb54
+2025-09-08 23:06:19,067 [ERROR] Record moved to failed: missing composite key fields recordId=20250905090401_148d42a5-d137-436a-8dff-5b225a284d2e (file=in\SPS_0-0-_0000127395.20250905_-_0904+0000_flattened.json)
+2025-09-08 23:06:19,072 [WARNING] Missing sessionId/sessionSequenceNumber for recordId=20250905090416_9e6e9dd4-8358-4ea3-ba28-6ee3147894fc
+2025-09-08 23:06:19,079 [ERROR] Record moved to failed: missing composite key fields recordId=20250905090410_7c21db8e-e35c-4387-ab30-76201a684694 (file=in\SPS_0-0-_0000127395.20250905_-_0904+0000_flattened.json)
+2025-09-08 23:06:19,082 [WARNING] Missing sessionId/sessionSequenceNumber for recordId=20250905090417_a4af46ed-02f3-4894-a18d-a1b85f1eace5
+2025-09-08 23:06:19,083 [ERROR] Record moved to failed: missing composite key fields recordId=20250905090417_5bf4fe24-31d7-4f48-b5f6-aeaf3522ecb0 (file=in\SPS_0-0-_0000127395.20250905_-_0904+0000_flattened.json)
+2025-09-08 23:06:19,084 [ERROR] Record moved to failed: missing composite key fields recordId=20250905090410_88b98178-a59e-4734-930b-24f4303a3bd3 (file=in\SPS_0-0-_0000127395.20250905_-_0904+0000_flattened.json)
+2025-09-08 23:06:19,084 [WARNING] Missing sessionId/sessionSequenceNumber for recordId=20250905090417_ac463d6c-0794-41f4-8940-a0dcce07a7ae
+2025-09-08 23:06:19,087 [WARNING] Missing sessionId/sessionSequenceNumber for recordId=20250905090417_bbd3b04c-46f0-4306-86b7-c93dc893d29b
+2025-09-08 23:06:19,087 [ERROR] Record moved to failed: missing composite key fields recordId=20250905090416_901ebb8b-d0cc-4a1d-8981-a4329ab1fb54 (file=in\SPS_0-0-_0000127395.20250905_-_0904+0000_flattened.json)
+2025-09-08 23:06:19,097 [ERROR] Record moved to failed: missing composite key fields recordId=20250905090417_a4af46ed-02f3-4894-a18d-a1b85f1eace5 (file=in\SPS_0-0-_0000127395.20250905_-_0904+0000_flattened.json)
+2025-09-08 23:06:19,097 [ERROR] Record moved to failed: missing composite key fields recordId=20250905090416_9e6e9dd4-8358-4ea3-ba28-6ee3147894fc (file=in\SPS_0-0-_0000127395.20250905_-_0904+0000_flattened.json)
+2025-09-08 23:06:19,102 [ERROR] Record moved to failed: missing composite key fields recordId=20250905090417_bbd3b04c-46f0-4306-86b7-c93dc893d29b (file=in\SPS_0-0-_0000127395.20250905_-_0904+0000_flattened.json)
+2025-09-08 23:06:19,104 [ERROR] Record moved to failed: missing composite key fields recordId=20250905090417_ac463d6c-0794-41f4-8940-a0dcce07a7ae (file=in\SPS_0-0-_0000127395.20250905_-_0904+0000_flattened.json)
+2025-09-08 23:06:19,106 [INFO] SUMMARY: file=in\SPS_0-0-_0000127395.20250905_-_0904+0000_flattened.json, total=35, accepted=0, duplicate=0, failed=35
+2025-09-08 23:06:19,112 [INFO] Input file archived: archive\SPS_0-0-_0000127395.20250905_-_0904+0000_flattened.json
+2025-09-08 23:06:19,113 [INFO] Processing existing file: in\SPS_140233-140234-_0000056071.20250908_-_1559+0000_flattened.json
+2025-09-08 23:06:19,114 [INFO] Processing file: in\SPS_140233-140234-_0000056071.20250908_-_1559+0000_flattened.json
+2025-09-08 23:06:19,151 [INFO] Record accepted: recordId=20250908185828_6897d97d-8ea0-4d4d-a937-4d14ba460f29 keys=['mdc1-nk-cmg-cp01;0e8e7258;68befb5b;636023100000125-2e42ce85|2|100'] (file=in\SPS_140233-140234-_0000056071.20250908_-_1559+0000_flattened.json)
+2025-09-08 23:06:19,157 [INFO] Record accepted: recordId=20250908185828_17a4505f-51f0-44af-bf7b-e181b96ab5bf keys=['mdc1-nk-cmg-cp01;0e8e7258;68befb5b;636023100000125-2e42ce85|2|200'] (file=in\SPS_140233-140234-_0000056071.20250908_-_1559+0000_flattened.json)
+2025-09-08 23:06:19,161 [INFO] SUMMARY: file=in\SPS_140233-140234-_0000056071.20250908_-_1559+0000_flattened.json, total=2, accepted=2, duplicate=0, failed=0
+2025-09-08 23:06:19,166 [INFO] Input file archived: archive\SPS_140233-140234-_0000056071.20250908_-_1559+0000_flattened.json
+2025-09-08 23:06:19,167 [INFO] Processing existing file: in\SPS_140235-140235-_0000056072.20250908_-_1604+0000_flattened.json
+2025-09-08 23:06:19,171 [INFO] Processing file: in\SPS_140235-140235-_0000056072.20250908_-_1604+0000_flattened.json
+2025-09-08 23:06:19,195 [INFO] Record accepted: recordId=20250908190348_2536b678-c13a-419c-90ed-640ef301e9f8 keys=['klt-nk-cmg-cp01;0c3d6638;68be8e63;636020101005563-09fb1515|55|200'] (file=in\SPS_140235-140235-_0000056072.20250908_-_1604+0000_flattened.json)
+2025-09-08 23:06:19,196 [INFO] SUMMARY: file=in\SPS_140235-140235-_0000056072.20250908_-_1604+0000_flattened.json, total=1, accepted=1, duplicate=0, failed=0
+2025-09-08 23:06:19,201 [INFO] Input file archived: archive\SPS_140235-140235-_0000056072.20250908_-_1604+0000_flattened.json
+2025-09-08 23:06:19,202 [INFO] Processing existing file: in\SPS_140236-140236-_0000056073.20250908_-_1605+0000_flattened.json
+2025-09-08 23:06:19,202 [INFO] Processing file: in\SPS_140236-140236-_0000056073.20250908_-_1605+0000_flattened.json
+2025-09-08 23:06:19,231 [INFO] Record accepted: recordId=20250908190443_870937ba-1e01-4138-8f25-0763615c1a6b keys=['klt-nk-cmg-cp01;23d09b6d;68becb12;636020101005419-19d415a5|18|200'] (file=in\SPS_140236-140236-_0000056073.20250908_-_1605+0000_flattened.json)
+2025-09-08 23:06:19,233 [INFO] SUMMARY: file=in\SPS_140236-140236-_0000056073.20250908_-_1605+0000_flattened.json, total=1, accepted=1, duplicate=0, failed=0
+2025-09-08 23:06:19,239 [INFO] Input file archived: archive\SPS_140236-140236-_0000056073.20250908_-_1605+0000_flattened.json
+2025-09-08 23:06:19,240 [INFO] Processing existing file: in\SPS_140237-140238-_0000056074.20250908_-_1606+0000_flattened.json
+2025-09-08 23:06:19,242 [INFO] Processing file: in\SPS_140237-140238-_0000056074.20250908_-_1606+0000_flattened.json
+2025-09-08 23:06:19,277 [INFO] Record accepted: recordId=20250908190529_8961d8f8-58a2-4085-bbe7-1d5b008de47e keys=['mdc1-nk-cmg-cp01;1077f73a;68befec9;636020119226242-35b4e2d5|0|100'] (file=in\SPS_140237-140238-_0000056074.20250908_-_1606+0000_flattened.json)
+2025-09-08 23:06:19,311 [INFO] Record accepted: recordId=20250908190542_8772f441-04ed-44d8-90e9-1898a251f4ba keys=['mdc1-nk-cmg-cp01;1077f73a;68befec9;636020119226242-35b4e2d5|1|200'] (file=in\SPS_140237-140238-_0000056074.20250908_-_1606+0000_flattened.json)
+2025-09-08 23:06:19,319 [INFO] SUMMARY: file=in\SPS_140237-140238-_0000056074.20250908_-_1606+0000_flattened.json, total=2, accepted=2, duplicate=0, failed=0
+2025-09-08 23:06:19,342 [INFO] Input file archived: archive\SPS_140237-140238-_0000056074.20250908_-_1606+0000_flattened.json
+2025-09-08 23:06:19,347 [INFO] Processing existing file: in\SPS_140239-140239-_0000056075.20250908_-_1608+0000_flattened.json
+2025-09-08 23:06:19,351 [INFO] Processing file: in\SPS_140239-140239-_0000056075.20250908_-_1608+0000_flattened.json
+2025-09-08 23:06:19,397 [INFO] Record accepted: recordId=20250908190737_26508d05-3159-40b7-8fc0-c98fc33d8d82 keys=['0000001700;x5v2c7-0000009525.0000000262;|2|5'] (file=in\SPS_140239-140239-_0000056075.20250908_-_1608+0000_flattened.json)
+2025-09-08 23:06:19,400 [INFO] SUMMARY: file=in\SPS_140239-140239-_0000056075.20250908_-_1608+0000_flattened.json, total=1, accepted=1, duplicate=0, failed=0
+2025-09-08 23:06:19,405 [INFO] Input file archived: archive\SPS_140239-140239-_0000056075.20250908_-_1608+0000_flattened.json
+2025-09-08 23:06:19,407 [INFO] Processing existing file: in\SPS_140240-140240-_0000056076.20250908_-_1618+0000_flattened.json
+2025-09-08 23:06:19,412 [INFO] Processing file: in\SPS_140240-140240-_0000056076.20250908_-_1618+0000_flattened.json
+2025-09-08 23:06:19,437 [INFO] Record accepted: recordId=20250908191730_ad6c2f6f-a66b-465c-8ce9-31f0ba1963b7 keys=['edc-nk-cmg-cp01;0d441647;68becbb9;636020119226319-02be07e5|12|200'] (file=in\SPS_140240-140240-_0000056076.20250908_-_1618+0000_flattened.json)
+2025-09-08 23:06:19,441 [INFO] SUMMARY: file=in\SPS_140240-140240-_0000056076.20250908_-_1618+0000_flattened.json, total=1, accepted=1, duplicate=0, failed=0
+2025-09-08 23:06:19,446 [INFO] Input file archived: archive\SPS_140240-140240-_0000056076.20250908_-_1618+0000_flattened.json
+2025-09-08 23:06:19,447 [INFO] Processing existing file: in\SPS_140241-140241-_0000056077.20250908_-_1619+0000_flattened.json
+2025-09-08 23:06:19,447 [INFO] Processing file: in\SPS_140241-140241-_0000056077.20250908_-_1619+0000_flattened.json
+2025-09-08 23:06:19,481 [INFO] Record accepted: recordId=20250908191836_6180e023-5548-4193-a3f3-ed67cc892b09 keys=['mdc1-nk-cmg-cp01;25621267;68bef045;636020101005442-36c1d335|7|200'] (file=in\SPS_140241-140241-_0000056077.20250908_-_1619+0000_flattened.json)
+2025-09-08 23:06:19,485 [INFO] SUMMARY: file=in\SPS_140241-140241-_0000056077.20250908_-_1619+0000_flattened.json, total=1, accepted=1, duplicate=0, failed=0
+2025-09-08 23:06:19,490 [INFO] Input file archived: archive\SPS_140241-140241-_0000056077.20250908_-_1619+0000_flattened.json
+2025-09-08 23:06:19,497 [INFO] Processing existing file: in\SPS_140242-140242-_0000056078.20250908_-_1622+0000_flattened.json
+2025-09-08 23:06:19,497 [INFO] Processing file: in\SPS_140242-140242-_0000056078.20250908_-_1622+0000_flattened.json
+2025-09-08 23:06:19,587 [INFO] Record accepted: recordId=20250908192206_45dc3915-5b1c-4381-92f1-743c0a86b8c3 keys=['0000001702;x5v2c7-0000002667.0000000292;|1|5'] (file=in\SPS_140242-140242-_0000056078.20250908_-_1622+0000_flattened.json)
+2025-09-08 23:06:19,593 [INFO] SUMMARY: file=in\SPS_140242-140242-_0000056078.20250908_-_1622+0000_flattened.json, total=1, accepted=1, duplicate=0, failed=0
+2025-09-08 23:06:19,598 [INFO] Input file archived: archive\SPS_140242-140242-_0000056078.20250908_-_1622+0000_flattened.json
+2025-09-08 23:06:19,606 [INFO] Processing existing file: in\SPS_140243-140243-_0000056079.20250908_-_1624+0000_flattened.json
+2025-09-08 23:06:19,607 [INFO] Processing file: in\SPS_140243-140243-_0000056079.20250908_-_1624+0000_flattened.json
+2025-09-08 23:06:19,665 [INFO] Record accepted: recordId=20250908192354_ed36c215-57cf-4cd4-91de-2b9facd6b9c9 keys=['mdc1-nk-cmg-cp01;1303ba7b;68bed144;636020101005544-3ee00145|18|200'] (file=in\SPS_140243-140243-_0000056079.20250908_-_1624+0000_flattened.json)
+2025-09-08 23:06:19,673 [INFO] SUMMARY: file=in\SPS_140243-140243-_0000056079.20250908_-_1624+0000_flattened.json, total=1, accepted=1, duplicate=0, failed=0
+2025-09-08 23:06:19,679 [INFO] Input file archived: archive\SPS_140243-140243-_0000056079.20250908_-_1624+0000_flattened.json
+2025-09-08 23:06:19,686 [INFO] Processing existing file: in\SPS_140244-140244-_0000056080.20250908_-_1627+0000_flattened.json
+2025-09-08 23:06:19,686 [INFO] Processing file: in\SPS_140244-140244-_0000056080.20250908_-_1627+0000_flattened.json
+2025-09-08 23:06:19,738 [INFO] Record accepted: recordId=20250908192653_f6b4d7da-e276-4880-a02a-578940093d64 keys=['mdc1-nk-cmg-cp01;0336b696;68bef814;636020101005561-2b0aef55|5|100'] (file=in\SPS_140244-140244-_0000056080.20250908_-_1627+0000_flattened.json)
+2025-09-08 23:06:19,752 [INFO] SUMMARY: file=in\SPS_140244-140244-_0000056080.20250908_-_1627+0000_flattened.json, total=1, accepted=1, duplicate=0, failed=0
+2025-09-08 23:06:19,762 [INFO] Input file archived: archive\SPS_140244-140244-_0000056080.20250908_-_1627+0000_flattened.json
+2025-09-08 23:06:19,768 [INFO] Processing existing file: in\SPS_140245-140246-_0000056081.20250908_-_1632+0000_flattened.json
+2025-09-08 23:06:19,775 [INFO] Processing file: in\SPS_140245-140246-_0000056081.20250908_-_1632+0000_flattened.json
+2025-09-08 23:06:19,811 [INFO] Record accepted: recordId=20250908193152_b2f3035d-596d-4e5b-bf15-519a3fae84ce keys=['mdc1-nk-cmg-cp01;246c9648;68bf0410;636023100000125-307e0445|2|200'] (file=in\SPS_140245-140246-_0000056081.20250908_-_1632+0000_flattened.json)
+2025-09-08 23:06:19,819 [INFO] Record accepted: recordId=20250908193152_883ed998-572f-4efe-a5ce-e619c6c95cee keys=['mdc1-nk-cmg-cp01;246c9648;68bf0410;636023100000125-307e0445|2|100'] (file=in\SPS_140245-140246-_0000056081.20250908_-_1632+0000_flattened.json)
+2025-09-08 23:06:19,825 [INFO] SUMMARY: file=in\SPS_140245-140246-_0000056081.20250908_-_1632+0000_flattened.json, total=2, accepted=2, duplicate=0, failed=0
+2025-09-08 23:06:19,830 [INFO] Input file archived: archive\SPS_140245-140246-_0000056081.20250908_-_1632+0000_flattened.json
+2025-09-08 23:06:19,833 [INFO] Processing existing file: in\SPS_140247-140248-_0000056082.20250908_-_1635+0000_flattened.json
+2025-09-08 23:06:19,834 [INFO] Processing file: in\SPS_140247-140248-_0000056082.20250908_-_1635+0000_flattened.json
+2025-09-08 23:06:19,880 [INFO] Record accepted: recordId=20250908193512_916a6ec0-4672-48a5-a739-ed8288877134 keys=['mdc1-nk-cmg-cp01;17c7f091;68bf05c0;636020119799534-2c8629c5|0|100'] (file=in\SPS_140247-140248-_0000056082.20250908_-_1635+0000_flattened.json)
+2025-09-08 23:06:19,894 [INFO] Record accepted: recordId=20250908193523_15cd69eb-63f9-4547-b9c7-e0263174c430 keys=['mdc1-nk-cmg-cp01;17c7f091;68bf05c0;636020119799534-2c8629c5|1|200'] (file=in\SPS_140247-140248-_0000056082.20250908_-_1635+0000_flattened.json)
+2025-09-08 23:06:19,923 [INFO] SUMMARY: file=in\SPS_140247-140248-_0000056082.20250908_-_1635+0000_flattened.json, total=2, accepted=2, duplicate=0, failed=0
+2025-09-08 23:06:19,928 [INFO] Input file archived: archive\SPS_140247-140248-_0000056082.20250908_-_1635+0000_flattened.json
+2025-09-08 23:06:19,932 [INFO] Processing existing file: in\SPS_140249-140250-_0000056083.20250908_-_1636+0000_flattened.json
+2025-09-08 23:06:19,934 [INFO] Processing file: in\SPS_140249-140250-_0000056083.20250908_-_1636+0000_flattened.json
+2025-09-08 23:06:19,978 [INFO] Record accepted: recordId=20250908193616_e97639d7-0189-47e5-ac88-e3c717dd5d1c keys=['mdc1-nk-cmg-cp01;1303ba7b;68bed144;636020101005544-3ee00145|19|100'] (file=in\SPS_140249-140250-_0000056083.20250908_-_1636+0000_flattened.json)
+2025-09-08 23:06:19,979 [INFO] Record accepted: recordId=20250908193612_6583091c-4adc-45eb-a4cf-f9e1ec061be1 keys=['klt-nk-cmg-cp01;23d09b6d;68becb12;636020101005419-19d415a5|22|200'] (file=in\SPS_140249-140250-_0000056083.20250908_-_1636+0000_flattened.json)
+2025-09-08 23:06:19,989 [INFO] SUMMARY: file=in\SPS_140249-140250-_0000056083.20250908_-_1636+0000_flattened.json, total=2, accepted=2, duplicate=0, failed=0
+2025-09-08 23:06:19,996 [INFO] Input file archived: archive\SPS_140249-140250-_0000056083.20250908_-_1636+0000_flattened.json
+2025-09-08 23:06:20,001 [INFO] Processing existing file: in\SPS_140251-140253-_0000056084.20250908_-_1638+0000_flattened.json
+2025-09-08 23:06:20,008 [INFO] Processing file: in\SPS_140251-140253-_0000056084.20250908_-_1638+0000_flattened.json
+2025-09-08 23:06:20,039 [INFO] Record accepted: recordId=20250908193738_22ee30e9-0e62-4abd-b676-4ff7d3f3371a keys=['mdc1-nk-cmg-cp01;10e6851d;68bf064e;636020101005561-3e4cc445|1|200'] (file=in\SPS_140251-140253-_0000056084.20250908_-_1638+0000_flattened.json)
+2025-09-08 23:06:20,083 [INFO] Record accepted: recordId=20250908193755_0da7918b-4552-4f5b-a1a5-ba63d5e9802f keys=['0000001704;x5v2c7-0000009526.0000000495;|1|5'] (file=in\SPS_140251-140253-_0000056084.20250908_-_1638+0000_flattened.json)
+2025-09-08 23:06:20,115 [INFO] Record accepted: recordId=20250908193734_c1be4f10-e285-4e00-8b3c-25bd3f866c11 keys=['mdc1-nk-cmg-cp01;10e6851d;68bf064e;636020101005561-3e4cc445|0|100'] (file=in\SPS_140251-140253-_0000056084.20250908_-_1638+0000_flattened.json)
+2025-09-08 23:06:20,165 [INFO] SUMMARY: file=in\SPS_140251-140253-_0000056084.20250908_-_1638+0000_flattened.json, total=3, accepted=3, duplicate=0, failed=0
+2025-09-08 23:06:20,172 [INFO] Input file archived: archive\SPS_140251-140253-_0000056084.20250908_-_1638+0000_flattened.json
+2025-09-08 23:06:20,176 [INFO] Processing existing file: in\SPS_140254-140254-_0000056085.20250908_-_1638+0000_flattened.json
+2025-09-08 23:06:20,178 [INFO] Processing file: in\SPS_140254-140254-_0000056085.20250908_-_1638+0000_flattened.json
+2025-09-08 23:06:20,221 [INFO] Record accepted: recordId=20250908193824_ad6f8608-e5ac-493b-b471-b7b619a54fef keys=['0000001706;x5v2c7-0000002667.0000000498;|1|5'] (file=in\SPS_140254-140254-_0000056085.20250908_-_1638+0000_flattened.json)
+2025-09-08 23:06:20,237 [INFO] SUMMARY: file=in\SPS_140254-140254-_0000056085.20250908_-_1638+0000_flattened.json, total=1, accepted=1, duplicate=0, failed=0
+2025-09-08 23:06:20,245 [INFO] Input file archived: archive\SPS_140254-140254-_0000056085.20250908_-_1638+0000_flattened.json
+2025-09-08 23:06:20,255 [INFO] Processing existing file: in\SPS_140255-140255-_0000056086.20250908_-_1644+0000_flattened.json
+2025-09-08 23:06:20,262 [INFO] Processing file: in\SPS_140255-140255-_0000056086.20250908_-_1644+0000_flattened.json
+2025-09-08 23:06:20,408 [INFO] Record accepted: recordId=20250908194333_c2e23f80-902a-41c2-a5bd-e1cafe2a58a2 keys=['mdc1-nk-cmg-cp01;25621267;68bef045;636020101005442-36c1d335|8|100'] (file=in\SPS_140255-140255-_0000056086.20250908_-_1644+0000_flattened.json)
+2025-09-08 23:06:20,426 [INFO] SUMMARY: file=in\SPS_140255-140255-_0000056086.20250908_-_1644+0000_flattened.json, total=1, accepted=1, duplicate=0, failed=0
+2025-09-08 23:06:20,431 [INFO] Input file archived: archive\SPS_140255-140255-_0000056086.20250908_-_1644+0000_flattened.json
+2025-09-08 23:06:20,434 [INFO] Processing existing file: in\SPS_140256-140258-_0000056087.20250908_-_1646+0000_flattened.json
+2025-09-08 23:06:20,437 [INFO] Processing file: in\SPS_140256-140258-_0000056087.20250908_-_1646+0000_flattened.json
+2025-09-08 23:06:20,489 [INFO] Record accepted: recordId=20250908194553_cd92ea8a-90fc-4882-a2fc-5d1a384225a3 keys=['0000001707;x5v2c7-0000002667.0000000592;|1|5'] (file=in\SPS_140256-140258-_0000056087.20250908_-_1646+0000_flattened.json)
+2025-09-08 23:06:20,526 [INFO] Record accepted: recordId=20250908194609_bcc94758-cc42-4560-b6e5-d59a58487832 keys=['edc-nk-cmg-cp01;28ed10d9;68befecb;636020101005563-16bc2d15|6|200'] (file=in\SPS_140256-140258-_0000056087.20250908_-_1646+0000_flattened.json)
+2025-09-08 23:06:20,564 [INFO] Record accepted: recordId=20250908194623_54696715-d915-4152-af21-0acac7138b45 keys=['0000001698;x5v2c7-0000009524.0000000568;|2|5'] (file=in\SPS_140256-140258-_0000056087.20250908_-_1646+0000_flattened.json)
+2025-09-08 23:06:20,582 [INFO] SUMMARY: file=in\SPS_140256-140258-_0000056087.20250908_-_1646+0000_flattened.json, total=3, accepted=3, duplicate=0, failed=0
+2025-09-08 23:06:20,590 [INFO] Input file archived: archive\SPS_140256-140258-_0000056087.20250908_-_1646+0000_flattened.json
+2025-09-08 23:06:20,610 [INFO] Processing existing file: in\SPS_140259-140259-_0000056088.20250908_-_1647+0000_flattened.json
+2025-09-08 23:06:20,612 [INFO] Processing file: in\SPS_140259-140259-_0000056088.20250908_-_1647+0000_flattened.json
+2025-09-08 23:06:20,811 [INFO] Record accepted: recordId=20250908194713_0e8b2b73-9c12-4ec3-8570-fa51cf79f735 keys=['mdc1-nk-cmg-cp01;07ca6157;68bef832;636020101005405-00142005|5|100'] (file=in\SPS_140259-140259-_0000056088.20250908_-_1647+0000_flattened.json)
+2025-09-08 23:06:20,814 [INFO] SUMMARY: file=in\SPS_140259-140259-_0000056088.20250908_-_1647+0000_flattened.json, total=1, accepted=1, duplicate=0, failed=0
+2025-09-08 23:06:20,819 [INFO] Input file archived: archive\SPS_140259-140259-_0000056088.20250908_-_1647+0000_flattened.json
+2025-09-08 23:06:20,822 [INFO] Processing existing file: in\SPS_140260-140260-_0000056089.20250908_-_1656+0000_flattened.json
+2025-09-08 23:06:20,823 [INFO] Processing file: in\SPS_140260-140260-_0000056089.20250908_-_1656+0000_flattened.json
+2025-09-08 23:06:20,935 [INFO] Record accepted: recordId=20250908195527_05f4b0fe-ba9f-495c-ac87-e17052871dae keys=['mdc1-nk-cmg-cp01;10e6851d;68bf064e;636020101005561-3e4cc445|5|200'] (file=in\SPS_140260-140260-_0000056089.20250908_-_1656+0000_flattened.json)
+2025-09-08 23:06:20,942 [INFO] SUMMARY: file=in\SPS_140260-140260-_0000056089.20250908_-_1656+0000_flattened.json, total=1, accepted=1, duplicate=0, failed=0
+2025-09-08 23:06:20,947 [INFO] Input file archived: archive\SPS_140260-140260-_0000056089.20250908_-_1656+0000_flattened.json
+2025-09-08 23:06:20,949 [INFO] Processing existing file: in\SPS_140261-140262-_0000056090.20250908_-_1700+0000_flattened.json
+2025-09-08 23:06:20,952 [INFO] Processing file: in\SPS_140261-140262-_0000056090.20250908_-_1700+0000_flattened.json
+2025-09-08 23:06:20,983 [INFO] Record accepted: recordId=20250908195949_59b1388a-2fbd-4c8d-864b-daf0403d179f keys=['klt-nk-cmg-cp01;23d09b6d;68becb12;636020101005419-19d415a5|24|100'] (file=in\SPS_140261-140262-_0000056090.20250908_-_1700+0000_flattened.json)
+2025-09-08 23:06:20,987 [INFO] Record accepted: recordId=20250908200018_1db829d8-93f2-48bb-a8f6-c144c57b24ae keys=['mdc1-nk-cmg-cp01;17c7f091;68bf05c0;636020119799534-2c8629c5|6|200'] (file=in\SPS_140261-140262-_0000056090.20250908_-_1700+0000_flattened.json)
+2025-09-08 23:06:21,002 [INFO] SUMMARY: file=in\SPS_140261-140262-_0000056090.20250908_-_1700+0000_flattened.json, total=2, accepted=2, duplicate=0, failed=0
+2025-09-08 23:06:21,011 [INFO] Input file archived: archive\SPS_140261-140262-_0000056090.20250908_-_1700+0000_flattened.json
+2025-09-08 23:06:21,013 [INFO] Processing existing file: in\SPS_140263-140263-_0000056091.20250908_-_1701+0000_flattened.json
+2025-09-08 23:06:21,014 [INFO] Processing file: in\SPS_140263-140263-_0000056091.20250908_-_1701+0000_flattened.json
+2025-09-08 23:06:21,094 [INFO] Record accepted: recordId=20250908200046_fb1a3b1d-0e76-4794-8808-4ce226cdb83c keys=['mdc1-nk-cmg-cp01;10e6851d;68bf064e;636020101005561-3e4cc445|10|200'] (file=in\SPS_140263-140263-_0000056091.20250908_-_1701+0000_flattened.json)
+2025-09-08 23:06:21,096 [INFO] SUMMARY: file=in\SPS_140263-140263-_0000056091.20250908_-_1701+0000_flattened.json, total=1, accepted=1, duplicate=0, failed=0
+2025-09-08 23:06:21,101 [INFO] Input file archived: archive\SPS_140263-140263-_0000056091.20250908_-_1701+0000_flattened.json
+2025-09-08 23:06:21,114 [INFO] Processing existing file: in\SPS_140264-140264-_0000056092.20250908_-_1703+0000_flattened.json
+2025-09-08 23:06:21,117 [INFO] Processing file: in\SPS_140264-140264-_0000056092.20250908_-_1703+0000_flattened.json
+2025-09-08 23:06:21,182 [INFO] Record accepted: recordId=20250908200234_de0233f2-1bcf-4cca-973f-d9d75f469e70 keys=['mdc1-nk-cmg-cp01;10e6851d;68bf064e;636020101005561-3e4cc445|11|100'] (file=in\SPS_140264-140264-_0000056092.20250908_-_1703+0000_flattened.json)
+2025-09-08 23:06:21,185 [INFO] SUMMARY: file=in\SPS_140264-140264-_0000056092.20250908_-_1703+0000_flattened.json, total=1, accepted=1, duplicate=0, failed=0
+2025-09-08 23:06:21,190 [INFO] Input file archived: archive\SPS_140264-140264-_0000056092.20250908_-_1703+0000_flattened.json
+2025-09-08 23:06:21,192 [INFO] Processing existing file: in\SPS_140265-140265-_0000056093.20250908_-_1704+0000_flattened.json
+2025-09-08 23:06:21,193 [INFO] Processing file: in\SPS_140265-140265-_0000056093.20250908_-_1704+0000_flattened.json
+2025-09-08 23:06:21,235 [INFO] Record accepted: recordId=20250908200335_35548365-e61d-487c-966c-df326b94f1cc keys=['edc-nk-cmg-cp01;1e2199de;68bf068b;636023100000125-31941a25|3|100'] (file=in\SPS_140265-140265-_0000056093.20250908_-_1704+0000_flattened.json)
+2025-09-08 23:06:21,259 [INFO] SUMMARY: file=in\SPS_140265-140265-_0000056093.20250908_-_1704+0000_flattened.json, total=1, accepted=1, duplicate=0, failed=0
+2025-09-08 23:06:21,277 [INFO] Input file archived: archive\SPS_140265-140265-_0000056093.20250908_-_1704+0000_flattened.json
+2025-09-08 23:06:21,343 [INFO] Processing existing file: in\SPS_140266-140266-_0000056094.20250908_-_1705+0000_flattened.json
+2025-09-08 23:06:21,352 [INFO] Processing file: in\SPS_140266-140266-_0000056094.20250908_-_1705+0000_flattened.json
+2025-09-08 23:06:21,416 [INFO] Record accepted: recordId=20250908200501_7aea5ff4-a1bb-4fa1-8609-29952696c8a2 keys=['edc-nk-cmg-cp01;28ed10d9;68befecb;636020101005563-16bc2d15|9|200'] (file=in\SPS_140266-140266-_0000056094.20250908_-_1705+0000_flattened.json)
+2025-09-08 23:06:21,448 [INFO] SUMMARY: file=in\SPS_140266-140266-_0000056094.20250908_-_1705+0000_flattened.json, total=1, accepted=1, duplicate=0, failed=0
+2025-09-08 23:06:21,466 [INFO] Input file archived: archive\SPS_140266-140266-_0000056094.20250908_-_1705+0000_flattened.json
+2025-09-08 23:06:21,547 [INFO] Processing existing file: in\SPS_140267-140268-_0000056095.20250908_-_1709+0000_flattened.json
+2025-09-08 23:06:21,586 [INFO] Processing file: in\SPS_140267-140268-_0000056095.20250908_-_1709+0000_flattened.json
+2025-09-08 23:06:22,059 [INFO] Record accepted: recordId=20250908200833_c32c91c3-46ab-4727-8b88-58e7e4899e28 keys=['mdc1-nk-cmg-cp01;25621267;68bef045;636020101005442-36c1d335|10|100'] (file=in\SPS_140267-140268-_0000056095.20250908_-_1709+0000_flattened.json)
+2025-09-08 23:06:22,087 [INFO] Record accepted: recordId=20250908200836_f44ec8ae-5b4a-45a4-a427-bb21b41d2b92 keys=['mdc1-nk-cmg-cp01;25621267;68bef045;636020101005442-36c1d335|11|200'] (file=in\SPS_140267-140268-_0000056095.20250908_-_1709+0000_flattened.json)
+2025-09-08 23:06:22,099 [INFO] SUMMARY: file=in\SPS_140267-140268-_0000056095.20250908_-_1709+0000_flattened.json, total=2, accepted=2, duplicate=0, failed=0
+2025-09-08 23:06:22,125 [INFO] Input file archived: archive\SPS_140267-140268-_0000056095.20250908_-_1709+0000_flattened.json
+2025-09-08 23:06:22,134 [INFO] Processing existing file: in\SPS_140269-140269-_0000056096.20250908_-_1714+0000_flattened.json
+2025-09-08 23:06:22,147 [INFO] Processing file: in\SPS_140269-140269-_0000056096.20250908_-_1714+0000_flattened.json
+2025-09-08 23:06:22,183 [INFO] Record accepted: recordId=20250908201354_b6b7e23f-62b8-4822-a3e4-e9fd1256fdd5 keys=['mdc1-nk-cmg-cp01;1303ba7b;68bed144;636020101005544-3ee00145|22|200'] (file=in\SPS_140269-140269-_0000056096.20250908_-_1714+0000_flattened.json)
+2025-09-08 23:06:22,185 [INFO] SUMMARY: file=in\SPS_140269-140269-_0000056096.20250908_-_1714+0000_flattened.json, total=1, accepted=1, duplicate=0, failed=0
+2025-09-08 23:06:22,192 [INFO] Input file archived: archive\SPS_140269-140269-_0000056096.20250908_-_1714+0000_flattened.json
+2025-09-08 23:06:22,193 [INFO] Processing existing file: in\SPS_140270-140270-_0000056097.20250908_-_1719+0000_flattened.json
+2025-09-08 23:06:22,194 [INFO] Processing file: in\SPS_140270-140270-_0000056097.20250908_-_1719+0000_flattened.json
+2025-09-08 23:06:22,216 [INFO] Record accepted: recordId=20250908201838_2b2ed161-effb-4bc6-95df-0f64edf2c371 keys=['mdc1-nk-cmg-cp01;17c7f091;68bf05c0;636020119799534-2c8629c5|9|200'] (file=in\SPS_140270-140270-_0000056097.20250908_-_1719+0000_flattened.json)
+2025-09-08 23:06:22,217 [INFO] SUMMARY: file=in\SPS_140270-140270-_0000056097.20250908_-_1719+0000_flattened.json, total=1, accepted=1, duplicate=0, failed=0
+2025-09-08 23:06:22,225 [INFO] Input file archived: archive\SPS_140270-140270-_0000056097.20250908_-_1719+0000_flattened.json
+2025-09-08 23:06:22,226 [INFO] Processing existing file: in\SPS_140271-140271-_0000056098.20250908_-_1720+0000_flattened.json
+2025-09-08 23:06:22,227 [INFO] Processing file: in\SPS_140271-140271-_0000056098.20250908_-_1720+0000_flattened.json
+2025-09-08 23:06:22,266 [INFO] Record accepted: recordId=20250908202028_6a0c4916-8687-4273-bf31-4bf9dd57759b keys=['mdc1-nk-cmg-cp01;1077f73a;68befec9;636020119226242-35b4e2d5|4|100'] (file=in\SPS_140271-140271-_0000056098.20250908_-_1720+0000_flattened.json)
+2025-09-08 23:06:22,273 [INFO] SUMMARY: file=in\SPS_140271-140271-_0000056098.20250908_-_1720+0000_flattened.json, total=1, accepted=1, duplicate=0, failed=0
+2025-09-08 23:06:22,278 [INFO] Input file archived: archive\SPS_140271-140271-_0000056098.20250908_-_1720+0000_flattened.json
+2025-09-08 23:06:22,282 [INFO] Processing existing file: in\SPS_140272-140273-_0000056099.20250908_-_1724+0000_flattened.json
+2025-09-08 23:06:22,283 [INFO] Processing file: in\SPS_140272-140273-_0000056099.20250908_-_1724+0000_flattened.json
+2025-09-08 23:06:22,335 [INFO] Record accepted: recordId=20250908202425_09386752-f72b-47c5-a950-16ccbdfc9ddd keys=['klt-nk-cmg-cp01;23d09b6d;68becb12;636020101005419-19d415a5|26|200'] (file=in\SPS_140272-140273-_0000056099.20250908_-_1724+0000_flattened.json)
+2025-09-08 23:06:22,347 [INFO] Record accepted: recordId=20250908202450_e2d4ffc8-6cb5-4399-b533-64b8f1263728 keys=['klt-nk-cmg-cp01;23d09b6d;68becb12;636020101005419-19d415a5|27|100'] (file=in\SPS_140272-140273-_0000056099.20250908_-_1724+0000_flattened.json)
+2025-09-08 23:06:22,352 [INFO] SUMMARY: file=in\SPS_140272-140273-_0000056099.20250908_-_1724+0000_flattened.json, total=2, accepted=2, duplicate=0, failed=0
+2025-09-08 23:06:22,362 [INFO] Input file archived: archive\SPS_140272-140273-_0000056099.20250908_-_1724+0000_flattened.json
+2025-09-08 23:06:22,366 [INFO] Processing existing file: in\SPS_140274-140274-_0000056100.20250908_-_1725+0000_flattened.json
+2025-09-08 23:06:22,367 [INFO] Processing file: in\SPS_140274-140274-_0000056100.20250908_-_1725+0000_flattened.json
+2025-09-08 23:06:22,417 [INFO] Record accepted: recordId=20250908202512_da295247-7c1f-48a1-90f7-8f3a6923a736 keys=['mdc1-nk-cmg-cp01;17c7f091;68bf05c0;636020119799534-2c8629c5|10|100'] (file=in\SPS_140274-140274-_0000056100.20250908_-_1725+0000_flattened.json)
+2025-09-08 23:06:22,424 [INFO] SUMMARY: file=in\SPS_140274-140274-_0000056100.20250908_-_1725+0000_flattened.json, total=1, accepted=1, duplicate=0, failed=0
+2025-09-08 23:06:22,432 [INFO] Input file archived: archive\SPS_140274-140274-_0000056100.20250908_-_1725+0000_flattened.json
+2025-09-08 23:06:22,434 [INFO] Processing existing file: in\SPS_140275-140276-_0000056101.20250908_-_1727+0000_flattened.json
+2025-09-08 23:06:22,436 [INFO] Processing file: in\SPS_140275-140276-_0000056101.20250908_-_1727+0000_flattened.json
+2025-09-08 23:06:22,473 [INFO] Record accepted: recordId=20250908202711_b38ffbf7-6c64-41a9-8948-e13458dee812 keys=['edc-nk-cmg-cp01;1e2199de;68bf068b;636023100000125-31941a25|5|107'] (file=in\SPS_140275-140276-_0000056101.20250908_-_1727+0000_flattened.json)
+2025-09-08 23:06:22,484 [INFO] Record accepted: recordId=20250908202737_dc01a61e-1011-4329-a858-8e3253b52c0e keys=['edc-nk-cmg-cp01;0d441647;68becbb9;636020119226319-02be07e5|17|100'] (file=in\SPS_140275-140276-_0000056101.20250908_-_1727+0000_flattened.json)
+2025-09-08 23:06:22,504 [INFO] SUMMARY: file=in\SPS_140275-140276-_0000056101.20250908_-_1727+0000_flattened.json, total=2, accepted=2, duplicate=0, failed=0
+2025-09-08 23:06:22,515 [INFO] Input file archived: archive\SPS_140275-140276-_0000056101.20250908_-_1727+0000_flattened.json
+2025-09-08 23:06:22,517 [INFO] Processing existing file: in\SPS_140277-140278-_0000056102.20250908_-_1728+0000_flattened.json
+2025-09-08 23:06:22,520 [INFO] Processing file: in\SPS_140277-140278-_0000056102.20250908_-_1728+0000_flattened.json
+2025-09-08 23:06:22,566 [INFO] Record accepted: recordId=20250908202802_39fbf8fc-44db-40b0-9d95-94ee19a9f1a3 keys=['klt-nk-cmg-cp01;15d08630;68bf0c46;636020101005561-196f1fe5|2|100'] (file=in\SPS_140277-140278-_0000056102.20250908_-_1728+0000_flattened.json)
+2025-09-08 23:06:22,599 [INFO] Record accepted: recordId=20250908202812_5dbce286-e117-4cd5-8f24-e39b23a146bb keys=['klt-nk-cmg-cp01;15d08630;68bf0c46;636020101005561-196f1fe5|3|200'] (file=in\SPS_140277-140278-_0000056102.20250908_-_1728+0000_flattened.json)
+2025-09-08 23:06:22,615 [INFO] SUMMARY: file=in\SPS_140277-140278-_0000056102.20250908_-_1728+0000_flattened.json, total=2, accepted=2, duplicate=0, failed=0
+2025-09-08 23:06:22,633 [INFO] Input file archived: archive\SPS_140277-140278-_0000056102.20250908_-_1728+0000_flattened.json
+2025-09-08 23:06:22,642 [INFO] Processing existing file: in\SPS_140279-140279-_0000056103.20250908_-_1729+0000_flattened.json
+2025-09-08 23:06:22,644 [INFO] Processing file: in\SPS_140279-140279-_0000056103.20250908_-_1729+0000_flattened.json
+2025-09-08 23:06:22,698 [INFO] Record accepted: recordId=20250908202838_8e4ee793-2ca9-4539-bff6-9f4992614f4f keys=['edc-nk-cmg-cp01;1e2199de;68bf068b;636023100000125-31941a25|7|200'] (file=in\SPS_140279-140279-_0000056103.20250908_-_1729+0000_flattened.json)
+2025-09-08 23:06:22,699 [INFO] SUMMARY: file=in\SPS_140279-140279-_0000056103.20250908_-_1729+0000_flattened.json, total=1, accepted=1, duplicate=0, failed=0
+2025-09-08 23:06:22,705 [INFO] Input file archived: archive\SPS_140279-140279-_0000056103.20250908_-_1729+0000_flattened.json
+2025-09-08 23:06:22,706 [INFO] Processing existing file: in\SPS_140280-140280-_0000056104.20250908_-_1731+0000_flattened.json
+2025-09-08 23:06:22,707 [INFO] Processing file: in\SPS_140280-140280-_0000056104.20250908_-_1731+0000_flattened.json
+2025-09-08 23:06:22,734 [INFO] Record accepted: recordId=20250908203058_1c14cae5-6861-4958-9883-64588c5d4129 keys=['mdc1-nk-cmg-cp01;30d487e2;68bf0715;636020119226232-399c06b5|5|200'] (file=in\SPS_140280-140280-_0000056104.20250908_-_1731+0000_flattened.json)
+2025-09-08 23:06:22,737 [INFO] SUMMARY: file=in\SPS_140280-140280-_0000056104.20250908_-_1731+0000_flattened.json, total=1, accepted=1, duplicate=0, failed=0
+2025-09-08 23:06:22,744 [INFO] Input file archived: archive\SPS_140280-140280-_0000056104.20250908_-_1731+0000_flattened.json
+2025-09-08 23:06:22,746 [INFO] Processing existing file: in\SPS_140281-140281-_0000056105.20250908_-_1734+0000_flattened.json
+2025-09-08 23:06:22,746 [INFO] Processing file: in\SPS_140281-140281-_0000056105.20250908_-_1734+0000_flattened.json
+2025-09-08 23:06:22,779 [INFO] Record accepted: recordId=20250908203332_8dd90a25-c374-4e66-b358-9e98454abc4b keys=['mdc1-nk-cmg-cp01;25621267;68bef045;636020101005442-36c1d335|12|100'] (file=in\SPS_140281-140281-_0000056105.20250908_-_1734+0000_flattened.json)
+2025-09-08 23:06:22,782 [INFO] SUMMARY: file=in\SPS_140281-140281-_0000056105.20250908_-_1734+0000_flattened.json, total=1, accepted=1, duplicate=0, failed=0
+2025-09-08 23:06:22,787 [INFO] Input file archived: archive\SPS_140281-140281-_0000056105.20250908_-_1734+0000_flattened.json
+2025-09-08 23:06:22,789 [INFO] Processing existing file: in\SPS_140282-140282-_0000056106.20250908_-_1745+0000_flattened.json
+2025-09-08 23:06:22,791 [INFO] Processing file: in\SPS_140282-140282-_0000056106.20250908_-_1745+0000_flattened.json
+2025-09-08 23:06:22,826 [INFO] Record accepted: recordId=20250908204501_7d3fcd8a-e79e-42f7-9240-3d9517a01870 keys=['klt-nk-cmg-cp01;23d09b6d;68becb12;636020101005419-19d415a5|28|200'] (file=in\SPS_140282-140282-_0000056106.20250908_-_1745+0000_flattened.json)
+2025-09-08 23:06:22,827 [INFO] SUMMARY: file=in\SPS_140282-140282-_0000056106.20250908_-_1745+0000_flattened.json, total=1, accepted=1, duplicate=0, failed=0
+2025-09-08 23:06:22,833 [INFO] Input file archived: archive\SPS_140282-140282-_0000056106.20250908_-_1745+0000_flattened.json
+2025-09-08 23:06:22,837 [INFO] Processing existing file: in\SPS_140283-140283-_0000056107.20250908_-_1747+0000_flattened.json
+2025-09-08 23:06:22,840 [INFO] Processing file: in\SPS_140283-140283-_0000056107.20250908_-_1747+0000_flattened.json
+2025-09-08 23:06:22,861 [INFO] Record accepted: recordId=20250908204659_4337de8f-8b92-4511-b94c-7101f77f8ea1 keys=['0000001701;x5v2c7-0000009524.0000001309;|0|5'] (file=in\SPS_140283-140283-_0000056107.20250908_-_1747+0000_flattened.json)
+2025-09-08 23:06:22,863 [INFO] SUMMARY: file=in\SPS_140283-140283-_0000056107.20250908_-_1747+0000_flattened.json, total=1, accepted=1, duplicate=0, failed=0
+2025-09-08 23:06:22,867 [INFO] Input file archived: archive\SPS_140283-140283-_0000056107.20250908_-_1747+0000_flattened.json
+2025-09-08 23:06:22,871 [INFO] Processing existing file: in\SPS_140284-140284-_0000056108.20250908_-_1750+0000_flattened.json
+2025-09-08 23:06:22,873 [INFO] Processing file: in\SPS_140284-140284-_0000056108.20250908_-_1750+0000_flattened.json
+2025-09-08 23:06:22,897 [INFO] Record accepted: recordId=20250908204950_0ab489ef-d5b1-41d0-b11d-8ada56567aad keys=['klt-nk-cmg-cp01;23d09b6d;68becb12;636020101005419-19d415a5|29|100'] (file=in\SPS_140284-140284-_0000056108.20250908_-_1750+0000_flattened.json)
+2025-09-08 23:06:22,900 [INFO] SUMMARY: file=in\SPS_140284-140284-_0000056108.20250908_-_1750+0000_flattened.json, total=1, accepted=1, duplicate=0, failed=0
+2025-09-08 23:06:22,905 [INFO] Input file archived: archive\SPS_140284-140284-_0000056108.20250908_-_1750+0000_flattened.json
+2025-09-08 23:06:22,912 [INFO] Processing existing file: in\SPS_140285-140286-_0000056109.20250908_-_1753+0000_flattened.json
+2025-09-08 23:06:22,913 [INFO] Processing file: in\SPS_140285-140286-_0000056109.20250908_-_1753+0000_flattened.json
+2025-09-08 23:06:22,945 [INFO] Record accepted: recordId=20250908205301_c61be541-4c3e-4f33-84f0-9e7eec61c5e7 keys=['klt-nk-cmg-cp01;15d08630;68bf0c46;636020101005561-196f1fe5|4|100'] (file=in\SPS_140285-140286-_0000056109.20250908_-_1753+0000_flattened.json)
+2025-09-08 23:06:22,945 [INFO] Record accepted: recordId=20250908205311_f9da5dd0-c555-4263-8426-82b731042f55 keys=['klt-nk-cmg-cp01;15d08630;68bf0c46;636020101005561-196f1fe5|5|200'] (file=in\SPS_140285-140286-_0000056109.20250908_-_1753+0000_flattened.json)
+2025-09-08 23:06:22,949 [INFO] SUMMARY: file=in\SPS_140285-140286-_0000056109.20250908_-_1753+0000_flattened.json, total=2, accepted=2, duplicate=0, failed=0
+2025-09-08 23:06:22,955 [INFO] Input file archived: archive\SPS_140285-140286-_0000056109.20250908_-_1753+0000_flattened.json
+2025-09-08 23:06:22,957 [INFO] Processing existing file: in\SPS_140287-140288-_0000056110.20250908_-_1754+0000_flattened.json
+2025-09-08 23:06:22,957 [INFO] Processing file: in\SPS_140287-140288-_0000056110.20250908_-_1754+0000_flattened.json
+2025-09-08 23:06:22,983 [INFO] Record accepted: recordId=20250908205335_c61d8994-4a77-48f7-bce5-c32c4ffc01b6 keys=['edc-nk-cmg-cp01;1e2199de;68bf068b;636023100000125-31941a25|9|100'] (file=in\SPS_140287-140288-_0000056110.20250908_-_1754+0000_flattened.json)
+2025-09-08 23:06:22,986 [INFO] Record accepted: recordId=20250908205338_934af036-79a9-4c11-b1dd-ceb010c71cc5 keys=['edc-nk-cmg-cp01;1e2199de;68bf068b;636023100000125-31941a25|10|200'] (file=in\SPS_140287-140288-_0000056110.20250908_-_1754+0000_flattened.json)
+2025-09-08 23:06:22,992 [INFO] SUMMARY: file=in\SPS_140287-140288-_0000056110.20250908_-_1754+0000_flattened.json, total=2, accepted=2, duplicate=0, failed=0
+2025-09-08 23:06:22,997 [INFO] Input file archived: archive\SPS_140287-140288-_0000056110.20250908_-_1754+0000_flattened.json
+2025-09-08 23:06:23,000 [INFO] Processing existing file: in\SPS_140289-140289-_0000056111.20250908_-_1759+0000_flattened.json
+2025-09-08 23:06:23,000 [INFO] Processing file: in\SPS_140289-140289-_0000056111.20250908_-_1759+0000_flattened.json
+2025-09-08 23:06:23,031 [INFO] Record accepted: recordId=20250908205832_71f19997-8fd0-49a2-bf17-04024e0b8e02 keys=['mdc1-nk-cmg-cp01;25621267;68bef045;636020101005442-36c1d335|14|100'] (file=in\SPS_140289-140289-_0000056111.20250908_-_1759+0000_flattened.json)
+2025-09-08 23:06:23,034 [INFO] SUMMARY: file=in\SPS_140289-140289-_0000056111.20250908_-_1759+0000_flattened.json, total=1, accepted=1, duplicate=0, failed=0
+2025-09-08 23:06:23,039 [INFO] Input file archived: archive\SPS_140289-140289-_0000056111.20250908_-_1759+0000_flattened.json
+2025-09-08 23:06:23,041 [INFO] Processing existing file: in\SPS_140290-140290-_0000056112.20250908_-_1804+0000_flattened.json
+2025-09-08 23:06:23,044 [INFO] Processing file: in\SPS_140290-140290-_0000056112.20250908_-_1804+0000_flattened.json
+2025-09-08 23:06:23,067 [INFO] Record accepted: recordId=20250908210354_a05f1aeb-3085-4215-b834-a7eb201ef4e3 keys=['mdc1-nk-cmg-cp01;1303ba7b;68bed144;636020101005544-3ee00145|26|200'] (file=in\SPS_140290-140290-_0000056112.20250908_-_1804+0000_flattened.json)
+2025-09-08 23:06:23,090 [INFO] SUMMARY: file=in\SPS_140290-140290-_0000056112.20250908_-_1804+0000_flattened.json, total=1, accepted=1, duplicate=0, failed=0
+2025-09-08 23:06:23,105 [INFO] Input file archived: archive\SPS_140290-140290-_0000056112.20250908_-_1804+0000_flattened.json
+2025-09-08 23:06:23,109 [INFO] Processing existing file: in\SPS_140291-140291-_0000056113.20250908_-_1811+0000_flattened.json
+2025-09-08 23:06:23,110 [INFO] Processing file: in\SPS_140291-140291-_0000056113.20250908_-_1811+0000_flattened.json
+2025-09-08 23:06:23,175 [INFO] Record accepted: recordId=20250908211029_5eed6a47-dc78-4df0-9201-eee123a4e725 keys=['edc-nk-cmg-cp01;28ed10d9;68befecb;636020101005563-16bc2d15|16|100'] (file=in\SPS_140291-140291-_0000056113.20250908_-_1811+0000_flattened.json)
+2025-09-08 23:06:23,179 [INFO] SUMMARY: file=in\SPS_140291-140291-_0000056113.20250908_-_1811+0000_flattened.json, total=1, accepted=1, duplicate=0, failed=0
+2025-09-08 23:06:23,184 [INFO] Input file archived: archive\SPS_140291-140291-_0000056113.20250908_-_1811+0000_flattened.json
+2025-09-08 23:06:23,186 [INFO] Processing existing file: in\SPS_140292-140293-_0000056114.20250908_-_1818+0000_flattened.json
+2025-09-08 23:06:23,187 [INFO] Processing file: in\SPS_140292-140293-_0000056114.20250908_-_1818+0000_flattened.json
+2025-09-08 23:06:23,216 [INFO] Record accepted: recordId=20250908211811_6fecf822-5b46-4f57-9158-1feb23721f25 keys=['klt-nk-cmg-cp01;15d08630;68bf0c46;636020101005561-196f1fe5|7|200'] (file=in\SPS_140292-140293-_0000056114.20250908_-_1818+0000_flattened.json)
+2025-09-08 23:06:23,217 [INFO] Record accepted: recordId=20250908211838_b379e0df-50da-4fe0-a455-b599b9f269a4 keys=['edc-nk-cmg-cp01;1e2199de;68bf068b;636023100000125-31941a25|13|200'] (file=in\SPS_140292-140293-_0000056114.20250908_-_1818+0000_flattened.json)
+2025-09-08 23:06:23,221 [INFO] SUMMARY: file=in\SPS_140292-140293-_0000056114.20250908_-_1818+0000_flattened.json, total=2, accepted=2, duplicate=0, failed=0
+2025-09-08 23:06:23,228 [INFO] Input file archived: archive\SPS_140292-140293-_0000056114.20250908_-_1818+0000_flattened.json
+2025-09-08 23:06:23,229 [INFO] Processing existing file: in\SPS_140294-140294-_0000056115.20250908_-_1827+0000_flattened.json
+2025-09-08 23:06:23,230 [INFO] Processing file: in\SPS_140294-140294-_0000056115.20250908_-_1827+0000_flattened.json
+2025-09-08 23:06:23,253 [INFO] Record accepted: recordId=20250908212706_691f91bc-19e9-4e82-86e2-98b7c97f06ad keys=['mdc1-nk-cmg-cp01;17c7f091;68bf05c0;636020119799534-2c8629c5|18|200'] (file=in\SPS_140294-140294-_0000056115.20250908_-_1827+0000_flattened.json)
+2025-09-08 23:06:23,255 [INFO] SUMMARY: file=in\SPS_140294-140294-_0000056115.20250908_-_1827+0000_flattened.json, total=1, accepted=1, duplicate=0, failed=0
+2025-09-08 23:06:23,265 [INFO] Input file archived: archive\SPS_140294-140294-_0000056115.20250908_-_1827+0000_flattened.json
+2025-09-08 23:06:23,267 [INFO] Processing existing file: in\SPS_140295-140295-_0000056116.20250908_-_1835+0000_flattened.json
+2025-09-08 23:06:23,270 [INFO] Processing file: in\SPS_140295-140295-_0000056116.20250908_-_1835+0000_flattened.json
+2025-09-08 23:06:23,309 [INFO] Record accepted: recordId=20250908213502_13c828ee-b83f-4ba4-8103-3dd2cf0b8804 keys=['klt-nk-cmg-cp01;23d09b6d;68becb12;636020101005419-19d415a5|32|200'] (file=in\SPS_140295-140295-_0000056116.20250908_-_1835+0000_flattened.json)
+2025-09-08 23:06:23,314 [INFO] SUMMARY: file=in\SPS_140295-140295-_0000056116.20250908_-_1835+0000_flattened.json, total=1, accepted=1, duplicate=0, failed=0
+2025-09-08 23:06:23,322 [INFO] Input file archived: archive\SPS_140295-140295-_0000056116.20250908_-_1835+0000_flattened.json
+2025-09-08 23:06:23,341 [INFO] Processing existing file: in\SPS_140296-140296-_0000056117.20250908_-_1836+0000_flattened.json
+2025-09-08 23:06:23,342 [INFO] Processing file: in\SPS_140296-140296-_0000056117.20250908_-_1836+0000_flattened.json
+2025-09-08 23:06:23,374 [INFO] Record accepted: recordId=20250908213533_3e4a3761-be25-4c60-97fd-3279255b3799 keys=['edc-nk-cmg-cp01;28ed10d9;68befecb;636020101005563-16bc2d15|20|106'] (file=in\SPS_140296-140296-_0000056117.20250908_-_1836+0000_flattened.json)
+2025-09-08 23:06:23,377 [INFO] SUMMARY: file=in\SPS_140296-140296-_0000056117.20250908_-_1836+0000_flattened.json, total=1, accepted=1, duplicate=0, failed=0
+2025-09-08 23:06:23,384 [INFO] Input file archived: archive\SPS_140296-140296-_0000056117.20250908_-_1836+0000_flattened.json
+2025-09-08 23:06:23,391 [INFO] Processing existing file: in\SPS_140297-140297-_0000056118.20250908_-_1837+0000_flattened.json
+2025-09-08 23:06:23,393 [INFO] Processing file: in\SPS_140297-140297-_0000056118.20250908_-_1837+0000_flattened.json
+2025-09-08 23:06:23,425 [INFO] Record accepted: recordId=20250908213641_41d60359-193d-4021-9432-c360ae81f940 keys=['mdc1-nk-cmg-cp01;17c7f091;68bf05c0;636020119799534-2c8629c5|19|200'] (file=in\SPS_140297-140297-_0000056118.20250908_-_1837+0000_flattened.json)
+2025-09-08 23:06:23,429 [INFO] SUMMARY: file=in\SPS_140297-140297-_0000056118.20250908_-_1837+0000_flattened.json, total=1, accepted=1, duplicate=0, failed=0
+2025-09-08 23:06:23,447 [INFO] Input file archived: archive\SPS_140297-140297-_0000056118.20250908_-_1837+0000_flattened.json
+2025-09-08 23:06:23,458 [INFO] Processing existing file: in\SPS_140298-140298-_0000056119.20250908_-_1840+0000_flattened.json
+2025-09-08 23:06:23,461 [INFO] Processing file: in\SPS_140298-140298-_0000056119.20250908_-_1840+0000_flattened.json
+2025-09-08 23:06:23,631 [INFO] Record accepted: recordId=20250908213950_76c9e31e-2638-442d-b259-323946691748 keys=['klt-nk-cmg-cp01;23d09b6d;68becb12;636020101005419-19d415a5|33|100'] (file=in\SPS_140298-140298-_0000056119.20250908_-_1840+0000_flattened.json)
+2025-09-08 23:06:23,724 [INFO] SUMMARY: file=in\SPS_140298-140298-_0000056119.20250908_-_1840+0000_flattened.json, total=1, accepted=1, duplicate=0, failed=0
+2025-09-08 23:06:23,744 [INFO] Input file archived: archive\SPS_140298-140298-_0000056119.20250908_-_1840+0000_flattened.json
+2025-09-08 23:06:23,757 [INFO] Processing existing file: in\SPS_140299-140299-_0000056120.20250908_-_1841+0000_flattened.json
+2025-09-08 23:06:23,762 [INFO] Processing file: in\SPS_140299-140299-_0000056120.20250908_-_1841+0000_flattened.json
+2025-09-08 23:06:23,796 [INFO] Record accepted: recordId=20250908214116_99d54ec2-f6dc-4dd1-85c5-08bde8164c28 keys=['mdc1-nk-cmg-cp01;1303ba7b;68bed144;636020101005544-3ee00145|29|100'] (file=in\SPS_140299-140299-_0000056120.20250908_-_1841+0000_flattened.json)
+2025-09-08 23:06:23,812 [INFO] SUMMARY: file=in\SPS_140299-140299-_0000056120.20250908_-_1841+0000_flattened.json, total=1, accepted=1, duplicate=0, failed=0
+2025-09-08 23:06:23,828 [INFO] Input file archived: archive\SPS_140299-140299-_0000056120.20250908_-_1841+0000_flattened.json
+2025-09-08 23:06:23,843 [INFO] Processing existing file: in\SPS_140300-140301-_0000056121.20250908_-_1843+0000_flattened.json
+2025-09-08 23:06:23,847 [INFO] Processing file: in\SPS_140300-140301-_0000056121.20250908_-_1843+0000_flattened.json
+2025-09-08 23:06:23,899 [INFO] Record accepted: recordId=20250908214302_7b237b6d-8a19-4d5b-8456-d657b2c490e5 keys=['klt-nk-cmg-cp01;15d08630;68bf0c46;636020101005561-196f1fe5|8|100'] (file=in\SPS_140300-140301-_0000056121.20250908_-_1843+0000_flattened.json)
+2025-09-08 23:06:23,904 [INFO] Record accepted: recordId=20250908214328_300767c2-e2b4-4218-ab61-5016364d5108 keys=['0000001712;x5v2c7-0000002667.0000002018;|2|5'] (file=in\SPS_140300-140301-_0000056121.20250908_-_1843+0000_flattened.json)
+2025-09-08 23:06:23,920 [INFO] SUMMARY: file=in\SPS_140300-140301-_0000056121.20250908_-_1843+0000_flattened.json, total=2, accepted=2, duplicate=0, failed=0
+2025-09-08 23:06:23,927 [INFO] Input file archived: archive\SPS_140300-140301-_0000056121.20250908_-_1843+0000_flattened.json
+2025-09-08 23:06:23,932 [INFO] Processing existing file: in\SPS_140302-140302-_0000056122.20250908_-_1844+0000_flattened.json
+2025-09-08 23:06:23,933 [INFO] Processing file: in\SPS_140302-140302-_0000056122.20250908_-_1844+0000_flattened.json
+2025-09-08 23:06:23,964 [INFO] Record accepted: recordId=20250908214335_a5deffda-a805-4096-8530-39a3a70ddbfb keys=['edc-nk-cmg-cp01;1e2199de;68bf068b;636023100000125-31941a25|16|100'] (file=in\SPS_140302-140302-_0000056122.20250908_-_1844+0000_flattened.json)
+2025-09-08 23:06:23,970 [INFO] SUMMARY: file=in\SPS_140302-140302-_0000056122.20250908_-_1844+0000_flattened.json, total=1, accepted=1, duplicate=0, failed=0
+2025-09-08 23:06:23,981 [INFO] Input file archived: archive\SPS_140302-140302-_0000056122.20250908_-_1844+0000_flattened.json
+2025-09-08 23:06:23,983 [INFO] Processing existing file: in\SPS_140303-140303-_0000056123.20250908_-_1846+0000_flattened.json
+2025-09-08 23:06:23,984 [INFO] Processing file: in\SPS_140303-140303-_0000056123.20250908_-_1846+0000_flattened.json
+2025-09-08 23:06:24,016 [INFO] Record accepted: recordId=20250908214526_edaa8d8e-c6a8-495b-affb-45d8d6239480 keys=['edc-nk-cmg-cp01;1e2199de;68bf068b;636023100000125-31941a25|17|200'] (file=in\SPS_140303-140303-_0000056123.20250908_-_1846+0000_flattened.json)
+2025-09-08 23:06:24,024 [INFO] SUMMARY: file=in\SPS_140303-140303-_0000056123.20250908_-_1846+0000_flattened.json, total=1, accepted=1, duplicate=0, failed=0
+2025-09-08 23:06:24,031 [INFO] Input file archived: archive\SPS_140303-140303-_0000056123.20250908_-_1846+0000_flattened.json
+2025-09-08 23:06:24,033 [INFO] Processing existing file: in\SPS_140304-140305-_0000056124.20250908_-_1848+0000_flattened.json
+2025-09-08 23:06:24,034 [INFO] Processing file: in\SPS_140304-140305-_0000056124.20250908_-_1848+0000_flattened.json
+2025-09-08 23:06:24,075 [INFO] Record accepted: recordId=20250908214727_bd4e07c8-a06f-4805-ae5d-0cc17333481a keys=['edc-nk-cmg-cp01;0d441647;68becbb9;636020119226319-02be07e5|24|200'] (file=in\SPS_140304-140305-_0000056124.20250908_-_1848+0000_flattened.json)
+2025-09-08 23:06:24,111 [INFO] Record accepted: recordId=20250908214735_48ee1ee8-7fa6-42bd-babb-62582ce8907c keys=['mdc1-nk-cmg-cp01;17c7f091;68bf05c0;636020119799534-2c8629c5|21|200'] (file=in\SPS_140304-140305-_0000056124.20250908_-_1848+0000_flattened.json)
+2025-09-08 23:06:24,118 [INFO] SUMMARY: file=in\SPS_140304-140305-_0000056124.20250908_-_1848+0000_flattened.json, total=2, accepted=2, duplicate=0, failed=0
+2025-09-08 23:06:24,132 [INFO] Input file archived: archive\SPS_140304-140305-_0000056124.20250908_-_1848+0000_flattened.json
+2025-09-08 23:06:24,134 [INFO] Processing existing file: in\SPS_140306-140306-_0000056125.20250908_-_1854+0000_flattened.json
+2025-09-08 23:06:24,149 [INFO] Processing file: in\SPS_140306-140306-_0000056125.20250908_-_1854+0000_flattened.json
+2025-09-08 23:06:24,231 [INFO] Record accepted: recordId=20250908215354_ac99749d-093d-403d-899c-cb95bc4a8027 keys=['mdc1-nk-cmg-cp01;1303ba7b;68bed144;636020101005544-3ee00145|30|200'] (file=in\SPS_140306-140306-_0000056125.20250908_-_1854+0000_flattened.json)
+2025-09-08 23:06:24,243 [INFO] SUMMARY: file=in\SPS_140306-140306-_0000056125.20250908_-_1854+0000_flattened.json, total=1, accepted=1, duplicate=0, failed=0
+2025-09-08 23:06:24,266 [INFO] Input file archived: archive\SPS_140306-140306-_0000056125.20250908_-_1854+0000_flattened.json
+2025-09-08 23:06:24,289 [INFO] Processing existing file: in\SPS_140307-140308-_0000056126.20250908_-_1901+0000_flattened.json
+2025-09-08 23:06:24,351 [INFO] Processing file: in\SPS_140307-140308-_0000056126.20250908_-_1901+0000_flattened.json
+2025-09-08 23:06:24,512 [INFO] Record accepted: recordId=20250908220029_68e827a3-bb2b-4cac-a5db-accabaa8afc9 keys=['edc-nk-cmg-cp01;28ed10d9;68befecb;636020101005563-16bc2d15|22|100'] (file=in\SPS_140307-140308-_0000056126.20250908_-_1901+0000_flattened.json)
+2025-09-08 23:06:24,538 [INFO] Record accepted: recordId=20250908220033_0ef00a90-11bd-46d9-b33f-784162a6beb9 keys=['edc-nk-cmg-cp01;28ed10d9;68befecb;636020101005563-16bc2d15|23|106'] (file=in\SPS_140307-140308-_0000056126.20250908_-_1901+0000_flattened.json)
+2025-09-08 23:06:24,543 [INFO] SUMMARY: file=in\SPS_140307-140308-_0000056126.20250908_-_1901+0000_flattened.json, total=2, accepted=2, duplicate=0, failed=0
+2025-09-08 23:06:24,549 [INFO] Input file archived: archive\SPS_140307-140308-_0000056126.20250908_-_1901+0000_flattened.json
+2025-09-08 23:06:24,551 [INFO] Processing existing file: in\SPS_140309-140309-_0000056127.20250908_-_1903+0000_flattened.json
+2025-09-08 23:06:24,555 [INFO] Processing file: in\SPS_140309-140309-_0000056127.20250908_-_1903+0000_flattened.json
+2025-09-08 23:06:24,582 [INFO] Record accepted: recordId=20250908220312_a6c668ed-71da-4aae-9aae-e0f364ee673c keys=['mdc1-nk-cmg-cp01;17c7f091;68bf05c0;636020119799534-2c8629c5|24|200'] (file=in\SPS_140309-140309-_0000056127.20250908_-_1903+0000_flattened.json)
+2025-09-08 23:06:24,585 [INFO] SUMMARY: file=in\SPS_140309-140309-_0000056127.20250908_-_1903+0000_flattened.json, total=1, accepted=1, duplicate=0, failed=0
+2025-09-08 23:06:24,594 [INFO] Input file archived: archive\SPS_140309-140309-_0000056127.20250908_-_1903+0000_flattened.json
+2025-09-08 23:06:24,596 [INFO] Processing existing file: in\SPS_140310-140311-_0000056128.20250908_-_1904+0000_flattened.json
+2025-09-08 23:06:24,596 [INFO] Processing file: in\SPS_140310-140311-_0000056128.20250908_-_1904+0000_flattened.json
+2025-09-08 23:06:24,626 [INFO] Record accepted: recordId=20250908220425_a1960510-3e3a-41bc-bd6b-dd6b81a31d15 keys=['edc-nk-cmg-cp01;1e2199de;68bf068b;636023100000125-31941a25|18|200'] (file=in\SPS_140310-140311-_0000056128.20250908_-_1904+0000_flattened.json)
+2025-09-08 23:06:24,632 [INFO] Record accepted: recordId=20250908220450_204baea9-78f9-4e87-bb4c-344e2d96d58d keys=['klt-nk-cmg-cp01;23d09b6d;68becb12;636020101005419-19d415a5|35|100'] (file=in\SPS_140310-140311-_0000056128.20250908_-_1904+0000_flattened.json)
+2025-09-08 23:06:24,633 [INFO] SUMMARY: file=in\SPS_140310-140311-_0000056128.20250908_-_1904+0000_flattened.json, total=2, accepted=2, duplicate=0, failed=0
+2025-09-08 23:06:24,645 [INFO] Input file archived: archive\SPS_140310-140311-_0000056128.20250908_-_1904+0000_flattened.json
+2025-09-08 23:06:24,646 [INFO] Processing existing file: in\SPS_140312-140312-_0000056129.20250908_-_1907+0000_flattened.json
+2025-09-08 23:06:24,647 [INFO] Processing file: in\SPS_140312-140312-_0000056129.20250908_-_1907+0000_flattened.json
+2025-09-08 23:06:24,683 [INFO] Record accepted: recordId=20250908220710_5758323b-5860-445d-8f9a-7f5c69eb1614 keys=['edc-nk-cmg-cp01;1e2199de;68bf068b;636023100000125-31941a25|19|107'] (file=in\SPS_140312-140312-_0000056129.20250908_-_1907+0000_flattened.json)
+2025-09-08 23:06:24,684 [INFO] SUMMARY: file=in\SPS_140312-140312-_0000056129.20250908_-_1907+0000_flattened.json, total=1, accepted=1, duplicate=0, failed=0
+2025-09-08 23:06:24,695 [INFO] Input file archived: archive\SPS_140312-140312-_0000056129.20250908_-_1907+0000_flattened.json
+2025-09-08 23:06:24,696 [INFO] Processing existing file: in\SPS_140313-140314-_0000056130.20250908_-_1908+0000_flattened.json
+2025-09-08 23:06:24,696 [INFO] Processing file: in\SPS_140313-140314-_0000056130.20250908_-_1908+0000_flattened.json
+2025-09-08 23:06:24,732 [INFO] Record accepted: recordId=20250908220802_9fae61f6-3fb4-40d6-a871-ec703dfd1f67 keys=['klt-nk-cmg-cp01;15d08630;68bf0c46;636020101005561-196f1fe5|10|100'] (file=in\SPS_140313-140314-_0000056130.20250908_-_1908+0000_flattened.json)
+2025-09-08 23:06:24,758 [INFO] Record accepted: recordId=20250908220811_8e90d6d5-09c7-4efd-ac35-87072e46d1a6 keys=['klt-nk-cmg-cp01;15d08630;68bf0c46;636020101005561-196f1fe5|11|200'] (file=in\SPS_140313-140314-_0000056130.20250908_-_1908+0000_flattened.json)
+2025-09-08 23:06:24,769 [INFO] SUMMARY: file=in\SPS_140313-140314-_0000056130.20250908_-_1908+0000_flattened.json, total=2, accepted=2, duplicate=0, failed=0
+2025-09-08 23:06:24,781 [INFO] Input file archived: archive\SPS_140313-140314-_0000056130.20250908_-_1908+0000_flattened.json
+2025-09-08 23:06:24,791 [INFO] Processing existing file: in\SPS_140315-140315-_0000056131.20250908_-_1909+0000_flattened.json
+2025-09-08 23:06:24,793 [INFO] Processing file: in\SPS_140315-140315-_0000056131.20250908_-_1909+0000_flattened.json
+2025-09-08 23:06:24,819 [INFO] Record accepted: recordId=20250908220835_09c23e82-1fac-410e-baa0-d48c080c2b10 keys=['edc-nk-cmg-cp01;1e2199de;68bf068b;636023100000125-31941a25|20|100'] (file=in\SPS_140315-140315-_0000056131.20250908_-_1909+0000_flattened.json)
+2025-09-08 23:06:24,828 [INFO] SUMMARY: file=in\SPS_140315-140315-_0000056131.20250908_-_1909+0000_flattened.json, total=1, accepted=1, duplicate=0, failed=0
+2025-09-08 23:06:24,834 [INFO] Input file archived: archive\SPS_140315-140315-_0000056131.20250908_-_1909+0000_flattened.json
+2025-09-08 23:06:24,843 [INFO] Processing existing file: in\SPS_140316-140317-_0000056132.20250908_-_1911+0000_flattened.json
+2025-09-08 23:06:24,848 [INFO] Processing file: in\SPS_140316-140317-_0000056132.20250908_-_1911+0000_flattened.json
+2025-09-08 23:06:24,966 [INFO] Record accepted: recordId=20250908221053_598df235-09af-4119-976f-82df2ca6c0b1 keys=['mdc1-nk-cmg-cp01;30d487e2;68bf0715;636020119226232-399c06b5|12|100'] (file=in\SPS_140316-140317-_0000056132.20250908_-_1911+0000_flattened.json)
+2025-09-08 23:06:24,993 [INFO] Record accepted: recordId=20250908221058_fb5622e3-4235-4181-a15a-a45be31593dc keys=['mdc1-nk-cmg-cp01;30d487e2;68bf0715;636020119226232-399c06b5|13|200'] (file=in\SPS_140316-140317-_0000056132.20250908_-_1911+0000_flattened.json)
+2025-09-08 23:06:24,998 [INFO] SUMMARY: file=in\SPS_140316-140317-_0000056132.20250908_-_1911+0000_flattened.json, total=2, accepted=2, duplicate=0, failed=0
+2025-09-08 23:06:25,011 [INFO] Input file archived: archive\SPS_140316-140317-_0000056132.20250908_-_1911+0000_flattened.json
+2025-09-08 23:06:25,013 [INFO] Processing existing file: in\SPS_140318-140318-_0000056133.20250908_-_1914+0000_flattened.json
+2025-09-08 23:06:25,014 [INFO] Processing file: in\SPS_140318-140318-_0000056133.20250908_-_1914+0000_flattened.json
+2025-09-08 23:06:25,042 [INFO] Record accepted: recordId=20250908221335_40252841-11a0-474a-a118-fadea67013fe keys=['mdc1-nk-cmg-cp01;25621267;68bef045;636020101005442-36c1d335|21|200'] (file=in\SPS_140318-140318-_0000056133.20250908_-_1914+0000_flattened.json)
+2025-09-08 23:06:25,047 [INFO] SUMMARY: file=in\SPS_140318-140318-_0000056133.20250908_-_1914+0000_flattened.json, total=1, accepted=1, duplicate=0, failed=0
+2025-09-08 23:06:25,066 [INFO] Input file archived: archive\SPS_140318-140318-_0000056133.20250908_-_1914+0000_flattened.json
+2025-09-08 23:06:25,076 [INFO] Processing existing file: in\SPS_140319-140319-_0000056134.20250908_-_1915+0000_flattened.json
+2025-09-08 23:06:25,083 [INFO] Processing file: in\SPS_140319-140319-_0000056134.20250908_-_1915+0000_flattened.json
+2025-09-08 23:06:25,165 [INFO] Record accepted: recordId=20250908221457_81adbe5b-af85-4841-9e67-95ae7a52d08f keys=['mdc1-nk-cmg-cp01;17c7f091;68bf05c0;636020119799534-2c8629c5|27|200'] (file=in\SPS_140319-140319-_0000056134.20250908_-_1915+0000_flattened.json)
+2025-09-08 23:06:25,173 [INFO] SUMMARY: file=in\SPS_140319-140319-_0000056134.20250908_-_1915+0000_flattened.json, total=1, accepted=1, duplicate=0, failed=0
+2025-09-08 23:06:25,181 [INFO] Input file archived: archive\SPS_140319-140319-_0000056134.20250908_-_1915+0000_flattened.json
+2025-09-08 23:06:25,185 [INFO] Processing existing file: in\SPS_140320-140320-_0000056135.20250908_-_1917+0000_flattened.json
+2025-09-08 23:06:25,188 [INFO] Processing file: in\SPS_140320-140320-_0000056135.20250908_-_1917+0000_flattened.json
+2025-09-08 23:06:25,265 [INFO] Record accepted: recordId=20250908221713_dfbcd4bb-c031-4931-81a0-5756e51c2418 keys=['mdc1-nk-cmg-cp01;07ca6157;68bef832;636020101005405-00142005|11|100'] (file=in\SPS_140320-140320-_0000056135.20250908_-_1917+0000_flattened.json)
+2025-09-08 23:06:25,281 [INFO] SUMMARY: file=in\SPS_140320-140320-_0000056135.20250908_-_1917+0000_flattened.json, total=1, accepted=1, duplicate=0, failed=0
+2025-09-08 23:06:25,290 [INFO] Input file archived: archive\SPS_140320-140320-_0000056135.20250908_-_1917+0000_flattened.json
+2025-09-08 23:06:25,294 [INFO] Processing existing file: in\SPS_140321-140323-_0000056136.20250908_-_1925+0000_flattened.json
+2025-09-08 23:06:25,297 [INFO] Processing file: in\SPS_140321-140323-_0000056136.20250908_-_1925+0000_flattened.json
+2025-09-08 23:06:25,362 [INFO] Record accepted: recordId=20250908222502_06471003-7ecf-4424-8a02-32f253af8bf9 keys=['klt-nk-cmg-cp01;23d09b6d;68becb12;636020101005419-19d415a5|36|200'] (file=in\SPS_140321-140323-_0000056136.20250908_-_1925+0000_flattened.json)
+2025-09-08 23:06:25,395 [INFO] Record accepted: recordId=20250908222529_3a29f120-4459-4461-8207-6957d6811792 keys=['mdc1-nk-cmg-cp01;1077f73a;68befec9;636020119226242-35b4e2d5|10|100'] (file=in\SPS_140321-140323-_0000056136.20250908_-_1925+0000_flattened.json)
+2025-09-08 23:06:25,396 [INFO] Record accepted: recordId=20250908222529_cad21fc0-3ca8-42c5-abc5-fe069d84b39a keys=['edc-nk-cmg-cp01;28ed10d9;68befecb;636020101005563-16bc2d15|25|100'] (file=in\SPS_140321-140323-_0000056136.20250908_-_1925+0000_flattened.json)
+2025-09-08 23:06:25,407 [INFO] SUMMARY: file=in\SPS_140321-140323-_0000056136.20250908_-_1925+0000_flattened.json, total=3, accepted=3, duplicate=0, failed=0
+2025-09-08 23:06:25,415 [INFO] Input file archived: archive\SPS_140321-140323-_0000056136.20250908_-_1925+0000_flattened.json
+2025-09-08 23:06:25,423 [INFO] Processing existing file: in\SPS_140324-140324-_0000056137.20250908_-_1927+0000_flattened.json
+2025-09-08 23:06:25,426 [INFO] Processing file: in\SPS_140324-140324-_0000056137.20250908_-_1927+0000_flattened.json
+2025-09-08 23:06:25,514 [INFO] Record accepted: recordId=20250908222633_80a9ebff-0415-441d-8c5c-a7bd2001027c keys=['mdc1-nk-cmg-cp01;25621267;68bef045;636020101005442-36c1d335|22|200'] (file=in\SPS_140324-140324-_0000056137.20250908_-_1927+0000_flattened.json)
+2025-09-08 23:06:25,518 [INFO] SUMMARY: file=in\SPS_140324-140324-_0000056137.20250908_-_1927+0000_flattened.json, total=1, accepted=1, duplicate=0, failed=0
+2025-09-08 23:06:25,526 [INFO] Input file archived: archive\SPS_140324-140324-_0000056137.20250908_-_1927+0000_flattened.json
+2025-09-08 23:06:25,529 [INFO] Processing existing file: in\SPS_140325-140325-_0000056138.20250908_-_1930+0000_flattened.json
+2025-09-08 23:06:25,531 [INFO] Processing file: in\SPS_140325-140325-_0000056138.20250908_-_1930+0000_flattened.json
+2025-09-08 23:06:25,565 [INFO] Record accepted: recordId=20250908222950_ee1fa8e1-4d93-411e-95b6-654806255b22 keys=['klt-nk-cmg-cp01;23d09b6d;68becb12;636020101005419-19d415a5|37|100'] (file=in\SPS_140325-140325-_0000056138.20250908_-_1930+0000_flattened.json)
+2025-09-08 23:06:25,646 [INFO] SUMMARY: file=in\SPS_140325-140325-_0000056138.20250908_-_1930+0000_flattened.json, total=1, accepted=1, duplicate=0, failed=0
+2025-09-08 23:06:25,659 [INFO] Input file archived: archive\SPS_140325-140325-_0000056138.20250908_-_1930+0000_flattened.json
+2025-09-08 23:06:25,677 [INFO] Watching folder recursively for new JSON files: in
+2025-09-08 23:07:43,322 [INFO] Signal 2 received: shutting down
+2025-09-08 23:07:43,326 [INFO] Cleanup worker stopped
+2025-09-08 23:07:43,331 [INFO] Stopping folder watch...

@@ -1,0 +1,89 @@
+{
+  "header": {
+    "recordLength": 1836
+  },
+  "payload": {
+    "genericRecord": {
+      "recordType": "PROVISIONING_RECORD",
+      "recordElements": {
+        "invokedBy": "webService",
+        "invokedMethod": "update_device",
+        "deviceId": "D_10434252",
+        "deviceName": "D_10434252",
+        "deviceCreationTime": "04/06/2025 15:20:21+03:00",
+        "old_deviceLastUpdateTime": "05/09/2025 12:03:16+03:00",
+        "deviceLastUpdateTime": "05/09/2025 12:04:17+03:00",
+        "deviceOwner": "U_10434252",
+        "userName": "U_10434252",
+        "globalEntity": "false",
+        "avInstanceDefinitionName": "[DATA_DEP_AV]",
+        "avInstanceId": "[9284d760-3a46-45a3-9ad7-753908e1cb82]",
+        "subscriptionIndex": "-1",
+        "notificationProfile": "PRE_DEVICE_NP",
+        "deviceType": "NORMAL",
+        "ocsHost": "kltlabnccs01-oam.safaricomlab.net",
+        "ocsRealm": "safaricomlab.net",
+        "syOCSEnabled": "true",
+        "allowOverage": "false",
+        "pwdEncrypted": "false",
+        "canaryMode": "NONE",
+        "categoryList": "[DefaultCategory]",
+        "offLineTimeStamp": "0",
+        "language": "ENGLISH",
+        "entityLifeCycleName": "PRE_DEVICE_ELC_V3",
+        "entityLifeCycleState": "ACTIVE",
+        "IMSI": "636020101005361",
+        "E164": "251700990111",
+        "DATAOOBFLAG": "FALSE",
+        "DEVICEACTDATE": "1749041784653",
+        "RECHARGE_OPTIONS": "TRUE",
+        "SUBSCRIBERTYPE": "CBUPREPAID",
+        "PRIMARYACCOUNTID": "A_10434252",
+        "result": "SUCCESS",
+        "correlationID": "X-CorrelationId:65c0a5f8-90da-4ace-8007-d71cceb5e356",
+        "generationTimestamp": "05/09/2025 12:04:17+03:00",
+        "meHostName": "KLT2;ig-provisioning-7fb44bd578-sllrh",
+        "nccVersion": "SPS_23_5_R1",
+        "recordId": "20250905090417_5bf4fe24-31d7-4f48-b5f6-aeaf3522ecb0",
+        "RecordTimestamp": "05/09/2025 09:04:17"
+      },
+      "recordExtensions": [
+        {
+          "recordProperty": "deviceIdentityInfo",
+          "recordElements": {
+            "deviceIdentityType": "0",
+            "deviceIdentityValue": "251700990111"
+          }
+        },
+        {
+          "recordProperty": "deviceIdentityInfo",
+          "recordElements": {
+            "deviceIdentityType": "103",
+            "deviceIdentityValue": "msisdn-251700990111"
+          }
+        },
+        {
+          "recordProperty": "deviceIdentityInfo",
+          "recordElements": {
+            "deviceIdentityType": "1",
+            "deviceIdentityValue": "636020101005361"
+          }
+        },
+        {
+          "recordProperty": "deviceIdentityInfo",
+          "recordElements": {
+            "deviceIdentityType": "102",
+            "deviceIdentityValue": "imsi-636020101005361"
+          }
+        },
+        {
+          "recordProperty": "deviceIdentityInfo",
+          "recordElements": {
+            "deviceIdentityType": "101",
+            "deviceIdentityValue": "D_10434252"
+          }
+        }
+      ]
+    }
+  }
+}

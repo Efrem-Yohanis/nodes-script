@@ -1,0 +1,79 @@
+{
+  "header": {
+    "recordLength": 1209
+  },
+  "payload": {
+    "genericRecord": {
+      "recordType": "PROVISIONING_RECORD",
+      "recordElements": {
+        "invokedBy": "webService",
+        "invokedMethod": "loan_opt_in",
+        "transactionId": "251700990137-703392173354-request-loan",
+        "result": "SUCCESS",
+        "correlationID": "X-CorrelationId:2607a3a0-9ad3-4c9b-bf51-a28ddb459d77",
+        "generationTimestamp": "05/09/2025 12:03:57+03:00",
+        "meHostName": "KLT2;ig-provisioning-7fb44bd578-sllrh",
+        "nccVersion": "SPS_23_5_R1",
+        "recordId": "20250905090357_01e6078b-0783-4cfd-848c-88fce2e3332c",
+        "RecordTimestamp": "05/09/2025 09:03:57"
+      },
+      "recordExtensions": [
+        {
+          "recordProperty": "accountInfo",
+          "recordElements": {
+            "accountID": "A_10434081",
+            "accountType": "PRE_PAID",
+            "accountState": "ACTIVE",
+            "accountStateBefore": "ACTIVE",
+            "accountBalanceBefore": "663.59698",
+            "accountBalanceAfter": "663.59698",
+            "loanStateBefore": "INITIAL",
+            "loanStateAfter": "OPT_IN",
+            "totalLoanRemainingDebtBefore": "0.00000",
+            "totalLoanRemainingDebtAfter": "5500.00000"
+          }
+        },
+        {
+          "recordProperty": "loanInfo",
+          "recordElements": {
+            "loanId": "LOAN_50",
+            "typeOfLoan": "ONETIME",
+            "activationFee": "0.00000",
+            "serviceFee": "500.00000",
+            "remainingDebt": "5500.00000"
+          },
+          "recordSubExtensions": [
+            {
+              "recordProperty": "bundleInfo",
+              "recordElements": {
+                "bundleName": "LOAN_BUNDLE_50",
+                "bundleFee": "5000"
+              }
+            }
+          ]
+        },
+        {
+          "recordProperty": "deviceInfo",
+          "recordElements": {
+            "deviceId": "D_10434081"
+          },
+          "recordSubExtensions": [
+            {
+              "recordProperty": "deviceIdentityInfo",
+              "recordElements": {
+                "deviceIdentityType": [
+                  "IMSI",
+                  "E164"
+                ],
+                "deviceIdentityValue": [
+                  "636020119226224",
+                  "251700990137"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

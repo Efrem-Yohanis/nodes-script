@@ -1,0 +1,105 @@
+{
+  "header": {
+    "recordLength": 2096
+  },
+  "payload": {
+    "genericRecord": {
+      "recordType": "LIFECYCLE_RECORD",
+      "recordElements": {
+        "invokedBy": "AddSubscriptionAction",
+        "triggeredAtTime": "05/09/2025 12:04:00+03:00",
+        "triggeredEntityType": "Subscription",
+        "triggeredEntityId": "ff4474f5-d684-4d4f-9c59-dcea520761db",
+        "transitionName": "StartCycleEvent",
+        "transitionStartState": "INITIAL",
+        "entityLifeCycleName": "ELC_CBU_ADDON_OF",
+        "correlationId": "X-CorrelationId:33131d62-8806-4017-a7cc-a5586d2db5c4",
+        "queueId": "MONTHLY_CBU_D",
+        "periodicLifeCycleName": "PLC_CBU_D_2048MB_30D_OF",
+        "result": "Success",
+        "timeStamp": "05/09/2025 12:04:00+03:00",
+        "meHostName": "KLT2;ig-provisioning-7fb44bd578-fn4t4",
+        "nccVersion": "SPS_23_5_R1",
+        "recordId": "20250905090400_89968331-52e4-4a36-af79-417c0a28cd3d",
+        "RecordTimestamp": "05/09/2025 09:04:00"
+      },
+      "recordExtensions": [
+        {
+          "recordProperty": "bucketInfo",
+          "recordElements": {
+            "bucketName": "MONTHLY_V_ONN_MIN_BUCKET",
+            "bucketUnitType": "Second",
+            "bucketKindOfUnit": "TIME",
+            "bucketBalanceBefore": "36000",
+            "bucketBalanceAfter": "36000",
+            "carryOverBucket": "false"
+          }
+        },
+        {
+          "recordProperty": "subscriptionAddedBySubscription",
+          "recordElements": {
+            "subscriptionId": "b1b0879e-d6c1-49a6-8aa8-b6d228d5d721",
+            "fee": "0",
+            "taxationID": "Tax",
+            "taxRateApplied": "20.75000",
+            "totalTaxAmount": "0.00000",
+            "entityLifeCycleName": "ELC_BOR",
+            "periodicLifeCycleName": "PLC_MONTHLY_CBU_DATA_BONUS_200NN_OF",
+            "queueId": "MONTHLY_CBU_DATA_BONUS_200NN_OF",
+            "entityLifeCycleState": "ACTIVE",
+            "bundleName": "MONTHLY_CBU_DATA_BONUS_200NN_OF",
+            "bundleActivationType": "SUBSCRIPTION_MERGE",
+            "bundleVersion": "2",
+            "accountType": "PRE_PAID",
+            "accountID": "A_10434081",
+            "accountName": "A_10434081",
+            "accountELCState": "ACTIVE",
+            "accountPLCState": "ACTIVE1",
+            "deviceId": "D_10434081",
+            "deviceName": "D_10434081",
+            "SubscriptionInputDate": "05/09/2025 12:04:00+03:00",
+            "renewalPriority": "0",
+            "result": "Success"
+          },
+          "recordSubExtensions": [
+            {
+              "recordProperty": "deviceIdentityInfo",
+              "recordElements": {
+                "deviceIdentityType": "0",
+                "deviceIdentityValue": "251700990137"
+              }
+            },
+            {
+              "recordProperty": "deviceIdentityInfo",
+              "recordElements": {
+                "deviceIdentityType": "103",
+                "deviceIdentityValue": "msisdn-251700990137"
+              }
+            },
+            {
+              "recordProperty": "deviceIdentityInfo",
+              "recordElements": {
+                "deviceIdentityType": "1",
+                "deviceIdentityValue": "636020119226224"
+              }
+            },
+            {
+              "recordProperty": "deviceIdentityInfo",
+              "recordElements": {
+                "deviceIdentityType": "102",
+                "deviceIdentityValue": "imsi-636020119226224"
+              }
+            },
+            {
+              "recordProperty": "deviceIdentityInfo",
+              "recordElements": {
+                "deviceIdentityType": "101",
+                "deviceIdentityValue": "D_10434081"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,497 @@
+{
+  "header": {
+    "fileLength": 3653,
+    "headerLength": 54
+  },
+  "records": [
+    {
+      "record1": {
+        "header": {
+          "recordLength": 3594
+        },
+        "payload": {
+          "genericRecord": [
+            "genericRecord",
+            {
+              "recordType": "OCSChargingRecord",
+              "recordElements": [
+                {
+                  "varName": "prevMeName",
+                  "varValue": "ig-charging-68775f8668-n5gf2"
+                },
+                {
+                  "varName": "recordId",
+                  "varValue": "20250908192206_45dc3915-5b1c-4381-92f1-743c0a86b8c3"
+                },
+                {
+                  "varName": "generationTimestamp",
+                  "varValue": "08/09/2025 19:22:06+03:00"
+                },
+                {
+                  "varName": "singleCDREnabled",
+                  "varValue": "true"
+                },
+                {
+                  "varName": "sessionId",
+                  "varValue": "0000001702;x5v2c7-0000002667.0000000292;"
+                },
+                {
+                  "varName": "serviceContextId",
+                  "varValue": "32260@3gpp.org"
+                },
+                {
+                  "varName": "requestType",
+                  "varValue": "TERMINATION_REQUEST"
+                },
+                {
+                  "varName": "singleCDRTriggerEvent",
+                  "varValue": "TERMINATION_REQUEST"
+                },
+                {
+                  "varName": "sessionSequenceNumber",
+                  "varValue": "1"
+                },
+                {
+                  "varName": "deviceTimeZone",
+                  "varValue": "1800"
+                },
+                {
+                  "varName": "sessionStartTime",
+                  "varValue": "08/09/2025 19:22:02+03:00"
+                },
+                {
+                  "varName": "callAnswerTime",
+                  "varValue": "08/09/2025 19:22:06+03:00"
+                },
+                {
+                  "varName": "callEndTime",
+                  "varValue": "08/09/2025 19:22:06+03:00"
+                },
+                {
+                  "varName": "dayOfWeek",
+                  "varValue": "Monday"
+                },
+                {
+                  "varName": "originHost",
+                  "varValue": "ss7dh2-0-dh_20_6-P0-5.ss7dh2-0.spscentosslee"
+                },
+                {
+                  "varName": "deviceId",
+                  "varValue": "D_10434118"
+                },
+                {
+                  "varName": "deviceName",
+                  "varValue": "D_10434118"
+                },
+                {
+                  "varName": "deviceOwner",
+                  "varValue": "U_10434118"
+                },
+                {
+                  "varName": "deviceOwnerName",
+                  "varValue": "U_10434118"
+                },
+                {
+                  "varName": "ocsHost",
+                  "varValue": "mdc1labnccs01-oam.safaricomlab.net"
+                },
+                {
+                  "varName": "deviceState",
+                  "varValue": "ACTIVE"
+                },
+                {
+                  "varName": "devicePartitionId",
+                  "varValue": "1"
+                },
+                {
+                  "varName": "deviceSiteId",
+                  "varValue": "1"
+                },
+                {
+                  "varName": "imsChargingIdentifier",
+                  "varValue": "401f7039009a21"
+                },
+                {
+                  "varName": "roamingIndicator",
+                  "varValue": "HOME"
+                },
+                {
+                  "varName": "totalRoundedDuration",
+                  "varValue": "0"
+                },
+                {
+                  "varName": "MCCMNC",
+                  "varValue": "63602"
+                },
+                {
+                  "varName": "DATAOOBFLAG",
+                  "varValue": "FALSE"
+                },
+                {
+                  "varName": "RoamingStatus",
+                  "varValue": "Home"
+                },
+                {
+                  "varName": "PeakTime",
+                  "varValue": "Peak"
+                },
+                {
+                  "varName": "DestinationType",
+                  "varValue": "Ethiopia_Offnet"
+                },
+                {
+                  "varName": "DestinationCountry",
+                  "varValue": "Ethiopia"
+                },
+                {
+                  "varName": "Rating_Origination_Location",
+                  "varValue": "Ethiopia"
+                },
+                {
+                  "varName": "causeForRecClosing",
+                  "varValue": "1"
+                },
+                {
+                  "varName": "rATType",
+                  "varValue": "6"
+                },
+                {
+                  "varName": "resultCode",
+                  "varValue": "2001"
+                },
+                {
+                  "varName": "roleOfNode",
+                  "varValue": "Originating-Role"
+                },
+                {
+                  "varName": "origUserLocationInfo",
+                  "varValue": "6360215b67c5d"
+                },
+                {
+                  "varName": "userLocationInformation",
+                  "varValue": "6360215b67c5d"
+                },
+                {
+                  "varName": "callingPartyAddress",
+                  "varValue": "251700990085"
+                },
+                {
+                  "varName": "mediaName",
+                  "varValue": "audio"
+                },
+                {
+                  "varName": "calledPartyAddress",
+                  "varValue": "251913463731"
+                },
+                {
+                  "varName": "callDuration",
+                  "varValue": "0"
+                },
+                {
+                  "varName": "recordOpeningTime",
+                  "varValue": "08/09/2025 19:22:02+03:00"
+                },
+                {
+                  "varName": "recordClosureTime",
+                  "varValue": "08/09/2025 19:22:06+03:00"
+                },
+                {
+                  "varName": "duration",
+                  "varValue": "4"
+                },
+                {
+                  "varName": "recordSequenceNumber",
+                  "varValue": "1"
+                },
+                {
+                  "varName": "meHostName",
+                  "varValue": "KLT1;ig-charging-68775f8668-n5gf2"
+                },
+                {
+                  "varName": "nccVersion",
+                  "varValue": "SPS_23_5_R1"
+                },
+                {
+                  "varName": "RecordTimestamp",
+                  "varValue": "08/09/2025 16:22:06"
+                },
+                {
+                  "varName": "localRecordSequenceNumber",
+                  "varValue": "140242"
+                }
+              ],
+              "recordExtensions": [
+                {
+                  "recordProperty": "listOfSubscriptionID",
+                  "recordSubExtensions": [
+                    {
+                      "recordProperty": "subscriptionId",
+                      "recordElements": [
+                        {
+                          "varName": "subscriptionIdType",
+                          "varValue": "102"
+                        },
+                        {
+                          "varName": "subscriptionIdData",
+                          "varValue": "imsi-636020119226319"
+                        }
+                      ]
+                    },
+                    {
+                      "recordProperty": "subscriptionId",
+                      "recordElements": [
+                        {
+                          "varName": "subscriptionIdType",
+                          "varValue": "1"
+                        },
+                        {
+                          "varName": "subscriptionIdData",
+                          "varValue": "636020119226319"
+                        }
+                      ]
+                    },
+                    {
+                      "recordProperty": "subscriptionId",
+                      "recordElements": [
+                        {
+                          "varName": "subscriptionIdType",
+                          "varValue": "0"
+                        },
+                        {
+                          "varName": "subscriptionIdData",
+                          "varValue": "251700990085"
+                        }
+                      ]
+                    },
+                    {
+                      "recordProperty": "subscriptionId",
+                      "recordElements": [
+                        {
+                          "varName": "subscriptionIdType",
+                          "varValue": "103"
+                        },
+                        {
+                          "varName": "subscriptionIdData",
+                          "varValue": "msisdn-251700990085"
+                        }
+                      ]
+                    },
+                    {
+                      "recordProperty": "subscriptionId",
+                      "recordElements": [
+                        {
+                          "varName": "subscriptionIdType",
+                          "varValue": "101"
+                        },
+                        {
+                          "varName": "subscriptionIdData",
+                          "varValue": "D_10434118"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "recordProperty": "listOfMscc",
+                  "recordSubExtensions": [
+                    {
+                      "recordProperty": "mscc",
+                      "recordElements": [
+                        {
+                          "varName": "usedUnitType",
+                          "varValue": "TIME"
+                        },
+                        {
+                          "varName": "recordEventType",
+                          "varValue": "IMS"
+                        },
+                        {
+                          "varName": "chargingType",
+                          "varValue": "ONLINE_CHARGING"
+                        },
+                        {
+                          "varName": "firstDataStart",
+                          "varValue": "08/09/2025 19:22:02+03:00"
+                        },
+                        {
+                          "varName": "lastDataUsage",
+                          "varValue": "08/09/2025 19:22:06+03:00"
+                        },
+                        {
+                          "varName": "ratingGroup",
+                          "varValue": "5"
+                        },
+                        {
+                          "varName": "subRecordEventType",
+                          "varValue": "MOC"
+                        },
+                        {
+                          "varName": "timeUsage",
+                          "varValue": "4"
+                        },
+                        {
+                          "varName": "resultCode",
+                          "varValue": "2001"
+                        },
+                        {
+                          "varName": "recordEventResult",
+                          "varValue": "00"
+                        },
+                        {
+                          "varName": "serviceIdentifier",
+                          "varValue": "2"
+                        },
+                        {
+                          "varName": "usageType",
+                          "varValue": "TIME"
+                        },
+                        {
+                          "varName": "localSequenceNumber",
+                          "varValue": "1"
+                        },
+                        {
+                          "varName": "totalTimeConsumed",
+                          "varValue": "0"
+                        }
+                      ],
+                      "recordSubExtensions": [
+                        {
+                          "recordProperty": "deviceInfo",
+                          "recordSubExtensions": [
+                            {
+                              "recordProperty": "subscriptionInfo",
+                              "recordElements": [
+                                {
+                                  "varName": "subscriptionId",
+                                  "varValue": "722bd9d9-cf88-4286-be14-08b22d8143a5"
+                                },
+                                {
+                                  "varName": "subscriptionState",
+                                  "varValue": "ACTIVE"
+                                },
+                                {
+                                  "varName": "bundleName",
+                                  "varValue": "CONSUMER_PREPAY_BASE_PLAN"
+                                },
+                                {
+                                  "varName": "bundleVersion",
+                                  "varValue": "5"
+                                },
+                                {
+                                  "varName": "accountID",
+                                  "varValue": "A_10434118"
+                                },
+                                {
+                                  "varName": "subscriptionStartDateTime",
+                                  "varValue": "08/09/2025 19:17:30+03:00"
+                                },
+                                {
+                                  "varName": "subscriptionEndDateTime",
+                                  "varValue": "08/09/2026 00:00:00+03:00"
+                                }
+                              ],
+                              "recordSubExtensions": [
+                                {
+                                  "recordProperty": "chargingServiceInfo",
+                                  "recordElements": [
+                                    {
+                                      "varName": "chargingServiceName",
+                                      "varValue": "TP_BASE_VOICE_V1"
+                                    },
+                                    {
+                                      "varName": "chargingServiceType",
+                                      "varValue": "TIME"
+                                    },
+                                    {
+                                      "varName": "chargingServicePriority",
+                                      "varValue": "10000"
+                                    },
+                                    {
+                                      "varName": "chargingServiceCategory",
+                                      "varValue": "DefaultCategory"
+                                    }
+                                  ],
+                                  "recordSubExtensions": [
+                                    {
+                                      "recordProperty": "accountInfo",
+                                      "recordElements": [
+                                        {
+                                          "varName": "accountID",
+                                          "varValue": "A_10434118"
+                                        },
+                                        {
+                                          "varName": "accountType",
+                                          "varValue": "PRE_PAID"
+                                        },
+                                        {
+                                          "varName": "accountState",
+                                          "varValue": "ACTIVE"
+                                        },
+                                        {
+                                          "varName": "accountBalanceBefore",
+                                          "varValue": "122709.16664"
+                                        },
+                                        {
+                                          "varName": "accountBalanceAfter",
+                                          "varValue": "122709.16664"
+                                        },
+                                        {
+                                          "varName": "accountOveragelimit",
+                                          "varValue": "0.00000"
+                                        },
+                                        {
+                                          "varName": "accountBalanceCommitted",
+                                          "varValue": "0.00000"
+                                        },
+                                        {
+                                          "varName": "loanStateAfter",
+                                          "varValue": "INITIAL"
+                                        },
+                                        {
+                                          "varName": "rateId",
+                                          "varValue": "VR_0_50"
+                                        },
+                                        {
+                                          "varName": "taxationID",
+                                          "varValue": "Tax"
+                                        },
+                                        {
+                                          "varName": "taxRateApplied",
+                                          "varValue": "20.75000"
+                                        },
+                                        {
+                                          "varName": "committedTaxAmount",
+                                          "varValue": "0.00000"
+                                        },
+                                        {
+                                          "varName": "totalTaxAmount",
+                                          "varValue": "0.00000"
+                                        },
+                                        {
+                                          "varName": "tariffID",
+                                          "varValue": "TP_BASE_VOICE_V1_TP_BASE_VOICE_V1_fallbackRules0"
+                                        },
+                                        {
+                                          "varName": "secondaryCostCommitted",
+                                          "varValue": "0.00000"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

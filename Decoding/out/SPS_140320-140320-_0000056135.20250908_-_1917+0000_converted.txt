@@ -1,0 +1,157 @@
+RECORD
+#input_id 1756361674x001_0011141
+#output_id
+#input_type OCSChargingRecord
+#output_type OCSChargingRecord
+#addkey
+#source_id LOCAL_CLTR
+#filename example.CDR.gz
+#filename SPS_140320-140320-_0000056135.20250908_-_1917+0000.CDR
+F switchOver 1
+F prevMeName ig-charging-68775f8668-75pgw
+F recordId 20250908221713_dfbcd4bb-c031-4931-81a0-5756e51c2418
+F generationTimestamp 08/09/2025 22:17:13+03:00
+F sessionId mdc1-nk-cmg-cp01;07ca6157;68bef832;636020101005405-00142005
+F serviceContextId 32251@3gpp.org
+F requestType UPDATE_REQUEST
+F sessionSequenceNumber 11
+F deviceTimeZone 2100
+F sessionStartTime 08/09/2025 18:37:22+03:00
+F dayOfWeek Monday
+F originHost mscp05.mdc1-nk-cmg-cp01
+F accessPointName safaricom.mnc002.mcc636.gprs
+F psChargingID 2009B982
+F nodeID MDC1-NK-CMG-CP01
+F servingNodeType 5
+F gGSNAddress [IPV4: 10.43.34.32]
+F sGSNAddress [IPV4: 10.43.33.41]
+F pduAddress [IPV4: 100.93.131.46]
+F deviceId D_10434355
+F deviceName D_10434355
+F deviceOwner U_10434355
+F deviceOwnerName U_10434355
+F ocsHost mdc1labnccs01-oam.safaricomlab.net
+F deviceState ACTIVE
+F devicePartitionId 1
+F deviceSiteId 1
+F userName 636020101005405@nai.epc.mnc002.mcc636.3gppnetwork.org
+F userEquipmentType 0
+F userEquipmentValue 33353734313633313533353939393738
+F CDRTagCategory RecordCategory7
+F MCCMNC 63602
+F IP_Address 10.43.33.41
+F DATAOOBFLAG TRUE
+F RoamingStatus Home
+F PeakTime FALSE
+F DestinationType GPRS_Charge
+F DestinationCountry Default
+F Rating_Origination_Location Ethiopia
+F roamingIndicator HOME
+F causeForRecClosing 0
+F origUserLocationInfo 8236F62036B536F6200232A815
+F userLocationInformation 8236F62036B536F620023A6515
+F servingNodePLMNIdentifier 36F620
+F rATType 6
+F resultCode 2001
+F recordOpeningTime 08/09/2025 21:52:13+03:00
+F recordClosureTime 08/09/2025 22:17:13+03:00
+F duration 1500
+F recordSequenceNumber 12
+F meHostName KLT1;ig-charging-68775f8668-n5gf2
+F nccVersion SPS_23_5_R1
+F RecordTimestamp 08/09/2025 19:17:13
+F localRecordSequenceNumber 140320
+B listOfSubscriptionID
+B subscriptionId
+F subscriptionIdType 102
+F subscriptionIdData imsi-636020101005405
+.
+B subscriptionId
+F subscriptionIdType 101
+F subscriptionIdData D_10434355
+.
+B subscriptionId
+F subscriptionIdType 1
+F subscriptionIdData 636020101005405
+.
+B subscriptionId
+F subscriptionIdType 0
+F subscriptionIdData 251700990087
+.
+B subscriptionId
+F subscriptionIdType 3
+F subscriptionIdData 36020101005405@nai.epc.mnc002.mcc636.3gppnetwork.org
+.
+B subscriptionId
+F subscriptionIdType 103
+F subscriptionIdData msisdn-251700990087
+.
+.
+B listOfMscc
+B mscc
+F ratingGroup 100
+F chargingType ONLINE_CHARGING
+F recordEventType PS
+F reportReason VALIDITY_TIME
+F firstDataStart 08/09/2025 18:37:22+03:00
+F grantedUnits 1048576
+F usageType TVOL
+F usedUnitType TVOL
+F validityTime 1500
+F resultCode 2001
+F recordEventResult 00
+F localSequenceNumber 11
+F totalVolumeConsumed 0
+B deviceInfo
+B subscriptionInfo
+F subscriptionId 2b3c05dc-7874-4c40-bb62-029a9ec6615c
+F subscriptionState ACTIVE
+F bundleName CONSUMER_PREPAY_BASE_PLAN
+F bundleVersion 5
+F bundleActivationType NORMAL
+F accountID A_10434355
+F accountName A_10434355
+F subscriptionStartDateTime 08/09/2025 21:52:13+03:00
+F subscriptionEndDateTime 08/09/2026 00:00:00+03:00
+B counterInfo
+F counterName DEFAULTPOLICY_COUNTER
+F counterKey a37b271e-39e5-4272-bae1-169efda53a1e
+F counterType SUBSCRIPTION
+F counterUnitType Byte
+F counterKindOfUnit VOLUME
+F alignGranularity FALSE
+F counterValueBefore 886751
+F counterValueAfter 886751
+F counterPolicySignalState Default
+F chargingServicePriority 10000
+.
+B chargingServiceInfo
+F chargingServiceName TP_BASE_DATA_V6
+F chargingServiceType VOLUME
+F chargingServicePriority 10000
+F chargingServiceCategory DefaultCategory
+F chargingServiceVersion 7
+B accountInfo
+F accountID A_10434355
+F accountName A_10434355
+F accountType PRE_PAID
+F accountState ACTIVE
+F accountBalanceBefore 595010.00000
+F accountBalanceAfter 595010.00000
+F accountOveragelimit 0.00000
+F accountBalanceCommitted 0.00000
+F accountBalanceReserved 0.00000
+F loanAmount 0.00000
+F totalLoanRemainingDebtAfter 1100.00000
+F secondaryCostCommitted 0.00000
+.
+B noCharge
+F noChargeReservedUnits 1048576
+F noChargeCommittedUnits 0
+F tariffID TP_BASE_DATA_V6_fallbackRules0
+.
+.
+.
+.
+.
+.

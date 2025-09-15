@@ -1,0 +1,207 @@
+{
+  "header": {
+    "recordLength": 4143
+  },
+  "payload": {
+    "genericRecord": {
+      "recordType": "OCSChargingRecord",
+      "recordElements": {
+        "prevMeName": "ig-charging-68775f8668-n5gf2",
+        "recordId": "20250908190529_8961d8f8-58a2-4085-bbe7-1d5b008de47e",
+        "generationTimestamp": "08/09/2025 19:05:29+03:00",
+        "sessionId": "mdc1-nk-cmg-cp01;1077f73a;68befec9;636020119226242-35b4e2d5",
+        "serviceContextId": "32251@3gpp.org",
+        "requestType": "INITIAL_REQUEST",
+        "sessionSequenceNumber": "0",
+        "deviceTimeZone": "2100",
+        "sessionStartTime": "08/09/2025 19:05:29+03:00",
+        "dayOfWeek": "Monday",
+        "originHost": "mscp03.mdc1-nk-cmg-cp01",
+        "accessPointName": "safaricom.mnc002.mcc636.gprs",
+        "psChargingID": "E2D9B678",
+        "nodeID": "MDC1-NK-CMG-CP01",
+        "servingNodeType": "5",
+        "gGSNAddress": "[IPV4: 10.43.34.32]",
+        "sGSNAddress": "[IPV4: 10.43.33.89]",
+        "origUserLocationInfo": "8236F62036B536F6200232D814",
+        "userLocationInformation": "8236F62036B536F6200232D814",
+        "servingNodePLMNIdentifier": "36F620",
+        "rATType": "6",
+        "deviceId": "D_10434080",
+        "deviceName": "D_10434080",
+        "deviceOwner": "U_10434080",
+        "deviceOwnerName": "U_10434080",
+        "ocsHost": "mdc1labnccs01-oam.safaricomlab.net",
+        "deviceState": "ACTIVE",
+        "devicePartitionId": "1",
+        "deviceSiteId": "1",
+        "userName": "636020119226242@nai.epc.mnc002.mcc636.3gppnetwork.org",
+        "userEquipmentType": "0",
+        "userEquipmentValue": "33353533343737373132303831363031",
+        "CDRTagCategory": "RecordCategory2",
+        "MCCMNC": "63602",
+        "IP_Address": "10.43.33.89",
+        "DATAOOBFLAG": "FALSE",
+        "RoamingStatus": "Home",
+        "PeakTime": "FALSE",
+        "DestinationType": "GPRS_Charge",
+        "DestinationCountry": "Default",
+        "Rating_Origination_Location": "Ethiopia",
+        "roamingIndicator": "HOME",
+        "causeForRecClosing": "0",
+        "resultCode": "2001",
+        "recordOpeningTime": "08/09/2025 19:05:29+03:00",
+        "recordClosureTime": "08/09/2025 19:05:29+03:00",
+        "duration": "0",
+        "recordSequenceNumber": "1",
+        "meHostName": "KLT1;ig-charging-68775f8668-n5gf2",
+        "nccVersion": "SPS_23_5_R1",
+        "RecordTimestamp": "08/09/2025 16:05:29",
+        "localRecordSequenceNumber": "140237"
+      },
+      "recordExtensions": [
+        {
+          "recordProperty": "listOfSubscriptionID",
+          "recordSubExtensions": [
+            {
+              "recordProperty": "subscriptionId",
+              "recordElements": {
+                "subscriptionIdType": "1",
+                "subscriptionIdData": "636020119226242"
+              }
+            },
+            {
+              "recordProperty": "subscriptionId",
+              "recordElements": {
+                "subscriptionIdType": "3",
+                "subscriptionIdData": "36020119226242@nai.epc.mnc002.mcc636.3gppnetwork.org"
+              }
+            },
+            {
+              "recordProperty": "subscriptionId",
+              "recordElements": {
+                "subscriptionIdType": "0",
+                "subscriptionIdData": "251700990072"
+              }
+            },
+            {
+              "recordProperty": "subscriptionId",
+              "recordElements": {
+                "subscriptionIdType": "103",
+                "subscriptionIdData": "msisdn-251700990072"
+              }
+            },
+            {
+              "recordProperty": "subscriptionId",
+              "recordElements": {
+                "subscriptionIdType": "102",
+                "subscriptionIdData": "imsi-636020119226242"
+              }
+            },
+            {
+              "recordProperty": "subscriptionId",
+              "recordElements": {
+                "subscriptionIdType": "101",
+                "subscriptionIdData": "D_10434080"
+              }
+            }
+          ]
+        },
+        {
+          "recordProperty": "listOfMscc",
+          "recordSubExtensions": [
+            {
+              "recordProperty": "mscc",
+              "recordElements": {
+                "ratingGroup": "100",
+                "chargingType": "ONLINE_CHARGING",
+                "recordEventType": "PS",
+                "firstDataStart": "08/09/2025 19:05:29+03:00",
+                "grantedUnits": "1048576",
+                "usageType": "TVOL",
+                "validityTime": "1500",
+                "resultCode": "2001",
+                "recordEventResult": "00",
+                "localSequenceNumber": "1"
+              },
+              "recordSubExtensions": [
+                {
+                  "recordProperty": "deviceInfo",
+                  "recordSubExtensions": [
+                    {
+                      "recordProperty": "subscriptionInfo",
+                      "recordElements": {
+                        "subscriptionId": "e86c20b2-41ee-44f0-9c7f-0251e41bf418",
+                        "subscriptionState": "ACTIVE",
+                        "bundleName": "CONSUMER_PREPAY_BASE_PLAN",
+                        "bundleVersion": "5",
+                        "bundleActivationType": "NORMAL",
+                        "accountID": "A_10434080",
+                        "accountName": "A_10434080",
+                        "subscriptionStartDateTime": "08/09/2025 16:50:30+03:00",
+                        "subscriptionEndDateTime": "08/09/2026 00:00:00+03:00"
+                      },
+                      "recordSubExtensions": [
+                        {
+                          "recordProperty": "chargingServiceInfo",
+                          "recordElements": {
+                            "chargingServiceName": "TP_BASE_DATA_V6",
+                            "chargingServiceType": "VOLUME",
+                            "chargingServicePriority": "10000",
+                            "chargingServiceCategory": "DefaultCategory",
+                            "chargingServiceVersion": "7",
+                            "chargingServicePatchVersion": "null"
+                          },
+                          "recordSubExtensions": [
+                            {
+                              "recordProperty": "noCharge",
+                              "recordElements": {
+                                "noChargeReservedUnits": "1048576",
+                                "noChargeCommittedUnits": "0",
+                                "tariffID": "TP_BASE_DATA_V6_fallbackRules0"
+                              }
+                            },
+                            {
+                              "recordProperty": "accountInfo",
+                              "recordElements": {
+                                "accountID": "A_10434080",
+                                "accountName": "A_10434080",
+                                "accountType": "PRE_PAID",
+                                "accountState": "ACTIVE",
+                                "accountBalanceBefore": "156627.20025",
+                                "accountBalanceAfter": "156627.20025",
+                                "accountOveragelimit": "0.00000",
+                                "accountBalanceCommitted": "0.00000",
+                                "accountBalanceReserved": "0.00000",
+                                "secondaryCostCommitted": "0.00000"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "recordProperty": "counterInfo",
+                          "recordElements": {
+                            "counterName": "DEFAULTPOLICY_COUNTER",
+                            "counterKey": "ff105229-8562-4d81-b2b8-f2fc2f74e2c7",
+                            "counterType": "SUBSCRIPTION",
+                            "counterUnitType": "Byte",
+                            "counterKindOfUnit": "VOLUME",
+                            "alignGranularity": "FALSE",
+                            "counterValueBefore": "4956303",
+                            "counterValueAfter": "4956303",
+                            "counterPolicySignalState": "Default",
+                            "chargingServicePriority": "10000"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

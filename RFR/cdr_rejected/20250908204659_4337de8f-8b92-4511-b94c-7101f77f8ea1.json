@@ -1,0 +1,121 @@
+{
+  "header": {
+    "recordLength": 2243
+  },
+  "payload": {
+    "genericRecord": {
+      "recordType": "OCSChargingRecord",
+      "recordElements": {
+        "prevMeName": "ig-charging-68775f8668-n5gf2",
+        "recordId": "20250908204659_4337de8f-8b92-4511-b94c-7101f77f8ea1",
+        "generationTimestamp": "08/09/2025 20:46:59+03:00",
+        "singleCDREnabled": "true",
+        "sessionId": "0000001701;x5v2c7-0000009524.0000001309;",
+        "serviceContextId": "32260@3gpp.org",
+        "requestType": "INITIAL_REQUEST",
+        "sessionSequenceNumber": "0",
+        "sessionStartTime": "08/09/2025 20:46:59+03:00",
+        "dayOfWeek": "Monday",
+        "originHost": "ss7dh2-0-dh_20_6-P0-1.ss7dh2-0.spscentosslee",
+        "deviceId": "D_10434574",
+        "deviceName": "D_10434574",
+        "deviceOwner": "U_10434574",
+        "deviceOwnerName": "U_10434574",
+        "ocsHost": "kltlabnccs01-oam.safaricomlab.net",
+        "deviceState": "ACTIVE",
+        "devicePartitionId": "1",
+        "deviceSiteId": "1",
+        "imsChargingIdentifier": "401e70081ca932",
+        "callingPartyAddress": "251700900384",
+        "calledPartyAddress": "917598254",
+        "mediaName": "audio",
+        "roleOfNode": "Originating-Role",
+        "rATType": "6",
+        "origUserLocationInfo": "6360215b2e63e",
+        "userLocationInformation": "6360215b2e63e",
+        "totalRoundedDuration": "0",
+        "MCCMNC": "63602",
+        "DATAOOBFLAG": "true",
+        "RoamingStatus": "Home",
+        "PeakTime": "Peak",
+        "DestinationType": "Ethiopia_Offnet",
+        "DestinationCountry": "Ethiopia",
+        "Rating_Origination_Location": "Ethiopia",
+        "roamingIndicator": "HOME",
+        "causeForRecClosing": "0",
+        "resultCode": "5031",
+        "recordClosureTime": "08/09/2025 20:46:59+03:00",
+        "recordSequenceNumber": "1",
+        "meHostName": "KLT1;ig-charging-68775f8668-n5gf2",
+        "nccVersion": "SPS_23_5_R1",
+        "RecordTimestamp": "08/09/2025 17:46:59",
+        "localRecordSequenceNumber": "140283"
+      },
+      "recordExtensions": [
+        {
+          "recordProperty": "listOfSubscriptionID",
+          "recordSubExtensions": [
+            {
+              "recordProperty": "subscriptionId",
+              "recordElements": {
+                "subscriptionIdType": "103",
+                "subscriptionIdData": "msisdn-251700900384"
+              }
+            },
+            {
+              "recordProperty": "subscriptionId",
+              "recordElements": {
+                "subscriptionIdType": "101",
+                "subscriptionIdData": "D_10434574"
+              }
+            },
+            {
+              "recordProperty": "subscriptionId",
+              "recordElements": {
+                "subscriptionIdType": "1",
+                "subscriptionIdData": "636020101005419"
+              }
+            },
+            {
+              "recordProperty": "subscriptionId",
+              "recordElements": {
+                "subscriptionIdType": "0",
+                "subscriptionIdData": "251700900384"
+              }
+            },
+            {
+              "recordProperty": "subscriptionId",
+              "recordElements": {
+                "subscriptionIdType": "102",
+                "subscriptionIdData": "imsi-636020101005419"
+              }
+            }
+          ]
+        },
+        {
+          "recordProperty": "listOfMscc",
+          "recordSubExtensions": [
+            {
+              "recordProperty": "mscc",
+              "recordElements": {
+                "ratingGroup": "5",
+                "serviceIdentifier": "2",
+                "chargingType": "ONLINE_CHARGING",
+                "recordEventType": "IMS",
+                "firstDataStart": "08/09/2025 20:46:59+03:00",
+                "usageType": "TIME",
+                "resultCode": "5031",
+                "recordEventResult": "85",
+                "subRecordEventType": "MOC",
+                "localSequenceNumber": "1"
+              },
+              "recordSubExtensions": [
+                {}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

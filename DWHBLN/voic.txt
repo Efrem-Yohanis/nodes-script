@@ -1,0 +1,341 @@
+8.1.2.1.2Voice
+Table 7. ER Layout
+#	Field name	Related raw or converted ER fields	Conversion Rules 
+1.	EL_CDR_ID	sessionId	Direct Mapping
+2.	EL_SRC_CDR_ID	sessionSequenceNumber	Direct Mapping
+3.	EL_CUST_LOCAL_START_DATE	callAnswerTime,
+RecordOpeningTime,
+generationTimestamp
+	If callAnswerTime is present
+Map to it
+else if RecordOpeningTime is present map it
+else map generationTimestamp
+4.	EL_SESSION_ID	sessionId	Direct Mapping
+5.	EL_ACTUAL_USAGE	listOfMscc.mscc.totalTimeConsumed	Direct Mapping
+6.	EL_RATE_USAGE	listOfMscc.mscc.totalTimeConsumed	Direct Mapping
+7.	EL_DEBIT_AMOUNT	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.accountBalanceCommittedBR
+listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.accountBalanceCommitted
+
+listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountinfo.accountBalanceBefore 
+
+listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.accountBalanceAfter	Loop through all (listOfMscc.mscc.deviceInfo.subscriptionInfo) blocks 
+If ( isNotpresent(listOfMscc.mscc.deviceInfo.subscriptionInfo. chargingServiceInfo bucketinfo block) AND ispresent(listOfMscc.mscc.deviceInfo.subscriptionInfo. chargingServiceInfo accountinfo block))
+{
+Assign   
+listOfMscc.mscc.deviceInfo.subscriptionInfo[x].chargingServiceInfo.accountInfo.accountBalanceCommittedBR or
+listOfMscc.mscc.deviceInfo.subscriptionInfo[x].chargingServiceInfo.accountInfo.accountBalanceCommitted whichever is present
+}
+ELSE 
+{
+subtract
+ listOfMscc.mscc.deviceInfo.subscriptionInfo[x].chargingServiceInfo.accountinfo.accountBalanceAfter 
+from 
+listOfMscc.mscc.deviceInfo.subscriptionInfo[x].chargingServiceInfo.accountinfo.accountBalanceBefore from its first occurrence
+}
+8.	EL_FREE_UNIT_AMOUNT_OF_DURATION	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.noCharge.noChargeCommittedUnits	Loop through all (listOfMscc.mscc.deviceInfo.subscriptionInfo) blocks 
+If ( sNotpresent(listOfMscc.mscc.deviceInfo.subscriptionInfo. chargingServiceInfo bucketinfo block) AND ispresent(listOfMscc.mscc.deviceInfo.subscriptionInfo. chargingServiceInfo accountinfo block))
+{
+Assign   
+listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.noCharge.noChargeCommittedUnits 
+}
+
+9.	EL_ACCT_BALANCE_ID1	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.accountID	Iterate and map listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo .accountInfo.accountID from first subscriptionInfo block where only accountInfo exits without bucketInfo
+10.	EL_BALANCE_TYPE1	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.accountType	Iterate and map listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo .accountInfo.accountType from first subscriptionInfo block where only accountInfo exits without bucketInfo
+11.	EL_CUR_BALANCE1	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.accountBalanceAfter	Iterate and map listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo .accountInfo.accountBalanceAfter from first subscriptionInfo block where only accountInfo exits without bucketInfo
+12.	EL_CHG_BALANCE1	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.accountBalanceBefore - listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.accountBalanceAfter listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.accountBalanceCommitted + listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.secondaryCostCommitted
+	Iterate and map from first subscriptionInfo block where only accountInfo exits without bucketInfo
+Subtract listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.accountBalanceAfter from
+listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.accountBalanceBefore
+If above value is negative, map as below
+Add listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo. accountBalanceCommittedand
+listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.secondaryCostCommitted 
+13.	EL_RATE_ID1	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountinfo.rateId	Iterate and map listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo .accountInfo.rateId from first subscriptionInfo block where only accountInfo exits without bucketInfo
+14.	EL_ACCT_BALANCE_ID2	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.accountID	Iterate and map listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo .accountInfo.accountID from second subscriptionInfo block where only accountInfo exits without bucketInfo
+15.	EL_BALANCE_TYPE2	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.accountType	Iterate and map listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo .accountInfo.accountType from second subscriptionInfo block where only accountInfo exits without bucketInfo
+16.	EL_CUR_BALANCE2	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.accountBalanceAfter	Iterate and map listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo .accountInfo.accountBalanceAfter from second subscriptionInfo block where only accountInfo exits without bucketInfo
+17.	EL_CHG_BALANCE2	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.accountBalanceBefore - listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.accountBalanceAfter listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.accountBalanceCommitted + listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.secondaryCostCommitted
+	Iterate and map from second subscriptionInfo block where only accountInfo exits without bucketInfo
+Subtract listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.accountBalanceAfter from
+listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.accountBalanceBefore
+If above value is negative, map as below
+Add listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.accountBalanceCommittedand
+listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.secondaryCostCommitted
+18.	EL_RATE_ID2	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountinfo.rateId	Iterate and map listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo .accountInfo.rateId from second subscriptionInfo block where only accountInfo exits without bucketInfo
+19.	EL_ACCT_BALANCE_ID3	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.accountID	Iterate and map listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo .accountInfo.accountID from third subscriptionInfo block where only accountInfo exits without bucketInfo
+20.	EL_BALANCE_TYPE3	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.accountType	Iterate and map listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo .accountInfo.accountType from third subscriptionInfo block where only accountInfo exits without bucketInfo
+21.	EL_CUR_BALANCE3	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.accountBalanceAfter	Iterate and map listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo .accountInfo.accountBalanceAfter from third subscriptionInfo block where only accountInfo exits without bucketInfo
+22.	EL_CHG_BALANCE3	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.accountBalanceBefore - listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.accountBalanceAfter listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.accountBalanceCommitted + listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.secondaryCostCommitted
+	Iterate and map from third subscriptionInfo block where only accountInfo exits without bucketInfo
+Subtract listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.accountBalanceAfter from
+listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.accountBalanceBefore
+If above value is negative, map as below
+Add listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.accountBalanceCommittedand
+listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.secondaryCostCommitted
+23.	EL_RATE_ID3	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountinfo.rateId	Iterate and map listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo .accountInfo.rateId from third subscriptionInfo block where only accountInfo exits without bucketInfo
+24.	EL_ACCT_BALANCE_ID4	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.accountID	Iterate and map listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo .accountInfo.accountID from fourth subscriptionInfo block where only accountInfo exits without bucketInfo
+25.	EL_BALANCE_TYPE4	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.accountType	Iterate and map listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo .accountInfo.accountType from fourth subscriptionInfo block where only accountInfo exits without bucketInfo
+26.	EL_CUR_BALANCE4	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.accountBalanceAfter	Iterate and map listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo .accountInfo.accountBalanceAfter from fourth subscriptionInfo block where only accountInfo exits without bucketInfo
+27.	EL_CHG_BALANCE4	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.accountBalanceBefore - listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.accountBalanceAfter
+listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.accountBalanceCommitted + listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.secondaryCostCommitted
+	Iterate and map from fourth subscriptionInfo block where only accountInfo exits without bucketInfo
+Subtract listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.accountBalanceAfter from
+listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.accountBalanceBefore
+If above value is negative, map as below
+Add listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.accountBalanceCommittedand
+listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.secondaryCostCommitted
+28.	EL_RATE_ID4	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountinfo.rateId	Iterate and map listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo .accountInfo.rateId from fourth subscriptionInfo block where only accountInfo exits without bucketInfo
+29.	EL_ACCT_BALANCE_ID5	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.accountID	Iterate and map listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo .accountInfo.accountID from fifth subscriptionInfo block where only accountInfo exits without bucketInfo
+30.	EL_BALANCE_TYPE5	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.accountType	Iterate and map listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo .accountInfo.accountType from fifth subscriptionInfo block where only accountInfo exits without bucketInfo
+31.	EL_CUR_BALANCE5	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.accountBalanceAfter	Iterate and map listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo .accountInfo.accountBalanceAfter from fifth subscriptionInfo block where only accountInfo exits without bucketInfo
+32.	EL_CHG_BALANCE5	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.accountBalanceBefore - listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.accountBalanceAfter
+listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.accountBalanceCommitted + listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.secondaryCostCommitted
+	Iterate and map from fifth subscriptionInfo block where only accountInfo exits without bucketInfo
+Subtract listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.accountBalanceAfter from
+listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.accountBalanceBefore
+If above value is negative, map as below
+Add listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.accountBalanceCommittedand
+listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.secondaryCostCommitted
+33.	EL_RATE_ID5	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountinfo.rateId	Iterate and map listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo .accountInfo.rateId from fifth subscriptionInfo block where only accountInfo exits without bucketInfo
+34.	EL_BUCKET_BALANCE_ID1	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketName,
+listOfMscc.mscc.deviceInfo.subscriptionInfo.bundleName	Iterate and map by concatenating  listOfMscc.mscc.deviceInfo.subscriptionInfo.bundleName having separator (“-”) with 
+list of listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketName separated by (",") by iterating over all listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo, 
+from first listOfMscc.mscc.deviceInfo.subscriptionInfo block where bucketInfo exits
+E.g.: bundleName1-bucketName1*bucketName2
+35.	EL_BUCKET_BALANCE_TYPE1	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketUnitType	Iterate and map by concatenating listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketUnitType separated by "," by iterating over all listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo,
+from first listOfMscc.mscc.deviceInfo.subscriptionInfo block where bucketInfo exits
+36.	EL_BUCKET_CUR_BALANCE1	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketBalanceAfter	
+Iterate and map by concatenating listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketBalanceAfter separated by "," by iterating over all listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo,
+from first listOfMscc.mscc.deviceInfo.subscriptionInfo block where bucketInfo exits
+37.	EL_BUCKET_CHG_BALANCE1	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketBalanceBefore -listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketBalanceAfter listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketCommitedUnits	Iterate and map list of values (Either subscration or direct mapping) below separated by "," by iterating over all listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo,
+ from first listOfMscc.mscc.deviceInfo.subscriptionInfo where bucketInfo exists
+		subtract listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketBalanceAfter from listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketBalanceBefore
+		If above value is negative, map as below
+			listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketCommitedUnits
+38.	EL_BUCKET_RATE_ID1	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.rateId	Iterate and map by concatenating listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.rateId separated by "," by iterating over all listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo,
+from first listOfMscc.mscc.deviceInfo.subscriptionInfo block where bucketInfo exits
+39.	EL_BUCKET_BALANCE_ID2	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketName,
+listOfMscc.mscc.deviceInfo.subscriptionInfo.bundleName	Iterate and map by concatenating  listOfMscc.mscc.deviceInfo.subscriptionInfo.bundleName having separator (“-”) with 
+list of listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketName separated by (",") by iterating over all listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo, 
+from 2nd listOfMscc.mscc.deviceInfo.subscriptionInfo block where bucketInfo exits
+E.g.: bundleName1-bucketName1*bucketName2
+40.	EL_BUCKET_BALANCE_TYPE2	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketUnitType	Iterate and map by concatenating listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketUnitType separated by "," by iterating over all listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo,
+from 2nd listOfMscc.mscc.deviceInfo.subscriptionInfo block where bucketInfo exits
+41.	EL_BUCKET_CUR_BALANCE2	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketBalanceAfter	Iterate and map by concatenating listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketBalanceAfter separated by "," by iterating over all listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo,
+from 2nd listOfMscc.mscc.deviceInfo.subscriptionInfo block where bucketInfo exits
+42.	EL_BUCKET_CHG_BALANCE2	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketBalanceBefore -listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketBalanceAfter listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketCommitedUnits	Iterate and map list of values (Either subscration or direct mapping) below separated by "," by iterating over all listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo,
+ from 2nd listOfMscc.mscc.deviceInfo.subscriptionInfo where bucketInfo exists
+		subtract listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketBalanceAfter from listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketBalanceBefore
+		If above value is negative, map as below
+			listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketCommitedUnits
+43.	EL_BUCKET_RATE_ID2	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.rateId	Iterate and map by concatenating listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.rateId separated by "," by iterating over all listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo,
+from 2nd listOfMscc.mscc.deviceInfo.subscriptionInfo block where bucketInfo exits
+44.	EL_BUCKET_BALANCE_ID3	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketName,
+listOfMscc.mscc.deviceInfo.subscriptionInfo.bundleName	Iterate and map by concatenating  listOfMscc.mscc.deviceInfo.subscriptionInfo.bundleName having separator (“-”) with 
+list of listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketName separated by (",") by iterating over all listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo, 
+from 3rd listOfMscc.mscc.deviceInfo.subscriptionInfo block where bucketInfo exits
+E.g.: bundleName1-bucketName1*bucketName2
+
+45.	EL_BUCKET_BALANCE_TYPE3	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketUnitType	
+Iterate and map by concatenating listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketUnitType separated by "," by iterating over all listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo,
+from 3rd listOfMscc.mscc.deviceInfo.subscriptionInfo block where bucketInfo exits
+
+46.	EL_BUCKET_CUR_BALANCE3	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketBalanceAfter	Iterate and map by concatenating listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketBalanceAfter separated by "," by iterating over all listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo,
+from 3rd listOfMscc.mscc.deviceInfo.subscriptionInfo block where bucketInfo exits
+47.	EL_BUCKET_CHG_BALANCE3	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketBalanceBefore -listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketBalanceAfter listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketCommitedUnits	Iterate and map list of values (Either subscration or direct mapping) below separated by "," by iterating over all listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo,
+ from 3rd listOfMscc.mscc.deviceInfo.subscriptionInfo where bucketInfo exists
+		subtract listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketBalanceAfter from listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketBalanceBefore
+		If above value is negative, map as below
+			listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketCommitedUnits
+48.	EL_BUCKET_RATE_ID3	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.rateId	Iterate and map concatenating with list of listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.rateId separated by "*" by iterating, from third subscriptionInfo block where bucketInfo exits
+49.	EL_BUCKET_BALANCE_ID4	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketName,
+listOfMscc.mscc.deviceInfo.subscriptionInfo.bundleName	Iterate and map by concatenating  listOfMscc.mscc.deviceInfo.subscriptionInfo.bundleName having separator (“-”) with 
+list of listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketName separated by (",") by iterating over all listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo, 
+from 4th listOfMscc.mscc.deviceInfo.subscriptionInfo block where bucketInfo exits
+E.g.: bundleName1-bucketName1*bucketName2
+50.	EL_BUCKET_BALANCE_TYPE4	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketUnitType	Iterate and map by concatenating listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketUnitType separated by "," by iterating over all listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo,
+from 4th listOfMscc.mscc.deviceInfo.subscriptionInfo block where bucketInfo exits
+51.	EL_BUCKET_CUR_BALANCE4	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketBalanceAfter	
+Iterate and map by concatenating listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketBalanceAfter separated by "," by iterating over all listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo,
+from 4th listOfMscc.mscc.deviceInfo.subscriptionInfo block where bucketInfo exits
+52.	EL_BUCKET_CHG_BALANCE4	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketBalanceBefore -listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketBalanceAfter listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketCommitedUnits 	Iterate and map list of values (Either subscration or direct mapping) below separated by "," by iterating over all listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo,
+ from 4th listOfMscc.mscc.deviceInfo.subscriptionInfo where bucketInfo exists
+		subtract listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketBalanceAfter from listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketBalanceBefore
+		If above value is negative, map as below
+			listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketCommitedUnits
+53.	EL_BUCKET_RATE_ID4	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.rateId	
+Iterate and map by concatenating listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.rateId separated by "," by iterating over all listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo,
+from 4th listOfMscc.mscc.deviceInfo.subscriptionInfo block where bucketInfo exits
+54.	EL_BUCKET_BALANCE_ID5	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketName,
+listOfMscc.mscc.deviceInfo.subscriptionInfo.bundleName	Iterate and map by concatenating  listOfMscc.mscc.deviceInfo.subscriptionInfo.bundleName having separator (“-”) with 
+list of listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketName separated by (",") by iterating over all listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo, 
+from 5th listOfMscc.mscc.deviceInfo.subscriptionInfo block where bucketInfo exits
+E.g.: bundleName1-bucketName1*bucketName2
+55.	EL_BUCKET_BALANCE_TYPE5	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketUnitType	Iterate and map by concatenating listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketUnitType separated by "," by iterating over all listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo,
+from 5th listOfMscc.mscc.deviceInfo.subscriptionInfo block where bucketInfo exits
+56.	EL_BUCKET_CUR_BALANCE5	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketBalanceAfter	Iterate and map by concatenating listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketBalanceAfter separated by "," by iterating over all listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo,
+from 5th listOfMscc.mscc.deviceInfo.subscriptionInfo block where bucketInfo exits
+57.	EL_BUCKET_CHG_BALANCE5	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketBalanceBefore -listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketBalanceAfter listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketCommitedUnits 	Iterate and map list of values (Either subscration or direct mapping) below separated by "," by iterating over all listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo,
+ from 5th listOfMscc.mscc.deviceInfo.subscriptionInfo where bucketInfo exists
+		subtract listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketBalanceAfter from listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketBalanceBefore
+		If above value is negative, map as below
+			listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.bucketCommitedUnits
+58.	EL_BUCKET_RATE_ID5	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.rateId	Iterate and map by concatenating listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.rateId separated by "," by iterating over all listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo,
+from 5th listOfMscc.mscc.deviceInfo.subscriptionInfo block where bucketInfo exits
+59.	EL_CALLING_PARTY_NUMBER	listOfSubscriptionID.subscriptionId.subscriptionIdType 
+listOfSubscriptionID.subscriptionId.subscriptionIDData	If (roamingIndicator is “ROAMING” AND  subrecordEventType =”MTC”) OR (subRecordEventType = "FWD") then
+	{
+		EL_CALLING_PARTY_NUMBER=listOfSubscriptionID.subscriptionId.subscriptionIdData where listOfSubscriptionID. subscriptionId.subscriptionIdType =0
+		If EL_CALLING_PARTY_NUMBER doesnot start with  251 and length(EL_CALLING_PARTY_NUMBER) < 10 THEN 
+			append 251 at start after removing 0 from start if 0 present else only 251
+		else
+			EL_CALLING_PARTY_NUMBER
+	}
+	else
+		listOfSubscriptionID. subscriptionId.subscriptionIdData
+		where listOfSubscriptionID. subscriptionId.subscriptionIdType =0
+60.	EL_CALLED_PARTY_NUMBER	calledPartyAddress	Direct Mapping
+61.	EL_CALLING_PARTY_IMSI	EL_EVENT_LABEL_VAL,
+listOfSubscriptionID.subscriptionId.subscriptionIDData
+listOfSubscriptionID.subscriptionId.subscriptionIDType	If EL_EVENT_LABEL_VAL = 1 or 821 than assign
+listOfSubscriptionID.subscriptionId.subscriptionIDData where subscriptionIDType = '1'
+62.	EL_CALLED_PARTY_IMSI	EL_EVENT_LABEL_VAL,
+listOfSubscriptionID.subscriptionId.subscriptionIDData
+listOfSubscriptionID.subscriptionId.ssubscriptionIDType	If EL_EVENT_LABEL_VAL = 2 than assign
+listOfSubscriptionID.subscriptionId.subscriptionIDData where subscriptionIDType = '1'
+63.	EL_SERVICE_FLOW	listOfMscc.mscc.subRecordEventType	Direct Mapping
+64.	EL_CALLING_LOCATION_INFO	userLocationInformation	Take last 13 characters of userLocationInformation and split them as 5, 4 and 4 characters separated by -
+Ex: 5250501fa42746360209d678e6
+becomes 463602-09d6-78e6
+65.	EL_CALLED_LOCATION_INFO	userLocationInformation	Take last 13 characters of userLocationInformation and split them as 5 , 4 and 4 characters separated by -
+Ex: 5250501fa42746360209d678e6
+becomes 463602-09d6-78e6
+66.	EL_CALLING_ROAM_INFO	N.A.	set as “”
+67.	EL_BEARER_CAPABILITY	mediaName	Direct Mapping
+68.	EL_TERMINATION_REASON	causeForRecClosing	Direct Mapping
+69.	EL_IMEI	userEquipmentValue	Direct Mapping
+70.	EL_ACCESS_PREFIX	N.A.	set as “”
+71.	EL_MAIN_OFFERING_ID	listOfMscc.mscc.deviceInfo.subscriptionInfo.bundleName	Read from first listOfMscc.mscc.deviceInfo.subscriptionInfo.bundleName where bucketInfo does not exist.
+72.	EL_CHARGING_PARTY_NUMBER	callingPartyAddress	If (roamingIndicator is “ROAMING” AND  subrecordEventType =”MTC”) OR(subRecordEventType = "FWD") then
+	If callingPartyAddress doesnot start with 251 and length(callingPartyAddress) < 10 THEN
+		remove starting 0 and append 251 along with remaining callingPartyAddress
+	else
+		callingPartyAddress 
+Else
+	callingPartyAddress
+73.	EL_CHARGE_PARTY_INDICATOR	N.A.	set as “”
+74.	EL_PAY_TYPE	EL_PRE_POST	Direct Mapping
+75.	EL_ROAM_STATE	roamingIndicator	Direct Mapping
+76.	EL_OPPOSE_NUMBER_TYPE	rATType	Direct Mapping
+77.	EL_CALLING_NETWORK_TYPE	rATType	Direct Mapping
+78.	EL_CALLED_NETWORK_TYPE	rATType	Direct Mapping
+79.	EL_CALLING_VPN_TOP_GROUP_NUM	N.A.	set as “”
+80.	EL_CALLING_VPN_GROUP_NUMBER	N.A.	set as “”
+81.	EL_CALLING_VPN_SHORT_NUMBER	N.A.	set as “”
+82.	EL_CALLED_VPN_TOP_GROUP_NUM	N.A.	set as “”
+83.	EL_CALLED_VPN_GROUP_NUMBER	N.A.	set as “”
+84.	EL_CALLED_VPN_SHORT_NUMBER	N.A.	set as “”
+85.	EL_LAST_EFFECT_OFFERING	N.A.	set as “”
+86.	EL_ALTERNATE_ID	listOfMscc.mscc.deviceInfo.subscriptionInfo. alternateId	Read from all subscriptionInfo blocks and map alternateId separated by ‘~’ sign
+87.	EL_USER_STATE	deviceState	Direct Mapping
+88.	EL_PAY_DEFAULT_ACCT_ID	N.A.	set as “”
+89.	EL_TAX1	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.committedTaxAmount	Iterate and map from first subscriptionInfo block where only accountInfo exists and not bucketInfo
+90.	EL_TAX2	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.bucketInfo.committedTaxAmount	Iterate and map from first subscriptionInfo block where bucketInfo exists
+91.	EL_USER_GROUP_ID	groupID	Direct Mapping
+92.	EL_BUSINESS_TYPE	N.A.	set as “”
+93.	EL_SUBSCRIBER_KEY	N.A.	set as “”
+94.	EL_ACCOUNT_KEY	N.A.	set as “”
+95.	EL_DISCOUNT_OF_LAST_EFF_PROD	N.A.	set as “”
+96.	EL_ADDITIONALBALANCEINFO_CHARGINGSERVICENAME	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.additionalBalanceInfo.chargingServiceName	Iterate and map
+listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.additionalBalanceInfo.chargingServiceName from all subscriptionInfo blocks where additionalBalanceInfo exists
+97.	EL_ADDITIONALBALANCEINFO_USAGETYPE	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.additionalBalanceInfo.usageType	Iterate and map
+listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.additionalBalanceInfo.usageType from all subscriptionInfo blocks where additionalBalanceInfo exists
+98.	EL_ADDITIONALBALANCEINFO_USEDAS	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.additionalBalanceInfo.usedAs	Iterate and map
+listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.additionalBalanceInfo.usedAs from all subscriptionInfo blocks where additionalBalanceInfo exists
+99.	EL_ADDITIONALBALANCEINFO_BUCKETINFO_BUCKETNAME	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.additionalBalanceInfo.bucketInfo.bucketName	Iterate and map
+listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.additionalBalanceInfo.bucketInfo.bucketName from all subscriptionInfo blocks where additionalBalanceInfo exists
+100.	EL_ADDITIONALBALANCEINFO_BUCKETINFO_BUCKETUNITTYPE	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.additionalBalanceInfo.bucketInfo.bucketUnitType	Iterate and map
+listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.additionalBalanceInfo.bucketInfo.bucketUnitType from all subscriptionInfo blocks where additionalBalanceInfo exists
+101.	EL_ADDITIONALBALANCEINFO_BUCKETINFO_BUCKETKINDOFUNIT	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.additionalBalanceInfo.bucketInfo.bucketKindOfUnit	Iterate and map
+listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.additionalBalanceInfo.bucketInfo.bucketKindOfUnit from all subscriptionInfo blocks where additionalBalanceInfo exists
+102.	EL_ADDITIONALBALANCEINFO_BUCKETINFO_BUCKETBALANCEBEFORE	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.additionalBalanceInfo.bucketInfo.bucketBalanceBefore	Iterate and map
+listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.additionalBalanceInfo.bucketInfo.bucketBalanceBefore from all subscriptionInfo blocks where additionalBalanceInfo exists
+103.	EL_ADDITIONALBALANCEINFO_BUCKETINFO_BUCKETBALANCEAFTER	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.additionalBalanceInfo.bucketInfo.bucketBalanceAfter	Iterate and map
+listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.additionalBalanceInfo.bucketInfo.bucketBalanceAfter from all subscriptionInfo blocks where additionalBalanceInfo exists
+104.	EL_ADDITIONALBALANCEINFO_BUCKETINFO_CARRYOVERBUCKET	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.additionalBalanceInfo.bucketInfo.carryOverBucket	Iterate and map
+listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.additionalBalanceInfo.bucketInfo.carryOverBucket from all subscriptionInfo blocks where additionalBalanceInfo exists
+105.	EL_ADDITIONALBALANCEINFO_BUCKETINFO_BUCKETCOMMITEDUNITS	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.additionalBalanceInfo.bucketInfo.bucketCommitedUnits	Iterate and map
+listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.additionalBalanceInfo.bucketInfo.bucketCommitedUnits from all subscriptionInfo blocks where additionalBalanceInfo exists
+106.	EL_ADDITIONALBALANCEINFO_BUCKETINFO_BUCKETRESERVEDUNITS	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.additionalBalanceInfo.bucketInfo.bucketReservedUnits	Iterate and map
+listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.additionalBalanceInfo.bucketInfo.bucketReservedUnits from all subscriptionInfo blocks where additionalBalanceInfo exists
+107.	EL_ADDITIONALBALANCEINFO_BUCKETINFO_RATEID	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.additionalBalanceInfo.bucketInfo.rateId	Iterate and map
+listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.additionalBalanceInfo.bucketInfo.rateId from all subscriptionInfo blocks where additionalBalanceInfo exists
+108.	EL_ADDITIONALBALANCEINFO_BUCKETINFO_PRIMARYCOSTCOMMITTED	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.additionalBalanceInfo.bucketInfo.primaryCostCommitted	Iterate and map
+listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.additionalBalanceInfo.bucketInfo.primaryCostCommitted from all subscriptionInfo blocks where additionalBalanceInfo exists
+109.	EL_ADDITIONALBALANCEINFO_BUCKETINFO_SECONDARYCOSTCOMMITTED	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.additionalBalanceInfo.bucketInfo.secondaryCostCommitted	Iterate and map
+listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.additionalBalanceInfo.bucketInfo.secondaryCostCommitted from all subscriptionInfo blocks where additionalBalanceInfo exists
+110.	EL_ADDITIONALBALANCEINFO_BUCKETINFO_TAXATIONID	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.additionalBalanceInfo.bucketInfo.taxationID	Iterate and map
+listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.additionalBalanceInfo.bucketInfo.taxationID from all subscriptionInfo blocks where additionalBalanceInfo exists
+111.	EL_ADDITIONALBALANCEINFO_BUCKETINFO_TAXRATEAPPLIED	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.additionalBalanceInfo.bucketInfo.taxRateApplied	Iterate and map
+listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.additionalBalanceInfo.bucketInfo.taxRateApplied from all subscriptionInfo blocks where additionalBalanceInfo exists
+112.	EL_ADDITIONALBALANCEINFO_BUCKETINFO_COMMITTEDTAXAMOUNT	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.additionalBalanceInfo.bucketInfo.committedTaxAmount	Iterate and map
+listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.additionalBalanceInfo.bucketInfo.committedTaxAmount from all subscriptionInfo blocks where additionalBalanceInfo exists
+113.	EL_ADDITIONALBALANCEINFO_BUCKETINFO_TOTALTAXAMOUNT	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.additionalBalanceInfo.bucketInfo.totalTaxAmount	Iterate and map
+listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.additionalBalanceInfo.bucketInfo.totalTaxAmount from all subscriptionInfo blocks where additionalBalanceInfo exists
+114.	EL_ADDITIONALBALANCEINFO_BUCKETINFO_TARIFFID	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.additionalBalanceInfo.bucketInfo.tariffID	Iterate and map
+listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.additionalBalanceInfo.bucketInfo.tariffID from all subscriptionInfo blocks where additionalBalanceInfo exists
+115.	EL_ADDITIONALBALANCEINFO_BUCKETINFO_TOTALTIMECHARGED	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.additionalBalanceInfo.bucketInfo.totalTimeCharged	Iterate and map
+listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.additionalBalanceInfo.bucketInfo.totalTimeCharged from all subscriptionInfo blocks where additionalBalanceInfo exists
+116.	EL_ADDITIONALBALANCEINFO_BUCKETINFO_ROUNDEDTIMECHARGED	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.additionalBalanceInfo.bucketInfo.roundedTimeCharged	Iterate and map
+listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.additionalBalanceInfo.bucketInfo.roundedTimeCharged from all subscriptionInfo blocks where additionalBalanceInfo exists
+117.	EL_ADDITIONALBALANCEINFO_BUCKETINFO_DELTATIME	listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.additionalBalanceInfo.bucketInfo.deltaTime	Iterate and map
+listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.additionalBalanceInfo.bucketInfo.deltaTime from all subscriptionInfo blocks where additionalBalanceInfo exists
+118.	EL_UNLTD_BUNDLE_NAME	listOfMscc.mscc.deviceInfo. subscriptionInfo.bundleName	iterate over listOfMscc.mscc.deviceInfo.subscriptionInfo[X].chargingServiceInfo[Y] blocks under each listOfMscc.mscc.deviceInfo.subscriptionInfo[X] blocks 
+
+If not present listOfMscc.mscc.deviceInfo.subscriptionInfo[X].chargingServiceInfo[Y].bucketInfo
+AND
+listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.accountBalanceCommitted = 0
+AND 
+listOfMscc.mscc.deviceInfo.subscriptionInfo.chargingServiceInfo.accountInfo.totalTimeCharged > 0
+THEN
+map it to
+	listOfMscc.mscc.deviceInfo.subscriptionInfo.bundleName
+else
+	set as “”
+119.	EL_UNLTD_TOTAL_TIME_CHARGED	listOfMscc.mscc.deviceInfo. subscriptionInfo.chargingServiceInfo.accountInfo.roundedTimeCharged	iterate over listOfMscc.mscc.deviceInfo.subscriptionInfo[X].chargingServiceInfo[Y] blocks under each listOfMscc.mscc.deviceInfo.subscriptionInfo[X] blocks 
+
+If not present listOfMscc.mscc.deviceInfo.subscriptionInfo[X].chargingServiceInfo[Y].bucketInfo
+and
+listOfMscc.mscc.deviceInfo. subscriptionInfo.chargingServiceInfo.accountInfo.accountBalanceCommitted = 0
+and 
+listOfMscc.mscc.deviceInfo. subscriptionInfo.chargingServiceInfo.accountInfo.totalTimeCharged > 0
+then
+map it to
+	listOfMscc.mscc.deviceInfo. subscriptionInfo.chargingServiceInfo.accountInfo.totalTimeCharged
+else
+	set as “”
+120.	EL_UNLTD_BUNDLE_UNIT_TYPE	N.A.	iterate over listOfMscc.mscc.deviceInfo.subscriptionInfo[X].chargingServiceInfo[Y] blocks under each listOfMscc.mscc.deviceInfo.subscriptionInfo[X] blocks 
+
+If not present listOfMscc.mscc.deviceInfo.subscriptionInfo[X].chargingServiceInfo[Y].bucketInfo
+and
+listOfMscc.mscc.deviceInfo. subscriptionInfo.chargingServiceInfo.accountInfo.accountBalanceCommitted = 0
+and 
+listOfMscc.mscc.deviceInfo. subscriptionInfo.chargingServiceInfo.accountInfo.totalTimeCharged > 0
+then
+	assign “TIME”
+else
+	set as “”
+121.	EL_ORIG_LOCATION	origUserLocationInfo	If rATType ==6
+Then 
+Take last 18 characters of origUserLocationInfo and split them as 4 (TAC), 6(MCCMNC) and 8(ECI) characters 
+
+MCCMNC-TAC-eNodeB-CELL
+Apply Hex to Decimal conversion on TAC
+2722 ->10018
+for MCCMNC swap each nibble (each 2 digits internally)and remove F 
+36F620-> 636F02->63602
+Use ECI to get eNodeB-ID=ECI%256 and CELL-index= ECI/256
+Final result to be mapped is MCCMNC-TAC-eNodeB-CELLindex 272236F620024DFB0A becomes 63602-10018-151035-10
+else
+Take last 14 characters of origUserLocationInfo and split them as 6 , 4 and 4 characters separated by -
+Ex: 5250501fa42746360209d678e6
+becomes 463602-09d6-78e6

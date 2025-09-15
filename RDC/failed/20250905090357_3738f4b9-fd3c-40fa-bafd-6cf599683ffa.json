@@ -1,0 +1,234 @@
+{
+  "header": {
+    "recordLength": 4584
+  },
+  "payload": {
+    "genericRecord": {
+      "recordType": "PROVISIONING_RECORD",
+      "recordElements": {
+        "invokedBy": "autoManageSyncAction",
+        "invokedMethod": "addSubscription",
+        "result": "SUCCESS",
+        "correlationID": "X-CorrelationId:2275a657-7363-40a9-aeb2-145c890cb51f",
+        "generationTimestamp": "05/09/2025 12:03:57+03:00",
+        "meHostName": "KLT2;ig-charging-64c9b987dc-wh8mk",
+        "nccVersion": "SPS_23_5_R1",
+        "recordId": "20250905090357_3738f4b9-fd3c-40fa-bafd-6cf599683ffa",
+        "RecordTimestamp": "05/09/2025 09:03:57"
+      },
+      "recordExtensions": [
+        {
+          "recordProperty": "subscriptionInfo",
+          "recordElements": {
+            "subscriptionId": "7ea61a11-a126-4675-80d3-fe30ff32cf63",
+            "bundleVersion": "2",
+            "bundleVerTime": "01/07/2024 22:24:13+03:00",
+            "bundleVerState": "ACTIVE",
+            "renewalPriority": "0",
+            "subscriptionCreationTime": "05/09/2025 12:03:57+03:00",
+            "typeOfSubscription": "DEVICE",
+            "renewResetStatus": "false",
+            "renewalMode": "NONE",
+            "renewalUpdated": "false",
+            "activationTime": "05/09/2025 12:03:57+03:00",
+            "globalEntity": "false",
+            "periodLifeCycleName": "PLC_CONTENT_D_OPM_50MB_24H_OF",
+            "periodLifeCycleState": "ACTIVE",
+            "entityLifeCycleName": "ELC_CONTENT",
+            "entityLifeCycleState": "ACTIVE"
+          },
+          "recordSubExtensions": [
+            {
+              "recordProperty": "bundleInfo",
+              "recordElements": {
+                "bundleName": "DAILY_OPERAMINI_D_50MB",
+                "bundleFee": "0",
+                "dayOfWeek": "SUNDAY",
+                "taxIncluded": "false",
+                "chargeMissedRecurrentPeriods": "false",
+                "disableTTC": "false",
+                "randomizeVT": "false",
+                "processingType": "AUTO_MANAGE"
+              },
+              "recordSubExtensions": [
+                {
+                  "recordProperty": "entityVersionInfo",
+                  "recordElements": {
+                    "bundleVersion": "2",
+                    "bundleVerTime": "01/07/2024 22:24:13+03:00",
+                    "bundleVerState": "ACTIVE"
+                  }
+                }
+              ]
+            },
+            {
+              "recordProperty": "accountInfo",
+              "recordElements": {
+                "accountID": "A_10434165",
+                "accountName": "A_10434165",
+                "hourOfDay": "0",
+                "dayOfWeek": "SUNDAY",
+                "dayOfMonth": "1",
+                "timeZoneId": "Africa/Addis_Ababa",
+                "accountCreationTime": "29/05/2025 15:08:32+03:00",
+                "accountLastUpdateTime": "01/09/2025 00:00:00+03:00",
+                "accountOveragelimit": "-2500000.0",
+                "accountType": "POST_PAID",
+                "canaryMode": "NONE",
+                "renewStatus": "false",
+                "taxIncluded": "false",
+                "globalEntity": "false",
+                "periodLifeCycleName": "POP_ACCOUNT_PLC_U4",
+                "periodLifeCycleState": "ACTIVATED",
+                "entityLifeCycleName": "POP_ACCOUNT_ELC_U4",
+                "entityLifeCycleState": "ACTIVE"
+              }
+            },
+            {
+              "recordProperty": "chargingServiceInstanceInfo",
+              "recordElements": {
+                "chargingServiceName": "CL_DAILY_CONTENT_OPM_D_50MB",
+                "chargingServiceVersion": "7",
+                "chargingServiceVerState": "ACTIVE",
+                "creationTime": "05/09/2025 12:03:57+03:00"
+              },
+              "recordSubExtensions": [
+                {
+                  "recordProperty": "bucketInfo",
+                  "recordElements": {
+                    "bucketInstanceId": "04d5f1e7-bb0d-490c-9d72-84ff2830e693",
+                    "bucketName": "DAILY_OPM_BUCKET"
+                  }
+                },
+                {
+                  "recordProperty": "counterInfo",
+                  "recordElements": {
+                    "counterInstanceId": "f4be5afe-4214-4680-baf6-7388e7e7ff80",
+                    "counterID": "OPERAMINI_QUOTA"
+                  }
+                }
+              ]
+            },
+            {
+              "recordProperty": "deviceInfo",
+              "recordElements": {
+                "deviceId": "D_10434165",
+                "deviceName": "D_10434165",
+                "deviceType": "NORMAL",
+                "syOCSEnabled": "false",
+                "allowOverage": "false",
+                "pwdEncrypted": "false",
+                "canaryMode": "NONE",
+                "offLineTimeStamp": "0"
+              },
+              "recordSubExtensions": [
+                {
+                  "recordProperty": "deviceIdentityInfo",
+                  "recordElements": {
+                    "deviceIdentityType": "0",
+                    "deviceIdentityValue": "251700990167"
+                  }
+                },
+                {
+                  "recordProperty": "deviceIdentityInfo",
+                  "recordElements": {
+                    "deviceIdentityType": "103",
+                    "deviceIdentityValue": "msisdn-251700990167"
+                  }
+                },
+                {
+                  "recordProperty": "deviceIdentityInfo",
+                  "recordElements": {
+                    "deviceIdentityType": "1",
+                    "deviceIdentityValue": "636020101005330"
+                  }
+                },
+                {
+                  "recordProperty": "deviceIdentityInfo",
+                  "recordElements": {
+                    "deviceIdentityType": "102",
+                    "deviceIdentityValue": "imsi-636020101005330"
+                  }
+                },
+                {
+                  "recordProperty": "deviceIdentityInfo",
+                  "recordElements": {
+                    "deviceIdentityType": "101",
+                    "deviceIdentityValue": "D_10434165"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "recordProperty": "lifeCycleInfo",
+          "recordElements": {
+            "entityLifeCycleState": "ACTIVE",
+            "bundleName": "DAILY_OPERAMINI_D_50MB",
+            "bundleActivationType": "AUTO_INSTALL",
+            "bundleVersion": "2",
+            "subscriptionInputDate": "05/09/2025 12:03:57+03:00",
+            "subscriptionId": "7ea61a11-a126-4675-80d3-fe30ff32cf63",
+            "fee": "0",
+            "activationTime": "05/09/2025 12:03:57+03:00",
+            "result": "Success"
+          },
+          "recordSubExtensions": [
+            {
+              "recordProperty": "bucketInfo",
+              "recordElements": {
+                "bucketName": "DAILY_OPM_BUCKET",
+                "bucketUnitType": "Byte",
+                "bucketKindOfUnit": "VOLUME",
+                "bucketBalanceBefore": "52428800",
+                "bucketBalanceAfter": "52428800",
+                "carryOverBucket": "false"
+              }
+            },
+            {
+              "recordProperty": "counterInfo",
+              "recordElements": {
+                "counterName": "OPERAMINI_QUOTA",
+                "counterKey": "f4be5afe-4214-4680-baf6-7388e7e7ff80",
+                "counterType": "USAGE",
+                "counterUnitType": "Byte",
+                "counterKindOfUnit": "VOLUME",
+                "alignGranularity": "FALSE",
+                "counterValueBefore": "0",
+                "counterValueAfter": "0",
+                "counterPolicySignalState": "0"
+              }
+            }
+          ]
+        },
+        {
+          "recordProperty": "subscriptionResetPeriodActionInfo",
+          "recordElements": {
+            "invokedBy": "ResetPeriodAction",
+            "triggeredEntityType": "Subscription",
+            "triggeredEntityId": "7ea61a11-a126-4675-80d3-fe30ff32cf63",
+            "transitionName": "StartCycleEvent",
+            "transitionStartState": "INITIAL",
+            "entityLifeCycleName": "ELC_CONTENT",
+            "triggeredBy": "EVENT",
+            "triggeredAtTime": "05/09/2025 12:03:57+03:00",
+            "periodicLifeCycleName": "PLC_CONTENT_D_OPM_50MB_24H_OF",
+            "prevBillCycleStartTime": "05/09/2025 12:03:57+03:00",
+            "entityLifeCycleState": "ACTIVE",
+            "bundleName": "DAILY_OPERAMINI_D_50MB",
+            "bundleActivationType": "AUTO_INSTALL",
+            "bundleVersion": "2",
+            "billingCycleSource": "ACCOUNT",
+            "activationTime": "05/09/2025 12:03:57+03:00",
+            "hourOfDay": "0",
+            "dayOfMonth": "1",
+            "dayOfWeek": "SUNDAY",
+            "startTime": "05/09/2025 12:03:57+03:00",
+            "endTime": "05/09/2025 12:08:00+03:00"
+          }
+        }
+      ]
+    }
+  }
+}

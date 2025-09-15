@@ -1,0 +1,31 @@
+{
+  "header": {
+    "recordLength": 1028
+  },
+  "payload": {
+    "genericRecord": {
+      "recordType": "NotificationEvent",
+      "recordElements": {
+        "messageId": "14529668740086588",
+        "recipientId": "192.168.21.140:9094, 192.168.21.118:9094, 192.168.21.133:9094",
+        "messageContent": "{ \"MSISDN\": \"251700990137\",\"LoanId\":\"LOAN_50\",\"ServiceFee\":\"5.0\", \"LoanTIME\": \"05-09-2025 12:03:56\", \"LoanAmount\": \"50.00\", \"RemainingDebt\": \"55.0\"}",
+        "recipientServer": "KLT2_Airtime_Advance_loan_OPT_IN",
+        "sentTime": "1757063037053",
+        "deliveryTime": "1757063037068",
+        "e164": "251700990137",
+        "channel": "KAFKA",
+        "notificationType": "ACCOUNT_UPDATE",
+        "entityId": "D_10434081",
+        "entityType": "Device",
+        "notificationTemplateId": "SuccesfulLoanwithBundleOptIn",
+        "notificationVariable": "LoanAmount:50.00,LoanID:LOAN_50,ServiceFee:5.0,MSISDN:251700990137,LoanTIME:1757063036605,TIMEPLUS:1757667836999,BundleName:LOAN_BUNDLE_50,RemainingDebt:55.0",
+        "notificationDeliveryResult": "SUCCESS",
+        "globalEntity": "false",
+        "meHostName": "KLT2;ig-notification-8585cd9477-xjq8d",
+        "nccVersion": "SPS_23_5_R1",
+        "recordId": "20250905090357_c5195c1a-4ebd-44ea-8103-b0086b970d3f",
+        "RecordTimestamp": "05/09/2025 09:03:57"
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+2025-09-09 14:26:54 [INFO] Pipeline starting...
+2025-09-09 14:26:54 [INFO] Watching input directory: in
+2025-09-09 14:26:54 [INFO] Processing file: 20250815152653_14a49b8a-ecfe-4783-a67b-aaf3cb2a74c3.json
+2025-09-09 14:26:54 [INFO] Routed 20250815152653_14a49b8a-ecfe-4783-a67b-aaf3cb2a74c3.json -> CRM
+2025-09-09 14:26:54 [INFO] Routed 20250815152653_14a49b8a-ecfe-4783-a67b-aaf3cb2a74c3.json -> RA
+2025-09-09 14:26:54 [INFO] Routed 20250815152653_14a49b8a-ecfe-4783-a67b-aaf3cb2a74c3.json -> DWH (single_usage/DATA)
+2025-09-09 14:26:54 [INFO] Processing file: 20250815152653_c52e7c6e-309d-4dce-987e-ab5fa1c951dc.json
+2025-09-09 14:26:54 [INFO] Routed 20250815152653_c52e7c6e-309d-4dce-987e-ab5fa1c951dc.json -> CRM
+2025-09-09 14:26:54 [INFO] Routed 20250815152653_c52e7c6e-309d-4dce-987e-ab5fa1c951dc.json -> RA
+2025-09-09 14:26:54 [INFO] Routed 20250815152653_c52e7c6e-309d-4dce-987e-ab5fa1c951dc.json -> DWH (single_usage/DATA)
+2025-09-09 14:26:54 [INFO] Processing file: 20250902130413_3bea34d5-3770-41e4-851a-dc925f8964d4.json
+2025-09-09 14:26:54 [INFO] Routed 20250902130413_3bea34d5-3770-41e4-851a-dc925f8964d4.json -> CRM
+2025-09-09 14:26:54 [INFO] Routed 20250902130413_3bea34d5-3770-41e4-851a-dc925f8964d4.json -> RA
+2025-09-09 14:26:54 [INFO] Routed 20250902130413_3bea34d5-3770-41e4-851a-dc925f8964d4.json -> DWH (single_usage/DATA)
+2025-09-09 14:26:54 [INFO] Processing file: 20250902130415_ab41a34c-e14c-495c-b978-4b5b6f92fcc3.json
+2025-09-09 14:26:54 [INFO] Routed 20250902130415_ab41a34c-e14c-495c-b978-4b5b6f92fcc3.json -> CRM
+2025-09-09 14:26:54 [INFO] Routed 20250902130415_ab41a34c-e14c-495c-b978-4b5b6f92fcc3.json -> RA
+2025-09-09 14:26:54 [INFO] Routed 20250902130415_ab41a34c-e14c-495c-b978-4b5b6f92fcc3.json -> DWH (single_usage/UNKNOWN)
+2025-09-09 14:26:54 [INFO] Processing file: 20250902130426_d9f5b0d5-6239-40fc-bae6-02bbd45b42de.json
+2025-09-09 14:26:54 [INFO] Routed 20250902130426_d9f5b0d5-6239-40fc-bae6-02bbd45b42de.json -> CRM
+2025-09-09 14:26:54 [INFO] Routed 20250902130426_d9f5b0d5-6239-40fc-bae6-02bbd45b42de.json -> RA
+2025-09-09 14:26:54 [INFO] Routed 20250902130426_d9f5b0d5-6239-40fc-bae6-02bbd45b42de.json -> DWH (single_usage/DATA)
+2025-09-09 14:31:13 [INFO] Shutdown requested.
+2025-09-09 14:31:14 [INFO] Pipeline stopped gracefully.

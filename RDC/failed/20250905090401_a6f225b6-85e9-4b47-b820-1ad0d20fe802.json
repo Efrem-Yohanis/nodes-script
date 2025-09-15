@@ -1,0 +1,31 @@
+{
+  "header": {
+    "recordLength": 779
+  },
+  "payload": {
+    "genericRecord": {
+      "recordType": "NotificationEvent",
+      "recordElements": {
+        "messageId": "14529673662857106",
+        "recipientId": "251700990137",
+        "messageContent": "Congratulations! You have received special access to watch the Abay vs Vegas movie. Click habeshaview.tv use coupon code HV1SA2569.",
+        "recipientServer": "TRUTEQ_SMS",
+        "sentTime": "1757063041053",
+        "deliveryTime": "1757063041061",
+        "e164": "251700990137",
+        "channel": "SMS",
+        "notificationType": "ACCOUNT_UPDATE",
+        "entityId": "D_10434081",
+        "entityType": "Device",
+        "notificationTemplateId": "Promotion_ Habehsaview_movie",
+        "notificationVariable": "",
+        "notificationDeliveryResult": "SUCCESS",
+        "globalEntity": "false",
+        "meHostName": "KLT2;ig-notification-8585cd9477-tbfz4",
+        "nccVersion": "SPS_23_5_R1",
+        "recordId": "20250905090401_a6f225b6-85e9-4b47-b820-1ad0d20fe802",
+        "RecordTimestamp": "05/09/2025 09:04:01"
+      }
+    }
+  }
+}

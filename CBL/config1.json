@@ -1,0 +1,47 @@
+{
+  "successResultCodes": ["2001", "4012"],
+  "routingRules": [
+    {
+      "name": "CRM",
+      "conditions": {}  
+    },
+    {
+      "name": "BILLING",
+      "conditions": {
+        "EL_PRE_POST": "POSTPAID",
+        "EL_SUCCESS": 1
+      }
+    },
+    {
+      "name": "LMS",
+      "conditions": {
+        "EL_SUCCESS": 1,
+        "EL_DEBIT_AMOUNT": ">0"
+      }
+    },
+    {
+      "name": "RA",
+      "conditions": {}  
+    },
+    {
+      "name": "DWH",
+      "conditions": {}  
+    }
+  ],
+  "dwhStructure": {
+    "group_usage": ["DATA", "VOICE", "SMS", "MMS", "USSD", "ECOMMERCE"],
+    "single_usage": ["DATA", "VOICE", "SMS", "MMS", "USSD", "ECOMMERCE"]
+  },
+  "circleRanges": {
+    "0-9": 1,
+    "10-19": 2,
+    "20-29": 3,
+    "30-39": 4,
+    "40-49": 5,
+    "50-59": 6,
+    "60-69": 7,
+    "70-79": 8,
+    "80-89": 9,
+    "90-99": 10
+  }
+}

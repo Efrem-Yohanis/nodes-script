@@ -1,0 +1,153 @@
+RECORD
+#input_id 1756361674x001_0011141
+#output_id
+#input_type OCSChargingRecord
+#output_type OCSChargingRecord
+#addkey
+#source_id LOCAL_CLTR
+#filename example.CDR.gz
+#filename SPS_140260-140260-_0000056089.20250908_-_1656+0000.CDR
+F switchOver 1
+F prevMeName ig-charging-68775f8668-75pgw
+F recordId 20250908195527_05f4b0fe-ba9f-495c-ac87-e17052871dae
+F generationTimestamp 08/09/2025 19:55:27+03:00
+F sessionId mdc1-nk-cmg-cp01;10e6851d;68bf064e;636020101005561-3e4cc445
+F serviceContextId 32251@3gpp.org
+F requestType UPDATE_REQUEST
+F sessionSequenceNumber 5
+F deviceTimeZone 2100
+F sessionStartTime 08/09/2025 19:37:34+03:00
+F dayOfWeek Monday
+F originHost mscp01.mdc1-nk-cmg-cp01
+F accessPointName safaricom
+F psChargingID C4461248
+F nodeID MDC1-NK-CMG-CP01
+F servingNodeType 5
+F gGSNAddress [IPV4: 10.43.34.32]
+F sGSNAddress [IPV4: 10.43.33.89]
+F pduAddress [IPV4: 100.81.27.201]
+F deviceId D_10435081
+F deviceName D_10435081
+F deviceOwner U_10435081
+F deviceOwnerName U_10435081
+F ocsHost mdc1labnccs01-oam.safaricomlab.net
+F deviceState ACTIVE
+F devicePartitionId 1
+F deviceSiteId 1
+F userName 636020101005561@nai.epc.mnc002.mcc636.3gppnetwork.org
+F userEquipmentType 0
+F userEquipmentValue 33353833373039363030323730343738
+F CDRTagCategory RecordCategory9
+F MCCMNC 63602
+F IP_Address 10.43.33.89
+F DATAOOBFLAG FALSE
+F RoamingStatus Home
+F PeakTime FALSE
+F DestinationType GPRS_Charge
+F DestinationCountry Default
+F Rating_Origination_Location Ethiopia
+F roamingIndicator HOME
+F causeForRecClosing 0
+F origUserLocationInfo 0136F62015B2957B
+F userLocationInformation 8236F62036B436F6200223580A
+F servingNodePLMNIdentifier 36F620
+F rATType 6
+F resultCode 2001
+F recordOpeningTime 08/09/2025 19:55:00+03:00
+F recordClosureTime 08/09/2025 19:55:27+03:00
+F duration 27
+F recordSequenceNumber 6
+F meHostName KLT1;ig-charging-68775f8668-n5gf2
+F nccVersion SPS_23_5_R1
+F RecordTimestamp 08/09/2025 16:55:27
+F localRecordSequenceNumber 140260
+B listOfSubscriptionID
+B subscriptionId
+F subscriptionIdType 102
+F subscriptionIdData imsi-636020101005561
+.
+B subscriptionId
+F subscriptionIdType 1
+F subscriptionIdData 636020101005561
+.
+B subscriptionId
+F subscriptionIdType 103
+F subscriptionIdData msisdn-251700900449
+.
+B subscriptionId
+F subscriptionIdType 0
+F subscriptionIdData 251700900449
+.
+B subscriptionId
+F subscriptionIdType 101
+F subscriptionIdData D_10435081
+.
+B subscriptionId
+F subscriptionIdType 3
+F subscriptionIdData 36020101005561@nai.epc.mnc002.mcc636.3gppnetwork.org
+.
+.
+B listOfMscc
+B mscc
+F ratingGroup 200
+F chargingType ONLINE_CHARGING
+F recordEventType PS
+F reportReason THRESHOLD
+F firstDataStart 08/09/2025 19:37:38+03:00
+F grantedUnits 104857600
+F usageType TVOL
+F usedUnitType TVOL
+F validityTime 1500
+F resultCode 2001
+F recordEventResult 00
+F localSequenceNumber 5
+F totalVolumeConsumed 79614276
+B deviceInfo
+B subscriptionInfo
+F subscriptionId 99fbb5db-f282-4a87-b546-f08a94c1878e
+F subscriptionState ACTIVE
+F bundleName CBU_3M_DATA_200GB_MEGA
+F bundleVersion 12
+F bundleActivationType SUBSCRIPTION_MERGE
+F accountID A_10435081
+F accountName A_10435081
+F subscriptionStartDateTime 17/08/2025 19:25:07+03:00
+F subscriptionEndDateTime 15/11/2025 00:00:00+03:00
+F alternateId USSD:esbuser:251700900449-251700900449-549457130-s1test1-AddSubscription-null-0-Self
+B chargingServiceInfo
+F chargingServiceName CL_CBU_3M_DATA_200GB
+F chargingServiceType VOLUME
+F chargingServicePriority 450
+F chargingServiceCategory DefaultCategory
+F chargingServiceVersion 3
+B accountInfo
+F accountID A_10435081
+F accountName A_10435081
+F accountType PRE_PAID
+F accountState ACTIVE
+F accountBalanceBefore 387267.66666
+F accountBalanceAfter 387267.66666
+F accountOveragelimit 0.00000
+F accountBalanceCommitted 0.00000
+F accountBalanceReserved 0.00000
+F secondaryCostCommitted 0.00000
+.
+B bucketInfo
+F bucketName CBU_3M_DATA_BUCKET
+F bucketUnitType Byte
+F bucketKindOfUnit VOLUME
+F bucketBalanceBefore 180612116941
+F bucketBalanceAfter 180532502665
+F carryOverBucket false
+F bucketCommitedUnits 79614276
+F bucketReservedUnits 104857600
+F tariffID CL_CBU_3M_DATA_200GB_ChargingRules
+F totalVolumeCharged 79614276
+F roundedVolumeCharged 79614276
+F deltaVolume 0
+.
+.
+.
+.
+.
+.

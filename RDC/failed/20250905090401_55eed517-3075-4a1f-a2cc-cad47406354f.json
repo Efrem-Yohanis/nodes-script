@@ -1,0 +1,31 @@
+{
+  "header": {
+    "recordLength": 1018
+  },
+  "payload": {
+    "genericRecord": {
+      "recordType": "NotificationEvent",
+      "recordElements": {
+        "messageId": "14529673658687438",
+        "recipientId": "251700990137",
+        "messageContent": "You have successfully purchased Monthly Data Package 2 GB for Br. 100. Expiry date: 06-10-2025 00:00:00 Get up to 25% Gursha Data when you buy Monthly Data Packages using MPESA! Dial *777*2*1# or click: https://bit.ly/M-PESA-SAFARICOM-ETHIOPIA ",
+        "recipientServer": "TRUTEQ_SMS",
+        "sentTime": "1757063041044",
+        "deliveryTime": "1757063041047",
+        "e164": "251700990137",
+        "channel": "SMS",
+        "notificationType": "ACCOUNT_UPDATE",
+        "entityId": "D_10434081",
+        "entityType": "Device",
+        "notificationTemplateId": "PUR_CBU_D_2048MB_30D_OF",
+        "notificationVariable": "Balance_DATA:6442450944,Expiry_Date:1759698000,SPR_DEVICE.E164:251700990137,Bundle_ID:MONTHLY_CBU_D_2048MB_OF,TIME:1757063040950",
+        "notificationDeliveryResult": "SUCCESS",
+        "globalEntity": "false",
+        "meHostName": "KLT2;ig-notification-8585cd9477-tbfz4",
+        "nccVersion": "SPS_23_5_R1",
+        "recordId": "20250905090401_55eed517-3075-4a1f-a2cc-cad47406354f",
+        "RecordTimestamp": "05/09/2025 09:04:01"
+      }
+    }
+  }
+}

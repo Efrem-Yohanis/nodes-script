@@ -1,0 +1,50 @@
+2025-09-07 16:21:44,773 [INFO] Starting cleanup worker: interval=3600 seconds, retention=72 hours
+2025-09-07 16:21:44,774 [INFO] Processing existing file: in\file1_flattened.json
+2025-09-07 16:21:44,774 [INFO] Processing file: in\file1_flattened.json
+2025-09-07 16:21:44,784 [INFO] Record accepted: recordId=20250902130525_24759fcb-629b-46ac-a406-ac730e9d3871 keys=['klt-nk-cmg-cp01;26b2b3b0;68b6c162;636020101005405-267b1b45|1|__NO_RG__'] (file=in\file1_flattened.json)
+2025-09-07 16:21:44,788 [INFO] Record accepted: recordId=20250902130522_1a49e0b6-56f1-4247-91c2-359f328b9bb4 keys=['klt-nk-cmg-cp01;26b2b3b0;68b6c162;636020101005405-267b1b45|0|100'] (file=in\file1_flattened.json)
+2025-09-07 16:21:44,791 [INFO] Record accepted: recordId=20250902130530_f169eb66-2ec4-4f9a-846e-2d238d363e8c keys=['klt-nk-cmg-cp01;38c4f954;68b6c167;636020101005405-3cac38f5|1|__NO_RG__'] (file=in\file1_flattened.json)
+2025-09-07 16:21:44,793 [INFO] Record accepted: recordId=20250902130527_9d80b7f0-3ccc-43d0-9f85-eb71e390cf3b keys=['klt-nk-cmg-cp01;38c4f954;68b6c167;636020101005405-3cac38f5|0|100'] (file=in\file1_flattened.json)
+2025-09-07 16:21:44,796 [INFO] Record accepted: recordId=20250902130533_9265748b-191e-4e2c-bfc4-fd1fa198db76 keys=['edc-nk-cmg-cp01;04d46253;68b6c16d;636020101005405-0ac82f25|0|100'] (file=in\file1_flattened.json)
+2025-09-07 16:21:44,800 [INFO] Record accepted: recordId=20250902130535_c70d13a0-dc5c-4efb-b027-bd95d32668a8 keys=['edc-nk-cmg-cp01;04d46253;68b6c16d;636020101005405-0ac82f25|1|__NO_RG__'] (file=in\file1_flattened.json)
+2025-09-07 16:21:44,804 [INFO] Record accepted: recordId=20250902130540_a1396d91-220b-4ac1-9972-bd9c2912d5bb keys=['edc-nk-cmg-cp01;0bef9b11;68b69e1b;636020119799534-1b6e22a5|18|200'] (file=in\file1_flattened.json)
+2025-09-07 16:21:44,806 [INFO] Record accepted: recordId=20250902130546_53eda3a0-49b7-4fcd-8fe6-a539617b35da keys=['edc-nk-cmg-cp01;183bbdf7;68b6c17a;636020101005405-3ee60d25|0|100'] (file=in\file1_flattened.json)
+2025-09-07 16:21:44,810 [INFO] Record accepted: recordId=20250902130548_2915718d-1cb3-4e66-ab78-aa7b069c096b keys=['edc-nk-cmg-cp01;183bbdf7;68b6c17a;636020101005405-3ee60d25|1|__NO_RG__'] (file=in\file1_flattened.json)
+2025-09-07 16:21:44,815 [INFO] Record accepted: recordId=20250902130552_e6f31e12-4872-43eb-86ef-b9368ba11dad keys=['edc-nk-cmg-cp01;04374c16;68b6c180;636020101005405-125d0f25|0|100'] (file=in\file1_flattened.json)
+2025-09-07 16:21:44,816 [INFO] Record accepted: recordId=20250902130554_b03a9c2f-4bf3-47ad-852e-c151b4c1b7cf keys=['edc-nk-cmg-cp01;04374c16;68b6c180;636020101005405-125d0f25|1|__NO_RG__'] (file=in\file1_flattened.json)
+2025-09-07 16:21:44,819 [INFO] SUMMARY: file=in\file1_flattened.json, total=11, accepted=11, duplicate=0, failed=0
+2025-09-07 16:21:44,821 [INFO] Input file archived: archive\file1_flattened.json
+2025-09-07 16:21:44,822 [INFO] Processing existing file: in\file2_flattened.json
+2025-09-07 16:21:44,822 [INFO] Processing file: in\file2_flattened.json
+2025-09-07 16:21:44,836 [INFO] Record accepted: recordId=20250902130453_311425ec-6732-4fe3-8acb-a7402fa2c31d keys=['edc-nk-cmg-cp01;2e53babe;68b6c145;636020101005405-306a2d55|0|100'] (file=in\file2_flattened.json)
+2025-09-07 16:21:44,837 [INFO] Record accepted: recordId=20250902130450_6066d6ca-30f4-4817-a0e1-168f97a91056 keys=['edc-nk-cmg-cp01;0bef9b11;68b69e1b;636020119799534-1b6e22a5|17|100'] (file=in\file2_flattened.json)
+2025-09-07 16:21:44,841 [INFO] Record accepted: recordId=20250902130456_aa023a72-8d62-45e7-9756-254b593f0877 keys=['edc-nk-cmg-cp01;2e53babe;68b6c145;636020101005405-306a2d55|1|__NO_RG__'] (file=in\file2_flattened.json)
+2025-09-07 16:21:44,847 [INFO] Record accepted: recordId=20250902130459_1152abee-6835-4c62-9e63-db7719d3fd65 keys=['mdc1-nk-cmg-cp01;259b2029;68b6c14b;636020101005405-2f9e0705|0|100'] (file=in\file2_flattened.json)
+2025-09-07 16:21:44,851 [INFO] Record accepted: recordId=20250902130501_8dbe69bd-683d-4d34-96dd-8ce7fc1b92b9 keys=['mdc1-nk-cmg-cp01;259b2029;68b6c14b;636020101005405-2f9e0705|1|__NO_RG__'] (file=in\file2_flattened.json)
+2025-09-07 16:21:44,852 [INFO] Record accepted: recordId=20250902130509_5e63b898-b367-409f-91a7-a3bac6d3ffb9 keys=['klt-nk-cmg-cp01;032d760e;68b6c155;636020101005405-01701375|0|100'] (file=in\file2_flattened.json)
+2025-09-07 16:21:44,856 [INFO] Record accepted: recordId=20250902130504_581227d2-3abc-443f-bddc-0395818541ba keys=['edc-nk-cmg-cp01;221011ea;68b6c150;636020101005405-1b6712c5|0|100'] (file=in\file2_flattened.json)
+2025-09-07 16:21:44,866 [INFO] Record accepted: recordId=20250902130506_0d995d81-a3ef-4ae6-a283-de274cd6fcfe keys=['edc-nk-cmg-cp01;221011ea;68b6c150;636020101005405-1b6712c5|1|__NO_RG__'] (file=in\file2_flattened.json)
+2025-09-07 16:21:44,866 [INFO] Record accepted: recordId=20250902130511_d4cb3f26-233e-4cf2-bd28-9f370eb42f3c keys=['klt-nk-cmg-cp01;032d760e;68b6c155;636020101005405-01701375|1|__NO_RG__'] (file=in\file2_flattened.json)
+2025-09-07 16:21:44,869 [INFO] SUMMARY: file=in\file2_flattened.json, total=9, accepted=9, duplicate=0, failed=0
+2025-09-07 16:21:44,871 [INFO] Input file archived: archive\file2_flattened.json
+2025-09-07 16:21:44,871 [INFO] Processing existing file: in\file3_flattened.json
+2025-09-07 16:21:44,871 [INFO] Processing file: in\file3_flattened.json
+2025-09-07 16:21:44,885 [INFO] Record accepted: recordId=20250902130415_ab41a34c-e14c-495c-b978-4b5b6f92fcc3 keys=['mdc1-nk-cmg-cp01;1a009cc0;68b6c11d;636020101005405-2fa20a85|1|__NO_RG__'] (file=in\file3_flattened.json)
+2025-09-07 16:21:44,889 [INFO] Record accepted: recordId=20250902130426_d9f5b0d5-6239-40fc-bae6-02bbd45b42de keys=['edc-nk-cmg-cp01;13d534ec;68b6c12a;636020101005405-03b81aa5|0|100'] (file=in\file3_flattened.json)
+2025-09-07 16:21:44,890 [INFO] Record accepted: recordId=20250902130413_3bea34d5-3770-41e4-851a-dc925f8964d4 keys=['mdc1-nk-cmg-cp01;1a009cc0;68b6c11d;636020101005405-2fa20a85|0|100'] (file=in\file3_flattened.json)
+2025-09-07 16:21:44,893 [INFO] Record accepted: recordId=20250902130428_43ef2b28-4028-45d7-9041-7f642cb3443b keys=['edc-nk-cmg-cp01;13d534ec;68b6c12a;636020101005405-03b81aa5|1|__NO_RG__'] (file=in\file3_flattened.json)
+2025-09-07 16:21:44,897 [INFO] Record accepted: recordId=20250902130439_d49cc1db-2756-437a-8b23-8f21afb0c20e keys=['edc-nk-cmg-cp01;2dc1af99;68b6c137;636020101005405-34501065|0|100'] (file=in\file3_flattened.json)
+2025-09-07 16:21:44,898 [INFO] Record accepted: recordId=20250902130442_1c45a936-38cb-4312-baf5-f5d8803b964e keys=['edc-nk-cmg-cp01;2dc1af99;68b6c137;636020101005405-34501065|1|__NO_RG__'] (file=in\file3_flattened.json)
+2025-09-07 16:21:44,899 [INFO] SUMMARY: file=in\file3_flattened.json, total=6, accepted=6, duplicate=0, failed=0
+2025-09-07 16:21:44,901 [INFO] Input file archived: archive\file3_flattened.json
+2025-09-07 16:21:44,902 [INFO] Processing existing file: in\file4_flattened.json
+2025-09-07 16:21:44,902 [INFO] Processing file: in\file4_flattened.json
+2025-09-07 16:21:44,915 [INFO] Record accepted: recordId=20250815152653_14a49b8a-ecfe-4783-a67b-aaf3cb2a74c3 keys=['klt-nk-cmg-cp01;150e12ae;689ee2e0;636020101005400-22d96bd5|554|100'] (file=in\file4_flattened.json)
+2025-09-07 16:21:44,916 [INFO] Record accepted: recordId=20250815152653_c52e7c6e-309d-4dce-987e-ab5fa1c951dc keys=['klt-nk-cmg-cp01;150e12ae;689ee2e0;636020101005400-22d96bd5|554|200'] (file=in\file4_flattened.json)
+2025-09-07 16:21:44,918 [INFO] Record accepted: recordId=20250815152659_8f2c085a-0c88-483c-b54c-fbb23184921b keys=['mdc2-test-uat-12.truteq.com;1755152404;0|0|8'] (file=in\file4_flattened.json)
+2025-09-07 16:21:44,919 [INFO] SUMMARY: file=in\file4_flattened.json, total=3, accepted=3, duplicate=0, failed=0
+2025-09-07 16:21:44,920 [INFO] Input file archived: archive\file4_flattened.json
+2025-09-07 16:21:44,922 [INFO] Watching folder recursively for new JSON files: in
+2025-09-07 16:23:36,281 [INFO] Signal 2 received: shutting down
+2025-09-07 16:23:36,282 [INFO] Cleanup worker stopped
+2025-09-07 16:23:36,282 [INFO] Stopping folder watch...

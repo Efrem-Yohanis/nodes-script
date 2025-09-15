@@ -1,0 +1,138 @@
+RECORD
+#input_id 1756361674x001_0011141
+#output_id
+#input_type OCSChargingRecord
+#output_type OCSChargingRecord
+#addkey
+#source_id LOCAL_CLTR
+#filename example.CDR.gz
+#filename SPS_140239-140239-_0000056075.20250908_-_1608+0000.CDR
+F prevMeName ig-charging-68775f8668-n5gf2
+F recordId 20250908190737_26508d05-3159-40b7-8fc0-c98fc33d8d82
+F generationTimestamp 08/09/2025 19:07:37+03:00
+F singleCDREnabled true
+F sessionId 0000001700;x5v2c7-0000009525.0000000262;
+F serviceContextId 32260@3gpp.org
+F requestType TERMINATION_REQUEST
+F singleCDRTriggerEvent TERMINATION_REQUEST
+F sessionSequenceNumber 2
+F deviceTimeZone 1800
+F sessionStartTime 08/09/2025 19:06:56+03:00
+F callAnswerTime 08/09/2025 19:07:13+03:00
+F callEndTime 08/09/2025 19:07:37+03:00
+F dayOfWeek Monday
+F originHost ss7dh2-0-dh_20_6-P0-5.ss7dh2-0.spscentosslee
+F deviceId D_10435087
+F deviceName D_10435087
+F deviceOwner U_10435087
+F deviceOwnerName U_10435087
+F ocsHost mdc1labnccs01-oam.safaricomlab.net
+F deviceState ACTIVE
+F devicePartitionId 1
+F deviceSiteId 1
+F imsChargingIdentifier 401d703410931b
+F roamingIndicator HOME
+F totalRoundedDuration 24
+F MCCMNC 63602
+F DATAOOBFLAG FALSE
+F RoamingStatus Home
+F PeakTime Peak
+F DestinationType Ethiopia_Offnet
+F DestinationCountry Ethiopia
+F Rating_Origination_Location Ethiopia
+F causeForRecClosing 1
+F rATType 6
+F resultCode 2001
+F roleOfNode Originating-Role
+F origUserLocationInfo 6360215b2957b
+F userLocationInformation 6360215b2957b
+F callingPartyAddress 251700900450
+F mediaName audio
+F calledPartyAddress 251967651272
+F callDuration 24
+F recordOpeningTime 08/09/2025 19:06:56+03:00
+F recordClosureTime 08/09/2025 19:07:37+03:00
+F duration 41
+F recordSequenceNumber 1
+F meHostName KLT1;ig-charging-68775f8668-n5gf2
+F nccVersion SPS_23_5_R1
+F RecordTimestamp 08/09/2025 16:07:37
+F localRecordSequenceNumber 140239
+B listOfSubscriptionID
+B subscriptionId
+F subscriptionIdType 103
+F subscriptionIdData msisdn-251700900450
+.
+B subscriptionId
+F subscriptionIdType 102
+F subscriptionIdData imsi-636020101005563
+.
+B subscriptionId
+F subscriptionIdType 101
+F subscriptionIdData D_10435087
+.
+B subscriptionId
+F subscriptionIdType 1
+F subscriptionIdData 636020101005563
+.
+B subscriptionId
+F subscriptionIdType 0
+F subscriptionIdData 251700900450
+.
+.
+B listOfMscc
+B mscc
+F usedUnitType TIME
+F recordEventType IMS
+F chargingType ONLINE_CHARGING
+F firstDataStart 08/09/2025 19:06:56+03:00
+F lastDataUsage 08/09/2025 19:07:37+03:00
+F ratingGroup 5
+F subRecordEventType MOC
+F timeUsage 41
+F resultCode 2001
+F recordEventResult 00
+F serviceIdentifier 2
+F usageType TIME
+F localSequenceNumber 1
+F totalTimeConsumed 24
+B deviceInfo
+B subscriptionInfo
+F subscriptionId fc1a1367-d76b-4b5b-8cc8-91f82ce51f33
+F subscriptionState ACTIVE
+F bundleName CONSUMER_PREPAY_BASE_PLAN
+F bundleVersion 5
+F accountID A_10435087
+F subscriptionStartDateTime 08/09/2025 19:05:35+03:00
+F subscriptionEndDateTime 08/09/2026 00:00:00+03:00
+B chargingServiceInfo
+F chargingServiceName TP_BASE_VOICE_V1
+F chargingServiceType TIME
+F chargingServicePriority 10000
+F chargingServiceCategory DefaultCategory
+B accountInfo
+F accountID A_10435087
+F accountType PRE_PAID
+F accountState ACTIVE
+F accountBalanceBefore 800000.00000
+F accountBalanceAfter 799972.00000
+F accountOveragelimit 0.00000
+F accountBalanceCommitted 28.00000
+F loanStateAfter INITIAL
+F rateId VR_0_50
+F taxationID Tax
+F taxRateApplied 20.75000
+F committedTaxAmount 4.81160
+F totalTaxAmount 4.81160
+F tariffID TP_BASE_VOICE_V1_TP_BASE_VOICE_V1_fallbackRules0
+F primaryCostCommitted 28.00000
+F secondaryCostCommitted 0.00000
+F totalTimeCharged 24
+F roundedTimeCharged 24
+F deltaTime 0
+.
+.
+.
+.
+.
+.
